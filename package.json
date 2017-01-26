@@ -1,0 +1,32 @@
+{
+  "name": "stylelint-config-recess-order",
+  "version": "0.1.0",
+  "homepage": "",
+  "description": "Recess-based property sort order for Stylelint.",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "property order"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stormwarning/stylelint-config-recess-order.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stormwarning/stylelint-config-recess-order/issues"
+  },
+  "author": {
+    "name": "Jeff Nelson",
+    "email": "rustyangel@gmail.com",
+    "url": "http://tidaltheory.co/"
+  },
+  "contributors": [
+    {
+      "name": "Jeff Nelson",
+      "email": "rustyangel@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {}
+}
