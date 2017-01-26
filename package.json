@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-recess-order",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "",
   "description": "Recess-based property sort order for Stylelint.",
   "main": "index.js",
