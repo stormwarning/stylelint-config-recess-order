@@ -1,8 +1,9 @@
 {
   "name": "stylelint-config-recess-order",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "",
   "description": "Recess-based property sort order for Stylelint.",
+  "main": "index.js",
   "keywords": [
     "stylelint",
     "stylelint-config",
@@ -10,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/stormwarning/stylelint-config-recess-order.git"
+    "url": "https://github.com/stormwarning/stylelint-config-recess-order.git"
   },
   "bugs": {
     "url": "https://github.com/stormwarning/stylelint-config-recess-order/issues"
