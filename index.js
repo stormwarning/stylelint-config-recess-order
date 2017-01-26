@@ -9,6 +9,10 @@ module.exports = {
           "bottom",
           "left",
           "z-index",
+        ],
+      },
+      {
+        "properties": [
           "-webkit-box-sizing",
           "-moz-box-sizing",
           "box-sizing",
@@ -51,6 +55,10 @@ module.exports = {
           "-ms-overflow-style",
           "clip",
           "clear",
+        ],
+      },
+      {
+        "properties": [
           "font",
           "font-family",
           "font-size",
@@ -107,6 +115,10 @@ module.exports = {
           "list-style-position",
           "list-style-type",
           "list-style-image",
+        ],
+      },
+      {
+        "properties": [
           "pointer-events",
           "-ms-touch-action",
           "touch-action",
@@ -133,6 +145,10 @@ module.exports = {
           "nav-right",
           "nav-down",
           "nav-left",
+        ],
+      },
+      {
+        "properties": [
           "background",
           "background-color",
           "background-image",
@@ -214,6 +230,10 @@ module.exports = {
           "-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
           "opacity",
           "-ms-interpolation-mode",
+        ],
+      },
+      {
+        "properties": [
           "-webkit-transition",
           "-moz-transition",
           "-ms-transition",
