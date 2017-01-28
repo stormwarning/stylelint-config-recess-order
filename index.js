@@ -20,17 +20,17 @@ module.exports = {
 
           // Flexbox.
           "flex",
-          "flex-align",
           "flex-basis",
           "flex-direction",
-          "flex-wrap",
           "flex-flow",
           "flex-grow",
-          "flex-order",
-          "flex-pack",
+          "flex-shrink",
+          "flex-wrap",
+          "align-content",
           "align-items",
           "align-self",
           "justify-content",
+          "order",
 
           "float",
           "width",
