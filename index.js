@@ -18,7 +18,7 @@ module.exports = {
           "box-sizing",
           "display",
 
-          // Flexbox.
+          // Flexible boxes.
           "flex",
           "flex-basis",
           "flex-direction",
@@ -31,6 +31,26 @@ module.exports = {
           "align-self",
           "justify-content",
           "order",
+
+          // Grid layout.
+          "grid",
+          "grid-auto-flow",
+          "grid-auto-rows",
+          "grid-auto-columns",
+          "grid-area",
+          "grid-row",
+          "grid-row-start",
+          "grid-row-end",
+          "grid-column",
+          "grid-column-start",
+          "grid-column-end",
+          "grid-gap",
+          "grid-row-gap",
+          "grid-column-gap",
+          "grid-template",
+          "grid-template-areas",
+          "grid-template-rows",
+          "grid-template-columns",
 
           "float",
           "width",
