@@ -3,20 +3,22 @@ module.exports = {
     "declaration-block-properties-order": [
       {
         "properties": [
+          // Position.
           "position",
           "top",
           "right",
           "bottom",
           "left",
           "z-index",
-        ],
-      },
-      {
-        "properties": [
+
+
+          // Display & Box model.
           "-webkit-box-sizing",
           "-moz-box-sizing",
           "box-sizing",
           "display",
+
+          // Flexbox.
           "flex",
           "flex-align",
           "flex-basis",
@@ -29,6 +31,7 @@ module.exports = {
           "align-items",
           "align-self",
           "justify-content",
+
           "float",
           "width",
           "min-width",
@@ -55,10 +58,9 @@ module.exports = {
           "-ms-overflow-style",
           "clip",
           "clear",
-        ],
-      },
-      {
-        "properties": [
+
+
+          // Typography.
           "font",
           "font-family",
           "font-size",
@@ -115,10 +117,9 @@ module.exports = {
           "list-style-position",
           "list-style-type",
           "list-style-image",
-        ],
-      },
-      {
-        "properties": [
+
+
+          // Accessibility & Interactions.
           "pointer-events",
           "-ms-touch-action",
           "touch-action",
@@ -145,10 +146,9 @@ module.exports = {
           "nav-right",
           "nav-down",
           "nav-left",
-        ],
-      },
-      {
-        "properties": [
+
+
+          // Background & Borders.
           "background",
           "background-color",
           "background-image",
@@ -230,10 +230,9 @@ module.exports = {
           "-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
           "opacity",
           "-ms-interpolation-mode",
-        ],
-      },
-      {
-        "properties": [
+
+
+          // Transitions & Animation.
           "-webkit-transition",
           "-moz-transition",
           "-ms-transition",
