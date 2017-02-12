@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-recess-order",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "homepage": "",
   "description": "Recess-based property sort order for Stylelint.",
   "main": "index.js",
@@ -8,6 +8,7 @@
     "stylelint",
     "stylelint-config",
     "declaration-block-properties-order",
+    "property order",
     "recess"
   ],
   "repository": {
@@ -29,6 +30,9 @@
     }
   ],
   "license": "MIT",
+  "scripts": {},
   "devDependencies": {},
-  "scripts": {}
+  "dependencies": {
+    "stylelint-order": "^0.2.2"
+  }
 }
