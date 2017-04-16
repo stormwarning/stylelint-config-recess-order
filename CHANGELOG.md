@@ -5,11 +5,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
+### Removed
+- Outdated & deprecated vendor-prefixed properties
+
+
+## 1.1.0 - 2017-04-16
 ### Added
 - SVG presentation properties
 
-### Removed
-- Outdated & deprecated vendor-prefixed properties
+- Also updated stylelint-order version.
 
 
 ## 1.0.0 - 2017-02-11
