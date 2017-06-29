@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Outdated & deprecated vendor-prefixed properties
 
 
+## 1.2.1 — 2017-06-29
+### Changed
+- [stylelint-order] version bumped to latest (thanks, @yakhinvadim)
+
+
 ## 1.2.0 — 2017-05-19
 ### Changed
 - `order/declaration-block-properties-specified-order` was removed in [stylelint-order] v0.4; replaced with `order/properties-order`
