@@ -94,6 +94,8 @@ module.exports = {
       "font-emphasize",
       "font-emphasize-position",
       "font-emphasize-style",
+      "-webkit-font-smoothing",
+      "-moz-osx-font-smoothing",
       "font-smooth",
       "-webkit-hyphens",
       "-moz-hyphens",
