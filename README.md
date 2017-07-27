@@ -1,5 +1,7 @@
 # Recess* Property Order [<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/467124/images/2872758/stylelint-icon-black.svg" alt="StyleLint" width="90" height="90" align="right">][stylelint]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stormwarning/stylelint-config-recess-order.svg)](https://greenkeeper.io/)
+
 [![npm version][npm-img]][npm-url]
 [![npm downloads][npm-dls]][npm-url]
 [![dependency status][david-img]][david-url]
