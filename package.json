@@ -33,6 +33,6 @@
   "scripts": {},
   "devDependencies": {},
   "dependencies": {
-    "stylelint-order": "^0.5.0"
+    "stylelint-order": "^0.6.0"
   }
 }
