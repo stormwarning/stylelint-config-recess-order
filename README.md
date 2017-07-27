@@ -1,10 +1,9 @@
 # Recess* Property Order [<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/467124/images/2872758/stylelint-icon-black.svg" alt="StyleLint" width="90" height="90" align="right">][stylelint]
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/stormwarning/stylelint-config-recess-order.svg)](https://greenkeeper.io/)
-
 [![npm version][npm-img]][npm-url]
 [![npm downloads][npm-dls]][npm-url]
 [![dependency status][david-img]][david-url]
+[![build status][travis-img]][travis-url]
 [![github issues][issues-img]][issues-url]
 
 A [Stylelint] config that sorts CSS properties the way [Recess] did and [Bootstrap] does.
@@ -37,6 +36,8 @@ A [Stylelint] config that sorts CSS properties the way [Recess] did and [Bootstr
 [npm-dls]: https://img.shields.io/npm/dt/stylelint-config-recess-order.svg?style=flat-square
 [david-url]: https://david-dm.org/stormwarning/stylelint-config-recess-order
 [david-img]: https://img.shields.io/david/stormwarning/stylelint-config-recess-order.svg?style=flat-square
+[travis-url]: https://travis-ci.org/stormwarning/stylelint-config-recess-order
+[travis-img]: https://img.shields.io/travis/stormwarning/stylelint-config-recess-order.svg?style=flat-square
 [issues-url]: https://github.com/stormwarning/stylelint-config-recess-order/issues
 [issues-img]: https://img.shields.io/github/issues/stormwarning/stylelint-config-recess-order.svg?style=flat-square
 
