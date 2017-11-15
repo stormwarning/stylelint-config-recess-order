@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-recess-order",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Recess-based property sort order for Stylelint.",
   "homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
   "author": {
