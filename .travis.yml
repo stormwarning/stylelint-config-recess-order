@@ -9,3 +9,7 @@ branches:
     - /^greenkeeper/.*$/
 
 language: node_js
+
+node_js:
+  - lts/carbon
+  - lts/boron
