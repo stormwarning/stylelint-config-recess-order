@@ -21,7 +21,7 @@
     "stylelint-order": "^0.7.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.0.3",
     "commitizen": "^2.9.6",
     "emoji-cz": "^0.3.0",
     "eslint": "^4.6.1",
