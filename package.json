@@ -1,38 +1,23 @@
 {
   "name": "stylelint-config-recess-order",
-  "version": "1.2.3",
   "description": "Recess-based property sort order for Stylelint.",
+  "author": "Jeff Nelson <rustyangel@gmail.com> (http://tidaltheory.co/)",
+  "license": "ISC",
   "homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
-  "author": {
-    "name": "Jeff Nelson",
-    "email": "rustyangel@gmail.com",
-    "url": "http://tidaltheory.co/"
+  "repository": "stormwarning/stylelint-config-recess-order",
+  "bugs": "https://github.com/stormwarning/stylelint-config-recess-order/issues",
+  "version": "1.2.3",
+  "main": "index.js",
+  "scripts": {
+    "lint:scripts": "prettier-eslint '**/*.js' --write --list-different"
   },
-  "bugs": {
-    "url": "https://github.com/stormwarning/stylelint-config-recess-order/issues"
-  },
-  "contributors": [
-    {
-      "name": "Jeff Nelson",
-      "email": "rustyangel@gmail.com"
-    }
-  ],
   "dependencies": {
     "stylelint-order": "^0.7.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.3",
-    "commitizen": "^2.9.6",
-    "emoji-cz": "^0.3.0",
-    "eslint": "^4.6.1",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
+    "@zazen/eslint-config": "^0.1.1",
     "husky": "^0.14.3",
-    "lint-staged": "^6.0.0",
-    "prettier-eslint": "^8.2.2"
+    "lint-staged": "^7.0.0"
   },
   "keywords": [
     "stylelint",
@@ -43,11 +28,10 @@
     "recess",
     "bootstrap"
   ],
-  "license": "MIT",
-  "main": "index.js",
-  "publishConfig": {
-    "message": "🔖 %s"
-  },
-  "repository": "stormwarning/stylelint-config-recess-order",
-  "scripts": {}
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint --write",
+      "git add"
+    ]
+  }
 }
