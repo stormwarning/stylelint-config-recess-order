@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 -   Outdated & deprecated vendor-prefixed properties
 
+## 1.2.4 — 2018-03-13
+
+-   **Removed:** Individual eslint dependencies (using @zazen/eslint-config now)
+-   **Changed:** Upgraded stylelint-order dependency (thanks for the nudge, @ai)
+
 ## 1.2.3 — 2017-11-14
 
 -   **Upgraded:** [stylelint-order] version
