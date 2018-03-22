@@ -6,7 +6,7 @@
   "homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
   "repository": "stormwarning/stylelint-config-recess-order",
   "bugs": "https://github.com/stormwarning/stylelint-config-recess-order/issues",
-  "version": "1.2.4",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
     "lint:scripts": "prettier-eslint '**/*.js' --write --list-different"
