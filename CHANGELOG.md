@@ -1,15 +1,14 @@
 # Change Log
 
+[![Keep a Changelog](https://img.shields.io/badge/keep%20a-changelog-ef5e39.svg?style=flat-square)](https://keepachangelog.com)
+[![Semantic Versioning](https://img.shields.io/badge/semantic-versioning-333333.svg?style=flat-square)](https://semver.org)
+
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/)
-and this project adheres to [Semantic Versioning](http://semver.org/).
+## 2.0.0 — 2018-03-22
 
-## Unreleased
-
-### Removed
-
--   Outdated & deprecated vendor-prefixed properties
+-   **Removed:** Outdated & deprecated vendor-prefixed properties
+-   **Changed:** Updated CSS Grid layout properties to better follow the pattern of having shorthand properties first
 
 ## 1.2.4 — 2018-03-13
 
