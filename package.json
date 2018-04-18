@@ -15,7 +15,7 @@
     "stylelint-order": "^0.8.1"
   },
   "devDependencies": {
-    "@zazen/eslint-config": "^0.1.1",
+    "@zazen/eslint-config": "^0.2.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.0"
   },
