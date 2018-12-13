@@ -1,5 +1,6 @@
 import test from 'ava'
 import stylelint from 'stylelint'
+
 import config from '..'
 
 const runStylelint = async (code) => {
@@ -12,11 +13,16 @@ const runStylelint = async (code) => {
 }
 
 test('property order enforced', async (t) => {
-    const results = await runStylelint(`
+    await runStylelint(`
         div {
-            left: .2em;
+            display: block;
+            position: relative;
         }
-    `)
-
-    t.is(results[0].warnings[0].rule, 'number-leading-zero')
+    `).then(([output]) => {
+        t.is(output.errored, true)
+        t.is(
+            output.warnings[0].text,
+            'Expected "position" to come before "display" (order/properties-order)',
+        )
+    })
 })
