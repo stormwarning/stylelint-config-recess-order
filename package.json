@@ -1,8 +1,8 @@
 {
   "name": "stylelint-config-recess-order",
   "description": "Recess-based property sort order for Stylelint.",
-  "author": "Jeff Nelson <rustyangel@gmail.com> (http://tidaltheory.co/)",
   "license": "ISC",
+  "author": "Jeff Nelson <rustyangel@gmail.com> (http://tidaltheory.co/)",
   "homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
   "repository": "stormwarning/stylelint-config-recess-order",
   "bugs": "https://github.com/stormwarning/stylelint-config-recess-order/issues",
@@ -15,20 +15,24 @@
   "dependencies": {
     "stylelint-order": "^0.8.1"
   },
+  "peerDependencies": {
+    "stylelint": "^9.9.0"
+  },
   "devDependencies": {
     "@zazen/eslint-config": "^0.1.1",
     "ava": "^1.0.0-rc.2",
     "husky": "^0.14.3",
-    "lint-staged": "^7.0.0"
+    "lint-staged": "^7.0.0",
+    "stylelint": "^9.9.0"
   },
   "keywords": [
-    "stylelint",
-    "stylelint-config",
-    "stylelint-order",
+    "bootstrap",
     "properties-order",
     "property order",
     "recess",
-    "bootstrap"
+    "stylelint",
+    "stylelint-config",
+    "stylelint-order"
   ],
   "lint-staged": {
     "*.js": [
