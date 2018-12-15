@@ -17,7 +17,7 @@ test('with incorrect property order', async (t) => {
     await runStylelint(incorrectOrder).then((output) => {
         t.truthy(output.errored, 'indicates linting errors')
         t.is(
-            output.warnings[0].text,
+            output.warnings[0].text.trim(),
             'Expected "box-sizing" to come before "background-color" (order/properties-order)',
             'indicates a properties-order error',
         )

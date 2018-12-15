@@ -9,20 +9,20 @@
   "version": "2.0.0",
   "main": "index.js",
   "scripts": {
-    "lint:scripts": "prettier-eslint '**/*.js' --write --list-different",
+    "lint:scripts": "prettier-eslint '**/*.js' --list-different",
     "test": "ava"
   },
   "dependencies": {
-    "stylelint-order": "^0.8.1"
+    "stylelint-order": "^2.0.0"
   },
   "peerDependencies": {
     "stylelint": "^9.9.0"
   },
   "devDependencies": {
-    "@zazen/eslint-config": "^0.1.1",
-    "ava": "^1.0.0-rc.2",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.0.0",
+    "@zazen/eslint-config": "^0.3.0",
+    "ava": "^1.0.1",
+    "husky": "^1.2.1",
+    "lint-staged": "^8.1.0",
     "stylelint": "^9.9.0"
   },
   "keywords": [
@@ -34,6 +34,11 @@
     "stylelint-config",
     "stylelint-order"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.js": [
       "prettier-eslint --write",
