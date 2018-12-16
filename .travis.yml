@@ -1,15 +1,33 @@
-sudo: false
+language: node_js
 
-git:
-  depth: 1
+notifications:
+  email: false
 
+services:
+  - docker
+
+node_js:
+  - 10
+  - 8
+
+# Trigger a push build on master and greenkeeper branches + PRs build on every branches
+# Avoid double build on PRs (See https://github.com/travis-ci/travis-ci/issues/1147)
 branches:
   only:
     - master
-    - /^greenkeeper/.*$/
+    - /^greenkeeper.*$/
 
-language: node_js
+# Retry install on fail to avoid failing a build on network/disk/external errors
+install:
+  - travis_retry npm install
 
-node_js:
-  - lts/carbon
-  - lts/boron
+script:
+  - npm run test
+
+jobs:
+  include:
+    - stage: release
+      if: branch = master
+      node_js: lts/*
+      script:
+        - npm run semantic-release
