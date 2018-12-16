@@ -7,58 +7,101 @@ All notable changes to this project will be documented in this file.
 
 ## 2.0.0 — 2018-03-22
 
--   **Removed:** Outdated & deprecated vendor-prefixed properties
--   **Changed:** Updated CSS Grid layout properties to better follow the pattern of having shorthand properties first
+### Removed
+
+- Outdated & deprecated vendor-prefixed properties
+
+### Changed
+
+- Updated CSS Grid layout properties to better follow the pattern of having shorthand properties first
 
 ## 1.2.4 — 2018-03-13
 
--   **Removed:** Individual eslint dependencies (using @zazen/eslint-config now)
--   **Changed:** Upgraded stylelint-order dependency (thanks for the nudge, @ai)
+### Removed
+
+- Individual eslint dependencies (using @zazen/eslint-config now)
+
+### Changed
+
+- Upgraded stylelint-order dependency (thanks for the nudge, [**@ai**](https://github.com/ai))
 
 ## 1.2.3 — 2017-11-14
 
--   **Upgraded:** [stylelint-order] version
--   **Internal:** Updated codestyle & formatting rules
+### Changed
+
+- Upgraded [stylelint-order](https://github.com/hudochenkov/stylelint-order) version
+
+### Other updates
+
+- Updated codestyle & formatting rules
 
 ## 1.2.2 — 2017-07-27
 
--   **Added:** Vendor-specific `font-smoothing` properties (thanks, @yakhinvadim)
--   **Internal:** Enabled [greenkeeper] integration
+### Added
 
-[greenkeeper]: https://greenkeeper.io/
+- Vendor-specific `font-smoothing` properties (thanks, [**@yakhinvadim**](https://github.com/yakhinvadim))
+
+## Other updates
+
+- Enabled [greenkeeper](https://greenkeeper.io/) integration
 
 ## 1.2.1 — 2017-06-29
 
--   **Changed:** [stylelint-order] version bumped to latest (thanks, @yakhinvadim)
+### Changed
+
+- [stylelint-order](https://github.com/hudochenkov/stylelint-order) version bumped to latest (thanks, [**@yakhinvadim**](https://github.com/yakhinvadim))
 
 ## 1.2.0 — 2017-05-19
 
--   **Changed:** `order/declaration-block-properties-specified-order` was removed in [stylelint-order] v0.4; replaced with `order/properties-order`
+### Changed
+
+- `order/declaration-block-properties-specified-order` was removed in [stylelint-order](https://github.com/hudochenkov/stylelint-order) v0.4; replaced with `order/properties-order`
 
 ## 1.1.0 - 2017-04-16
 
--   **Added:** SVG presentation properties
--   **Upgraded:** [stylelint-order] version
+### Added
+
+- SVG presentation properties
+
+### Changed
+
+- Upgraded [stylelint-order](https://github.com/hudochenkov/stylelint-order) version
 
 ## 1.0.0 - 2017-02-11
 
--   **Added:** [stylelint-order] plugin dependency
--   **Deprecated:** `declaration-block-properties-order` Stylelint rule
+### Removed
 
-[stylelint-order]: https://github.com/hudochenkov/stylelint-order
+- `declaration-block-properties-order` Stylelint rule
+
+### Added
+
+- [stylelint-order](https://github.com/hudochenkov/stylelint-order) plugin
 
 ## 0.3.0 - 2017-02-03
 
--   **Added:** Compositing properties (_ie_, `background-blend-mode`, `isolation`, & `mix-blend-mode`)
+### Added
+
+- Compositing properties (*ie*, `background-blend-mode`, `isolation`, & `mix-blend-mode`)
 
 ## 0.2.0 - 2017-01-28
 
--   **Added:** Properties for CSS Grid layout
--   **Added:** Missing flexbox properties (_eg_, `align-content`, `order`, etc.)
--   **Changed:** Various `package.json` settings
--   **Removed:** Deprecated flexbox properties
--   **Removed:** `extends` property 
--   **Fixed:** **JSON object/array structure**
+### Removed
+
+- Deprecated flexbox properties
+- `extends` property 
+
+### Added
+
+- Properties for CSS Grid layout
+- Missing flexbox properties (*eg*, `align-content`, `order`, etc.)
+
+### Fixed
+
+- **JSON object/array structure**
+
+### Other updates
+
+- Updated various `package.json` settings
 
 ## 0.1.0 - 2017-01-27
 
