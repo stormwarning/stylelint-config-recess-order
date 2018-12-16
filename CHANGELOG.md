@@ -5,6 +5,24 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="2.0.1"></a>
+
+## [2.0.1](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.0...v2.0.1) — 2018-12-16
+
+### Changed
+
+- 📦 Upgrade dependency versions ([#30](https://github.com/stormwarning/stylelint-config-recess-order/issues/30)) ([2448510](https://github.com/stormwarning/stylelint-config-recess-order/commit/2448510)) \
+  - `stylelint-order` now at `2.x.x`
+- Dev dependencies updated
+- Fixed sub-dependency vulnerabilities fixed per `npm audit`
+
+
+
+- ✅ Add tests ([#29](https://github.com/stormwarning/stylelint-config-recess-order/issues/29)) ([7197234](https://github.com/stormwarning/stylelint-config-recess-order/commit/7197234)) \
+  - Includes AVA test runner
+- Adds stylelint as a dev/peer dependency
+- Adds example code fixtures & basic tests
+
 ## 2.0.0 — 2018-03-22
 
 ### Removed
