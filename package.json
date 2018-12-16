@@ -10,6 +10,7 @@
   "main": "index.js",
   "scripts": {
     "lint:scripts": "prettier-eslint '**/*.js' --list-different",
+    "semantic-release": "semantic-release",
     "test": "ava"
   },
   "dependencies": {
@@ -20,9 +21,11 @@
   },
   "devDependencies": {
     "@zazen/eslint-config": "^0.3.0",
+    "@zazen/semantic-release": "^0.1.1",
     "ava": "^1.0.1",
     "husky": "^1.2.1",
     "lint-staged": "^8.1.0",
+    "semantic-release": "^15.13.0",
     "stylelint": "^9.9.0"
   },
   "keywords": [
@@ -44,5 +47,8 @@
       "prettier-eslint --write",
       "git add"
     ]
+  },
+  "release": {
+    "extends": "@zazen/semantic-release"
   }
 }
