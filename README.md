@@ -53,6 +53,6 @@ A [Stylelint][] config that sorts CSS properties the way [Recess][] did and
 
 [recess]: https://github.com/twitter/recess/blob/master/lib/lint/strict-property-order.js
 
-[bootstrap]: https://github.com/twbs/bootstrap/blob/v4-dev/scss/.scss-lint.yml#L128
+[bootstrap]:  https://github.com/twbs/bootstrap/blob/f58997a0dae54dc98d11892afef9acb85bdc6a1e/.scss-lint.yml#L136
 
 [mdo-order]: http://markdotto.com/2011/11/29/css-property-order/
