@@ -14,7 +14,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "stylelint-order": "^2.0.0"
+    "stylelint-order": "^2.2.1"
   },
   "peerDependencies": {
     "stylelint": ">=9"
