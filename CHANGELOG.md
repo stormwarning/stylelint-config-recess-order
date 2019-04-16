@@ -5,6 +5,19 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="2.0.2"></a>
+
+## [2.0.2](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.1...v2.0.2) — 2019-04-16
+
+### Changed
+
+- 📦 Update Stylelint to 10.0.0 ([#35](https://github.com/stormwarning/stylelint-config-recess-order/issues/35)) ([3e4d05b](https://github.com/stormwarning/stylelint-config-recess-order/commit/3e4d05b)) \
+  Also updates `peerDependency` version range.
+
+### Other updates
+
+- 📚 Fix up changelog formatting ([d1d4b89](https://github.com/stormwarning/stylelint-config-recess-order/commit/d1d4b89))
+
 <a name="2.0.1"></a>
 
 ### [2.0.1](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.0...v2.0.1) — 2018-12-16
