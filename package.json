@@ -20,7 +20,7 @@
     "stylelint": ">=9"
   },
   "devDependencies": {
-    "@zazen/eslint-config": "^0.3.0",
+    "@zazen/eslint-config": "^1.0.0",
     "@zazen/semantic-release": "^0.1.1",
     "ava": "^1.0.1",
     "husky": "^1.2.1",
