@@ -7,7 +7,7 @@
 [![github issues][issues-img]][issues-url]
 
 A [Stylelint][] config that sorts CSS properties the way [Recess][] did and
-[Bootstrap][] does.
+Bootstrap [did][]/[does][].
 
 \*With some modifications & additions for modern properties.
 
@@ -51,8 +51,10 @@ A [Stylelint][] config that sorts CSS properties the way [Recess][] did and
 
 [stylelint]: https://github.com/stylelint/stylelint
 
-[recess]: https://github.com/twitter/recess/blob/master/lib/lint/strict-property-order.js
+[recess]: https://github.com/twitter/recess/blob/29bccc870b7b4ccaa0a138e504caf608a6606b59/lib/lint/strict-property-order.js
 
-[bootstrap]:  https://github.com/twbs/bootstrap/blob/f58997a0dae54dc98d11892afef9acb85bdc6a1e/.scss-lint.yml#L136
+[did]: https://github.com/twbs/bootstrap/blob/f58997a0dae54dc98d11892afef9acb85bdc6a1e/.scss-lint.yml#L136
+
+[does]: https://github.com/twbs/bootstrap/blob/ba878eb542ab6c04786741569ba089d02e9bea46/.stylelintrc#L36
 
 [mdo-order]: http://markdotto.com/2011/11/29/css-property-order/
