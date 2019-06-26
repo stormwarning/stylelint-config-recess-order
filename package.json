@@ -25,7 +25,7 @@
     "ava": "^1.0.1",
     "husky": "^1.2.1",
     "lint-staged": "^8.1.0",
-    "semantic-release": "^15.13.0",
+    "semantic-release": "^15.13.17",
     "stylelint": "^10.0.0"
   },
   "keywords": [
