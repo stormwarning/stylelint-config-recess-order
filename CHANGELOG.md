@@ -5,6 +5,15 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="2.0.3"></a>
+
+## [2.0.3](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.2...v2.0.3) — 2019-07-13
+
+### Changed
+
+- 📦 Upgrade dependencies ([#70](https://github.com/stormwarning/stylelint-config-recess-order/issues/70)) ([cad86cd](https://github.com/stormwarning/stylelint-config-recess-order/commit/cad86cd)), closes [#39](https://github.com/stormwarning/stylelint-config-recess-order/issues/39) [#57](https://github.com/stormwarning/stylelint-config-recess-order/issues/57) [#64](https://github.com/stormwarning/stylelint-config-recess-order/issues/64) [#68](https://github.com/stormwarning/stylelint-config-recess-order/issues/68) [#75](https://github.com/stormwarning/stylelint-config-recess-order/issues/75) [#74](https://github.com/stormwarning/stylelint-config-recess-order/issues/74) [#73](https://github.com/stormwarning/stylelint-config-recess-order/issues/73) \
+  - Bump `stylelint-order` from 2.0.0 to 3.0.1
+
 <a name="2.0.2"></a>
 
 ## [2.0.2](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.1...v2.0.2) — 2019-04-16
