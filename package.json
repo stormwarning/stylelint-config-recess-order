@@ -23,7 +23,7 @@
     "@zazen/eslint-config": "^1.0.0",
     "@zazen/semantic-release": "^0.1.1",
     "ava": "^2.2.0",
-    "husky": "^3.0.0",
+    "husky": "^3.0.5",
     "lint-staged": "^9.2.0",
     "semantic-release": "^15.13.18",
     "stylelint": "^10.1.0"
