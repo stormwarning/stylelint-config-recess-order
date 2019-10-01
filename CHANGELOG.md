@@ -11,8 +11,20 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-- 📦 Upgrade dependencies ([#70](https://github.com/stormwarning/stylelint-config-recess-order/issues/70)) ([cad86cd](https://github.com/stormwarning/stylelint-config-recess-order/commit/cad86cd)), closes [#39](https://github.com/stormwarning/stylelint-config-recess-order/issues/39) [#57](https://github.com/stormwarning/stylelint-config-recess-order/issues/57) [#64](https://github.com/stormwarning/stylelint-config-recess-order/issues/64) [#68](https://github.com/stormwarning/stylelint-config-recess-order/issues/68) [#75](https://github.com/stormwarning/stylelint-config-recess-order/issues/75) [#74](https://github.com/stormwarning/stylelint-config-recess-order/issues/74) [#73](https://github.com/stormwarning/stylelint-config-recess-order/issues/73) \
+- 📦 Upgrade dependencies ([#70](https://github.com/stormwarning/stylelint-config-recess-order/issues/70)) ([cad86cd](https://github.com/stormwarning/stylelint-config-recess-order/commit/cad86cd))
   - Bump `stylelint-order` from 2.0.0 to 3.0.1
+  - Bump `@zazen/eslint-config` from 0.3.0 to 1.0.0 ([#39](https://github.com/stormwarning/stylelint-config-recess-order/issues/39))
+  - Bump `stylelint` from 10.0.0 to 10.1.0 ([#57](https://github.com/stormwarning/stylelint-config-recess-order/issues/57))
+  - Bump `ava` from 1.0.1 to 2.2.0
+  - Bump `semantic-release` from 15.13.0 to 15.13.18 ([#64](https://github.com/stormwarning/stylelint-config-recess-order/issues/64))
+  - Bump `husky` from 1.2.1 to 3.0.0 ([#68](https://github.com/stormwarning/stylelint-config-recess-order/issues/68))
+  - Bump `lint-staged` from 8.1.0 to 9.2.0
+
+  Includes some security fixes to sub-dependencies
+
+  - 🔒 Bump `lodash` from 4.17.11 to 4.17.14 ([#75](https://github.com/stormwarning/stylelint-config-recess-order/issues/75))
+  - 🔒 Bump `lodash.template` from 4.4.0 to 4.5.0 ([#74](https://github.com/stormwarning/stylelint-config-recess-order/issues/74))
+  - 🔒 Bump `lodash.merge` from 4.6.1 to 4.6.2 ([#73](https://github.com/stormwarning/stylelint-config-recess-order/issues/73))
 
 <a name="2.0.2"></a>
 
