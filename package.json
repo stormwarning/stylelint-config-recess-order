@@ -24,7 +24,7 @@
     "@zazen/semantic-release": "^0.1.2",
     "ava": "^2.4.0",
     "husky": "^3.0.7",
-    "lint-staged": "^9.4.0",
+    "lint-staged": "^9.4.2",
     "semantic-release": "^15.13.24",
     "stylelint": "^10.1.0"
   },
