@@ -9,24 +9,27 @@
   "version": "2.0.3",
   "main": "index.js",
   "scripts": {
-    "lint:scripts": "prettier-eslint '**/*.js' --list-different",
+    "lint": "eslint '**/*.js'",
     "semantic-release": "semantic-release",
     "test": "ava"
   },
   "dependencies": {
-    "stylelint-order": "^3.0.1"
+    "stylelint-order": "4.0.x"
   },
   "peerDependencies": {
     "stylelint": ">=9"
   },
   "devDependencies": {
-    "@zazen/eslint-config": "^1.0.0",
-    "@zazen/semantic-release": "^0.1.1",
-    "ava": "^2.2.0",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.2.0",
-    "semantic-release": "^15.13.18",
-    "stylelint": "^10.1.0"
+    "@zazen/eslint-config": "2.0.x",
+    "@zazen/semantic-release": "0.1.2",
+    "ava": "3.5.x",
+    "eslint": "6.8.x",
+    "husky": "4.2.x",
+    "lint-staged": "10.0.x",
+    "prettier": "1.19.x",
+    "prettier-plugin-packagejson": "2.0.x",
+    "semantic-release": "17.0.x",
+    "stylelint": "13.2.x"
   },
   "keywords": [
     "bootstrap",
@@ -44,7 +47,11 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier-eslint --write",
+      "eslint --fix",
+      "git add"
+    ],
+    "package.json": [
+      "prettier --write",
       "git add"
     ]
   },
