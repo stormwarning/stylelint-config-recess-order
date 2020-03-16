@@ -1,36 +1,7 @@
 {
   "name": "stylelint-config-recess-order",
-  "description": "Recess-based property sort order for Stylelint.",
-  "license": "ISC",
-  "author": "Jeff Nelson <rustyangel@gmail.com> (http://tidaltheory.co/)",
-  "homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
-  "repository": "stormwarning/stylelint-config-recess-order",
-  "bugs": "https://github.com/stormwarning/stylelint-config-recess-order/issues",
   "version": "2.0.3",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint '**/*.js'",
-    "semantic-release": "semantic-release",
-    "test": "ava"
-  },
-  "dependencies": {
-    "stylelint-order": "4.0.x"
-  },
-  "peerDependencies": {
-    "stylelint": ">=9"
-  },
-  "devDependencies": {
-    "@zazen/eslint-config": "2.0.x",
-    "@zazen/semantic-release": "0.1.2",
-    "ava": "3.5.x",
-    "eslint": "6.8.x",
-    "husky": "4.2.x",
-    "lint-staged": "10.0.x",
-    "prettier": "1.19.x",
-    "prettier-plugin-packagejson": "2.0.x",
-    "semantic-release": "17.0.x",
-    "stylelint": "13.2.x"
-  },
+  "description": "Recess-based property sort order for Stylelint.",
   "keywords": [
     "bootstrap",
     "properties-order",
@@ -40,6 +11,17 @@
     "stylelint-config",
     "stylelint-order"
   ],
+  "homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
+  "bugs": "https://github.com/stormwarning/stylelint-config-recess-order/issues",
+  "repository": "stormwarning/stylelint-config-recess-order",
+  "license": "ISC",
+  "author": "Jeff Nelson <rustyangel@gmail.com> (http://tidaltheory.co/)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "semantic-release": "semantic-release",
+    "test": "ava"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -54,6 +36,30 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "dependencies": {
+    "stylelint-order": "4.0.x"
+  },
+  "devDependencies": {
+    "@zazen/eslint-config": "2.0.x",
+    "@zazen/semantic-release": "0.1.2",
+    "ava": "3.5.x",
+    "eslint": "6.8.x",
+    "esm": "3.2.25",
+    "husky": "4.2.x",
+    "lint-staged": "10.0.x",
+    "prettier": "1.19.x",
+    "prettier-plugin-packagejson": "2.0.x",
+    "semantic-release": "17.0.x",
+    "stylelint": "13.2.x"
+  },
+  "peerDependencies": {
+    "stylelint": ">=9"
   },
   "release": {
     "extends": "@zazen/semantic-release"
