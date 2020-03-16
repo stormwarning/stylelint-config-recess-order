@@ -5,6 +5,21 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="2.0.4"></a>
+
+### [2.0.4](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.3...v2.0.4) — 2020-03-16
+
+#### Changed
+
+- 📦 Upgrade semantic-release config [[`6d3a4cd`](https://github.com/stormwarning/stylelint-config-recess-order/commit/6d3a4cd)]
+- 📦 Upgrade dependencies ([#101](https://github.com/stormwarning/stylelint-config-recess-order/issues/101)) [[`b1a8f58`](https://github.com/stormwarning/stylelint-config-recess-order/commit/b1a8f58)] \
+  `stylelint-order` bumped to v4. Other internal dependencies upgraded to their latest.
+
+#### Other updates
+
+- 💚 Update CI node versions [[`8ad3f0d`](https://github.com/stormwarning/stylelint-config-recess-order/commit/8ad3f0d)] \
+  `esm` package required for AVA to run in Node 10+.
+
 <a name="2.0.3"></a>
 
 ## [2.0.3](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.2...v2.0.3) — 2019-07-13
