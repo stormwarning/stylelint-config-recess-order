@@ -62,6 +62,10 @@
     "stylelint": ">=9"
   },
   "release": {
-    "extends": "@zazen/semantic-release"
+    "extends": "@zazen/semantic-release",
+    "branches": [
+      "master",
+      "next"
+    ]
   }
 }
