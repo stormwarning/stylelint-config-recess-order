@@ -56,7 +56,7 @@
     "prettier": "2.0.x",
     "prettier-plugin-packagejson": "2.2.x",
     "semantic-release": "17.1.x",
-    "stylelint": "13.2.x"
+    "stylelint": "13.6.x"
   },
   "peerDependencies": {
     "stylelint": ">=9"
