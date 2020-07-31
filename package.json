@@ -43,20 +43,20 @@
     ]
   },
   "dependencies": {
-    "stylelint-order": "4.0.x"
+    "stylelint-order": "4.1.x"
   },
   "devDependencies": {
     "@zazen/eslint-config": "2.0.x",
     "@zazen/semantic-release": "0.1.3",
-    "ava": "3.5.x",
+    "ava": "3.9.x",
     "eslint": "6.8.x",
     "esm": "3.2.25",
     "husky": "4.2.x",
-    "lint-staged": "10.0.x",
-    "prettier": "1.19.x",
-    "prettier-plugin-packagejson": "2.0.x",
-    "semantic-release": "17.0.x",
-    "stylelint": "13.2.x"
+    "lint-staged": "10.2.x",
+    "prettier": "2.0.x",
+    "prettier-plugin-packagejson": "2.2.x",
+    "semantic-release": "17.1.x",
+    "stylelint": "13.6.x"
   },
   "peerDependencies": {
     "stylelint": ">=9"
