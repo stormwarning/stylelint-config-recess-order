@@ -5,6 +5,24 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="2.1.0"></a>
+
+## [2.1.0](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.4...v2.1.0) — 2020-07-31
+
+#### Added
+
+- 🎁 Add unprefixed `gap` properties ([#166](https://github.com/stormwarning/stylelint-config-recess-order/issues/166)) [[`78c544f`](https://github.com/stormwarning/stylelint-config-recess-order/commit/78c544f)], closes [#140](https://github.com/stormwarning/stylelint-config-recess-order/issues/140) \
+  These are added outside of the other `grid` properties, since it is
+  now used in `flex` contexts as well, but directly after `grid-gap`
+  for better backwards-compatibility.
+  
+  See [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
+  for reference.
+
+#### Changed
+
+- 📦 Upgrade dependencies ([#165](https://github.com/stormwarning/stylelint-config-recess-order/issues/165)) [[`905c955`](https://github.com/stormwarning/stylelint-config-recess-order/commit/905c955)], closes [#159](https://github.com/stormwarning/stylelint-config-recess-order/issues/159) [#164](https://github.com/stormwarning/stylelint-config-recess-order/issues/164)
+
 <a name="2.0.4"></a>
 
 ### [2.0.4](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.3...v2.0.4) — 2020-03-16
