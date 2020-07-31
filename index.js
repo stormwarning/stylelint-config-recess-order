@@ -19,10 +19,7 @@ module.exports = {
             },
             {
                 // Display mode.
-                properties: [
-                    'box-sizing',
-                    'display',
-                ],
+                properties: ['box-sizing', 'display'],
             },
             {
                 // Flexible boxes.
@@ -58,6 +55,10 @@ module.exports = {
                     'grid-row-gap',
                     'grid-column-gap',
                 ],
+            },
+            {
+                // Gap.
+                properties: ['gap', 'row-gap', 'column-gap'],
             },
             {
                 // Align.
