@@ -43,7 +43,7 @@
     ]
   },
   "dependencies": {
-    "stylelint-order": "4.0.x"
+    "stylelint-order": "4.1.x"
   },
   "devDependencies": {
     "@zazen/eslint-config": "2.0.x",
