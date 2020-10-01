@@ -51,7 +51,7 @@
     "ava": "3.5.x",
     "eslint": "6.8.x",
     "esm": "3.2.25",
-    "husky": "4.2.x",
+    "husky": "4.3.x",
     "lint-staged": "10.0.x",
     "prettier": "1.19.x",
     "prettier-plugin-packagejson": "2.0.x",
