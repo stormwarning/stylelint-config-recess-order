@@ -73,6 +73,10 @@ module.exports = {
                 ],
             },
             {
+                // Align + Justify.
+                properties: ['place-items'],
+            },
+            {
                 // Order.
                 properties: ['order'],
             },
