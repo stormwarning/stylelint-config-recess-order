@@ -61,20 +61,16 @@ module.exports = {
                 properties: ['gap', 'row-gap', 'column-gap'],
             },
             {
-                // Align.
-                properties: ['align-content', 'align-items', 'align-self'],
-            },
-            {
-                // Justify.
+                // Layout alignment.
                 properties: [
-                    'justify-content',
-                    'justify-items',
-                    'justify-self',
+                  'place-items',
+                  'align-content',
+                  'align-items',
+                  'align-self',
+                  'justify-content',
+                  'justify-items',
+                  'justify-self',
                 ],
-            },
-            {
-                // Align + Justify.
-                properties: ['place-items'],
             },
             {
                 // Order.
