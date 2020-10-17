@@ -5,6 +5,15 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="2.2.0"></a>
+
+## [2.2.0](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.1.0...v2.2.0) — 2020-10-17
+
+#### Added
+
+- 🎁 Add `place-items` property ([#193](https://github.com/stormwarning/stylelint-config-recess-order/issues/193)) [[`7d77abc`](https://github.com/stormwarning/stylelint-config-recess-order/commit/7d77abc)] \
+  Shorthand for the `align-items` and `justify-items` properties.
+
 <a name="2.1.0"></a>
 
 ## [2.1.0](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.4...v2.1.0) — 2020-07-31
