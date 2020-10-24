@@ -104,6 +104,7 @@ module.exports = {
                     '-ms-overflow-y',
                     '-ms-overflow-style',
                     'clip',
+                    'clip-path',
                     'clear',
                 ],
             },
