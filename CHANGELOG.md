@@ -5,6 +5,14 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="2.3.0"></a>
+
+## [2.3.0](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.2.0...v2.3.0) — 2020-10-24
+
+#### Added
+
+- 🎁 Add `clip-path` property ([#195](https://github.com/stormwarning/stylelint-config-recess-order/issues/195)) [[`08c1eca`](https://github.com/stormwarning/stylelint-config-recess-order/commit/08c1eca)]
+
 <a name="2.2.0"></a>
 
 ## [2.2.0](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.1.0...v2.2.0) — 2020-10-17
