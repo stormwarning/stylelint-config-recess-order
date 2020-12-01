@@ -54,7 +54,7 @@
     "husky": "4.2.x",
     "lint-staged": "10.0.x",
     "prettier": "1.19.x",
-    "prettier-plugin-packagejson": "2.0.x",
+    "prettier-plugin-packagejson": "2.2.x",
     "semantic-release": "17.0.x",
     "stylelint": "13.2.x"
   },
