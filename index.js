@@ -140,6 +140,8 @@ module.exports = {
                     'text-decoration-thickness',
                     'text-decoration-style',
                     'text-decoration-color',
+                    'text-underline-position',
+                    'text-underline-offset',
                     'text-indent',
                     'text-justify',
                     'text-outline',
