@@ -1,77 +1,64 @@
 {
-    "name": "stylelint-config-recess-order",
-    "version": "2.3.0",
-    "description": "Recess-based property sort order for Stylelint.",
-    "keywords": [
-        "bootstrap",
-        "properties-order",
-        "property order",
-        "recess",
-        "stylelint",
-        "stylelint-config",
-        "stylelint-order"
-    ],
-    "homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
-    "bugs": "https://github.com/stormwarning/stylelint-config-recess-order/issues",
-    "repository": "stormwarning/stylelint-config-recess-order",
-    "license": "ISC",
-    "author": "Jeff Nelson <rustyangel@gmail.com> (http://tidaltheory.co/)",
-    "main": "index.js",
-    "scripts": {
-        "lint": "eslint '**/*.js'",
-        "semantic-release": "semantic-release",
-        "test": "ava"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "*.js": [
-            "eslint --fix",
-            "git add"
-        ],
-        "package.json": [
-            "prettier --write",
-            "git add"
-        ]
-    },
-    "prettier": {
-        "semi": false,
-        "singleQuote": true,
-        "tabWidth": 4,
-        "trailingComma": "all"
-    },
-    "ava": {
-        "require": [
-            "esm"
-        ]
-    },
-    "dependencies": {
-        "stylelint-order": "4.1.x"
-    },
-    "devDependencies": {
-        "@zazen/eslint-config": "2.0.x",
-        "@zazen/semantic-release": "0.1.3",
-        "ava": "3.9.x",
-        "eslint": "6.8.x",
-        "esm": "3.2.25",
-        "husky": "4.2.x",
-        "lint-staged": "10.2.x",
-        "prettier": "2.0.x",
-        "prettier-plugin-packagejson": "2.2.x",
-        "semantic-release": "17.1.x",
-        "stylelint": "13.6.x"
-    },
-    "peerDependencies": {
-        "stylelint": ">=9"
-    },
-    "release": {
-        "extends": "@zazen/semantic-release",
-        "branches": [
-            "master",
-            "next"
-        ]
+  "name": "stylelint-config-recess-order",
+  "version": "2.3.0",
+  "description": "Recess-based property sort order for Stylelint.",
+  "keywords": [
+    "bootstrap",
+    "properties-order",
+    "property order",
+    "recess",
+    "stylelint",
+    "stylelint-config",
+    "stylelint-order"
+  ],
+  "homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
+  "bugs": "https://github.com/stormwarning/stylelint-config-recess-order/issues",
+  "repository": "stormwarning/stylelint-config-recess-order",
+  "license": "ISC",
+  "author": "Jeff Nelson <rustyangel@gmail.com> (https://tidaltheory.io)",
+  "main": "index.js",
+  "scripts": {
+    "changeset": "changeset add",
+    "lint": "eslint '**/*.js'",
+    "release": "changeset publish",
+    "test": "ava"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "package.json": "prettier --write"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "dependencies": {
+    "stylelint-order": "4.1.x"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "0.4.0",
+    "@changesets/cli": "2.16.0",
+    "@zazen/eslint-config": "2.3.x",
+    "ava": "3.9.x",
+    "eslint": "7.24.0",
+    "esm": "3.2.25",
+    "husky": "4.2.x",
+    "lint-staged": "10.2.x",
+    "prettier": "2.2.1",
+    "prettier-plugin-packagejson": "2.2.10",
+    "stylelint": "13.12.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=9"
+  }
 }
