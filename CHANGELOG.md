@@ -1,5 +1,17 @@
 # Change Log
 
+## 2.4.0
+
+### Minor Changes
+
+- [#224](https://github.com/stormwarning/stylelint-config-recess-order/pull/224) [`a52cfdd`](https://github.com/stormwarning/stylelint-config-recess-order/commit/a52cfdd0aec1b0f472e91ef57482dd824292c498) Thanks [@cammarin](https://github.com/cammarin)! - 🎁 Add `text-decoration-*` and `text-underline-*` properties
+  Order based on the [Text Decoration shorthand spec](https://drafts.csswg.org/css-text-decor-4/#text-decoration-property)
+
+* [#229](https://github.com/stormwarning/stylelint-config-recess-order/pull/229) [`aa75649`](https://github.com/stormwarning/stylelint-config-recess-order/commit/aa75649f53f491561db3603b2ebbda7a35b6f941) Thanks [@stormwarning](https://github.com/stormwarning)! - 🎁 Add `overscroll-behavior` properties
+
+- [#228](https://github.com/stormwarning/stylelint-config-recess-order/pull/228) [`d15c500`](https://github.com/stormwarning/stylelint-config-recess-order/commit/d15c5009ca3cf82a6d2afcc347e0d4ad8cf3b464) Thanks [@stormwarning](https://github.com/stormwarning)! - 🎁 Add `font-variant-*` and related properties
+  Order based on [`font-variant` shorthand spec](https://www.w3.org/TR/css-fonts-3/#propdef-font-variant) order.
+
 [![Keep a Changelog](https://img.shields.io/badge/keep%20a-changelog-ef5e39.svg?style=flat-square)](https://keepachangelog.com)
 [![Semantic Versioning](https://img.shields.io/badge/semantic-versioning-333333.svg?style=flat-square)](https://semver.org)
 
@@ -32,7 +44,7 @@ All notable changes to this project will be documented in this file.
   These are added outside of the other `grid` properties, since it is
   now used in `flex` contexts as well, but directly after `grid-gap`
   for better backwards-compatibility.
-  
+
   See [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
   for reference.
 
@@ -62,6 +74,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - 📦 Upgrade dependencies ([#70](https://github.com/stormwarning/stylelint-config-recess-order/issues/70)) ([cad86cd](https://github.com/stormwarning/stylelint-config-recess-order/commit/cad86cd))
+
   - Bump `stylelint-order` from 2.0.0 to 3.0.1
   - Bump `@zazen/eslint-config` from 0.3.0 to 1.0.0 ([#39](https://github.com/stormwarning/stylelint-config-recess-order/issues/39))
   - Bump `stylelint` from 10.0.0 to 10.1.0 ([#57](https://github.com/stormwarning/stylelint-config-recess-order/issues/57))
@@ -95,11 +108,11 @@ All notable changes to this project will be documented in this file.
 
 #### Changed
 
-- 📦 Upgrade dependency versions ([#30](https://github.com/stormwarning/stylelint-config-recess-order/issues/30)) [[`2448510`](https://github.com/stormwarning/stylelint-config-recess-order/commit/2448510)]  
+- 📦 Upgrade dependency versions ([#30](https://github.com/stormwarning/stylelint-config-recess-order/issues/30)) [[`2448510`](https://github.com/stormwarning/stylelint-config-recess-order/commit/2448510)]
   - `stylelint-order` now at `2.x.x`
   - Dev dependencies updated
   - Fixed sub-dependency vulnerabilities fixed per `npm audit`
-- ✅ Add tests ([#29](https://github.com/stormwarning/stylelint-config-recess-order/issues/29)) [[`7197234`](https://github.com/stormwarning/stylelint-config-recess-order/commit/7197234)]  
+- ✅ Add tests ([#29](https://github.com/stormwarning/stylelint-config-recess-order/issues/29)) [[`7197234`](https://github.com/stormwarning/stylelint-config-recess-order/commit/7197234)]
   - Includes AVA test runner
   - Adds stylelint as a dev/peer dependency
   - Adds example code fixtures & basic tests
@@ -184,19 +197,19 @@ All notable changes to this project will be documented in this file.
 
 #### Added
 
-- Compositing properties (*i.e.*, `background-blend-mode`, `isolation`, & `mix-blend-mode`)
+- Compositing properties (_i.e._, `background-blend-mode`, `isolation`, & `mix-blend-mode`)
 
 ## 0.2.0 - 2017-01-28
 
 #### Removed
 
 - Deprecated flexbox properties
-- `extends` property 
+- `extends` property
 
 #### Added
 
 - Properties for CSS Grid layout
-- Missing flexbox properties (*e.g.*, `align-content`, `order`, etc.)
+- Missing flexbox properties (_e.g._, `align-content`, `order`, etc.)
 
 #### Fixed
 
