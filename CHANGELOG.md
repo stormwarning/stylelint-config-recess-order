@@ -1,9 +1,15 @@
 # Change Log
 
-[![Keep a Changelog](https://img.shields.io/badge/keep%20a-changelog-ef5e39.svg?style=flat-square)](https://keepachangelog.com)
-[![Semantic Versioning](https://img.shields.io/badge/semantic-versioning-333333.svg?style=flat-square)](https://semver.org)
+## 2.4.0 — 2021-04-19
 
-All notable changes to this project will be documented in this file.
+#### Added
+
+- 🎁 Add `text-decoration-*` and `text-underline-*` properties [#224](https://github.com/stormwarning/stylelint-config-recess-order/pull/224)  
+  Order based on the [Text Decoration shorthand spec](https://drafts.csswg.org/css-text-decor-4/#text-decoration-property)  
+  Thanks [@cammarin](https://github.com/cammarin)!
+- 🎁 Add `overscroll-behavior` properties [#229](https://github.com/stormwarning/stylelint-config-recess-order/pull/229) 
+- 🎁 Add `font-variant-*` and related properties [#228](https://github.com/stormwarning/stylelint-config-recess-order/pull/228)  
+  Order based on [`font-variant` shorthand spec](https://www.w3.org/TR/css-fonts-3/#propdef-font-variant) order.
 
 <a name="2.3.0"></a>
 
@@ -11,7 +17,7 @@ All notable changes to this project will be documented in this file.
 
 #### Added
 
-- 🎁 Add `clip-path` property ([#195](https://github.com/stormwarning/stylelint-config-recess-order/issues/195)) [[`08c1eca`](https://github.com/stormwarning/stylelint-config-recess-order/commit/08c1eca)]
+- 🎁 Add `clip-path` property [#195](https://github.com/stormwarning/stylelint-config-recess-order/issues/195)
 
 <a name="2.2.0"></a>
 
@@ -19,8 +25,9 @@ All notable changes to this project will be documented in this file.
 
 #### Added
 
-- 🎁 Add `place-items` property ([#193](https://github.com/stormwarning/stylelint-config-recess-order/issues/193)) [[`7d77abc`](https://github.com/stormwarning/stylelint-config-recess-order/commit/7d77abc)] \
-  Shorthand for the `align-items` and `justify-items` properties.
+- 🎁 Add `place-items` property [#193](https://github.com/stormwarning/stylelint-config-recess-order/issues/193)  
+  Shorthand for the `align-items` and `justify-items` properties.  
+  Thanks [@sergiofontes](https://github.com/sergiofontes)!
 
 <a name="2.1.0"></a>
 
@@ -28,17 +35,17 @@ All notable changes to this project will be documented in this file.
 
 #### Added
 
-- 🎁 Add unprefixed `gap` properties ([#166](https://github.com/stormwarning/stylelint-config-recess-order/issues/166)) [[`78c544f`](https://github.com/stormwarning/stylelint-config-recess-order/commit/78c544f)], closes [#140](https://github.com/stormwarning/stylelint-config-recess-order/issues/140) \
+- 🎁 Add unprefixed `gap` properties [#166](https://github.com/stormwarning/stylelint-config-recess-order/issues/166)  
   These are added outside of the other `grid` properties, since it is
   now used in `flex` contexts as well, but directly after `grid-gap`
   for better backwards-compatibility.
-  
+
   See [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
   for reference.
 
 #### Changed
 
-- 📦 Upgrade dependencies ([#165](https://github.com/stormwarning/stylelint-config-recess-order/issues/165)) [[`905c955`](https://github.com/stormwarning/stylelint-config-recess-order/commit/905c955)], closes [#159](https://github.com/stormwarning/stylelint-config-recess-order/issues/159) [#164](https://github.com/stormwarning/stylelint-config-recess-order/issues/164)
+- 📦 Upgrade dependencies [#165](https://github.com/stormwarning/stylelint-config-recess-order/issues/165)
 
 <a name="2.0.4"></a>
 
@@ -46,48 +53,32 @@ All notable changes to this project will be documented in this file.
 
 #### Changed
 
-- 📦 Upgrade semantic-release config [[`6d3a4cd`](https://github.com/stormwarning/stylelint-config-recess-order/commit/6d3a4cd)]
-- 📦 Upgrade dependencies ([#101](https://github.com/stormwarning/stylelint-config-recess-order/issues/101)) [[`b1a8f58`](https://github.com/stormwarning/stylelint-config-recess-order/commit/b1a8f58)] \
+- 📦 Upgrade semantic-release config [`6d3a4cd`](https://github.com/stormwarning/stylelint-config-recess-order/commit/6d3a4cd)
+- 📦 Upgrade dependencies [#101](https://github.com/stormwarning/stylelint-config-recess-order/issues/101)  
   `stylelint-order` bumped to v4. Other internal dependencies upgraded to their latest.
 
 #### Other updates
 
-- 💚 Update CI node versions [[`8ad3f0d`](https://github.com/stormwarning/stylelint-config-recess-order/commit/8ad3f0d)] \
+- 💚 Update CI node versions [`8ad3f0d`](https://github.com/stormwarning/stylelint-config-recess-order/commit/8ad3f0d)  
   `esm` package required for AVA to run in Node 10+.
 
 <a name="2.0.3"></a>
 
-## [2.0.3](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.2...v2.0.3) — 2019-07-13
+### [2.0.3](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.2...v2.0.3) — 2019-07-13
 
-### Changed
+#### Changed
 
-- 📦 Upgrade dependencies ([#70](https://github.com/stormwarning/stylelint-config-recess-order/issues/70)) ([cad86cd](https://github.com/stormwarning/stylelint-config-recess-order/commit/cad86cd))
-  - Bump `stylelint-order` from 2.0.0 to 3.0.1
-  - Bump `@zazen/eslint-config` from 0.3.0 to 1.0.0 ([#39](https://github.com/stormwarning/stylelint-config-recess-order/issues/39))
-  - Bump `stylelint` from 10.0.0 to 10.1.0 ([#57](https://github.com/stormwarning/stylelint-config-recess-order/issues/57))
-  - Bump `ava` from 1.0.1 to 2.2.0
-  - Bump `semantic-release` from 15.13.0 to 15.13.18 ([#64](https://github.com/stormwarning/stylelint-config-recess-order/issues/64))
-  - Bump `husky` from 1.2.1 to 3.0.0 ([#68](https://github.com/stormwarning/stylelint-config-recess-order/issues/68))
-  - Bump `lint-staged` from 8.1.0 to 9.2.0
-
-  Includes some security fixes to sub-dependencies
-
-  - 🔒 Bump `lodash` from 4.17.11 to 4.17.14 ([#75](https://github.com/stormwarning/stylelint-config-recess-order/issues/75))
-  - 🔒 Bump `lodash.template` from 4.4.0 to 4.5.0 ([#74](https://github.com/stormwarning/stylelint-config-recess-order/issues/74))
-  - 🔒 Bump `lodash.merge` from 4.6.1 to 4.6.2 ([#73](https://github.com/stormwarning/stylelint-config-recess-order/issues/73))
+- 📦 Upgrade dependencies [#70](https://github.com/stormwarning/stylelint-config-recess-order/issues/70)  
+  Bump `stylelint-order` from 2.0.0 to 3.0.1
 
 <a name="2.0.2"></a>
 
-## [2.0.2](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.1...v2.0.2) — 2019-04-16
+### [2.0.2](https://github.com/stormwarning/stylelint-config-recess-order/compare/v2.0.1...v2.0.2) — 2019-04-16
 
-### Changed
+#### Changed
 
-- 📦 Update Stylelint to 10.0.0 ([#35](https://github.com/stormwarning/stylelint-config-recess-order/issues/35)) ([3e4d05b](https://github.com/stormwarning/stylelint-config-recess-order/commit/3e4d05b)) \
+- 📦 Update Stylelint to 10.0.0 [#35](https://github.com/stormwarning/stylelint-config-recess-order/issues/35)  
   Also updates `peerDependency` version range.
-
-### Other updates
-
-- 📚 Fix up changelog formatting ([d1d4b89](https://github.com/stormwarning/stylelint-config-recess-order/commit/d1d4b89))
 
 <a name="2.0.1"></a>
 
@@ -95,11 +86,11 @@ All notable changes to this project will be documented in this file.
 
 #### Changed
 
-- 📦 Upgrade dependency versions ([#30](https://github.com/stormwarning/stylelint-config-recess-order/issues/30)) [[`2448510`](https://github.com/stormwarning/stylelint-config-recess-order/commit/2448510)]  
+- 📦 Upgrade dependency versions [#30](https://github.com/stormwarning/stylelint-config-recess-order/issues/30)  
   - `stylelint-order` now at `2.x.x`
   - Dev dependencies updated
   - Fixed sub-dependency vulnerabilities fixed per `npm audit`
-- ✅ Add tests ([#29](https://github.com/stormwarning/stylelint-config-recess-order/issues/29)) [[`7197234`](https://github.com/stormwarning/stylelint-config-recess-order/commit/7197234)]  
+- ✅ Add tests [#29](https://github.com/stormwarning/stylelint-config-recess-order/issues/29)  
   - Includes AVA test runner
   - Adds stylelint as a dev/peer dependency
   - Adds example code fixtures & basic tests
@@ -124,7 +115,7 @@ All notable changes to this project will be documented in this file.
 #### Changed
 
 - Upgraded stylelint-order dependency  
-  Thanks for the nudge, [@ai](https://github.com/ai)
+  Thanks [@ai](https://github.com/ai)!
 
 ### 1.2.3 — 2017-11-14
 
@@ -141,7 +132,7 @@ All notable changes to this project will be documented in this file.
 #### Added
 
 - Vendor-specific `font-smoothing` properties  
-  Thanks, [@yakhinvadim](https://github.com/yakhinvadim).
+  Thanks [@yakhinvadim](https://github.com/yakhinvadim)!
 
 #### Other updates
 
@@ -152,7 +143,7 @@ All notable changes to this project will be documented in this file.
 #### Changed
 
 - [stylelint-order](https://github.com/hudochenkov/stylelint-order) version bumped to latest  
-  Thanks, [@yakhinvadim](https://github.com/yakhinvadim).
+  Thanks [@yakhinvadim](https://github.com/yakhinvadim)!
 
 ## 1.2.0 — 2017-05-19
 
@@ -184,19 +175,19 @@ All notable changes to this project will be documented in this file.
 
 #### Added
 
-- Compositing properties (*i.e.*, `background-blend-mode`, `isolation`, & `mix-blend-mode`)
+- Compositing properties (_i.e._, `background-blend-mode`, `isolation`, & `mix-blend-mode`)
 
 ## 0.2.0 - 2017-01-28
 
 #### Removed
 
 - Deprecated flexbox properties
-- `extends` property 
+- `extends` property
 
 #### Added
 
 - Properties for CSS Grid layout
-- Missing flexbox properties (*e.g.*, `align-content`, `order`, etc.)
+- Missing flexbox properties (_e.g._, `align-content`, `order`, etc.)
 
 #### Fixed
 
@@ -208,4 +199,4 @@ All notable changes to this project will be documented in this file.
 
 ## 0.1.0 - 2017-01-27
 
-#### 🎉 Project created
+#### 🎉 Initial release
