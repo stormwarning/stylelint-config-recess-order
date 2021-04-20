@@ -63,13 +63,13 @@ module.exports = {
             {
                 // Layout alignment.
                 properties: [
-                  'place-items',
-                  'align-content',
-                  'align-items',
-                  'align-self',
-                  'justify-content',
-                  'justify-items',
-                  'justify-self',
+                    'place-items',
+                    'align-content',
+                    'align-items',
+                    'align-self',
+                    'justify-content',
+                    'justify-items',
+                    'justify-self',
                 ],
             },
             {
