@@ -56,7 +56,7 @@
     "lint-staged": "10.5.x",
     "prettier": "2.2.1",
     "prettier-plugin-packagejson": "2.2.10",
-    "stylelint": "13.12.0"
+    "stylelint": "13.13.0"
   },
   "peerDependencies": {
     "stylelint": ">=9"
