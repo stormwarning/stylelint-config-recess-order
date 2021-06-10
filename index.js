@@ -4,7 +4,7 @@ module.exports = {
         'order/properties-order': [
             {
                 // Must be first.
-                properties: ['all'],
+                properties: ['all', 'appearance'],
             },
             {
                 // Position.
