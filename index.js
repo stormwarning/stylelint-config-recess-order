@@ -10,6 +10,9 @@ module.exports = {
                 // Position.
                 properties: [
                     'position',
+                    'inset',
+                    'inset-block',
+                    'inset-inline',
                     'top',
                     'right',
                     'bottom',
