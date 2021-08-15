@@ -55,7 +55,7 @@
     "husky": "4.2.x",
     "lint-staged": "10.5.x",
     "prettier": "2.3.2",
-    "prettier-plugin-packagejson": "2.2.10",
+    "prettier-plugin-packagejson": "2.2.11",
     "stylelint": "13.12.0"
   },
   "peerDependencies": {
