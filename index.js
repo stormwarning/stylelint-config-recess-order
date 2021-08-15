@@ -63,7 +63,9 @@ module.exports = {
             {
                 // Layout alignment.
                 properties: [
+                    'place-content',
                     'place-items',
+                    'place-self',
                     'align-content',
                     'align-items',
                     'align-self',
