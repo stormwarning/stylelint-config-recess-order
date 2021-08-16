@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.5.0 — 2021-08-15
+
+#### Added
+
+- 🎁 Add `inset-*` properties [#242](https://github.com/stormwarning/stylelint-config-recess-order/pull/242)  
+  Thanks [@xeho91](https://github.com/xeho91)!
+- 🎁 Add `place-content` and `place-self` properties [#249](https://github.com/stormwarning/stylelint-config-recess-order/pull/249)  
+  Thanks [@chalkygames123](https://github.com/chalkygames123), [@ModyQyW](https://github.com/ModyQyW)!
+
 ## 2.4.0 — 2021-04-19
 
 #### Added
@@ -7,7 +16,7 @@
 - 🎁 Add `text-decoration-*` and `text-underline-*` properties [#224](https://github.com/stormwarning/stylelint-config-recess-order/pull/224)  
   Order based on the [Text Decoration shorthand spec](https://drafts.csswg.org/css-text-decor-4/#text-decoration-property)  
   Thanks [@cammarin](https://github.com/cammarin)!
-- 🎁 Add `overscroll-behavior` properties [#229](https://github.com/stormwarning/stylelint-config-recess-order/pull/229) 
+- 🎁 Add `overscroll-behavior` properties [#229](https://github.com/stormwarning/stylelint-config-recess-order/pull/229)
 - 🎁 Add `font-variant-*` and related properties [#228](https://github.com/stormwarning/stylelint-config-recess-order/pull/228)  
   Order based on [`font-variant` shorthand spec](https://www.w3.org/TR/css-fonts-3/#propdef-font-variant) order.
 
@@ -86,11 +95,11 @@
 
 #### Changed
 
-- 📦 Upgrade dependency versions [#30](https://github.com/stormwarning/stylelint-config-recess-order/issues/30)  
+- 📦 Upgrade dependency versions [#30](https://github.com/stormwarning/stylelint-config-recess-order/issues/30)
   - `stylelint-order` now at `2.x.x`
   - Dev dependencies updated
   - Fixed sub-dependency vulnerabilities fixed per `npm audit`
-- ✅ Add tests [#29](https://github.com/stormwarning/stylelint-config-recess-order/issues/29)  
+- ✅ Add tests [#29](https://github.com/stormwarning/stylelint-config-recess-order/issues/29)
   - Includes AVA test runner
   - Adds stylelint as a dev/peer dependency
   - Adds example code fixtures & basic tests
