@@ -1,14 +1,13 @@
 # Change Log
 
-## 2.5.0
+## 2.5.0 — 2021-08-15
 
-### Minor Changes
+#### Added
 
-- [#242](https://github.com/stormwarning/stylelint-config-recess-order/pull/242) [`a8da2ff`](https://github.com/stormwarning/stylelint-config-recess-order/commit/a8da2ff6663be0355bb04ed3671560a46b5b0b66) Thanks [@xeho91](https://github.com/xeho91)! - 🎁 Add `inset-*` properties
-
-  Fixes #241
-
-* [#249](https://github.com/stormwarning/stylelint-config-recess-order/pull/249) [`40bb724`](https://github.com/stormwarning/stylelint-config-recess-order/commit/40bb7243f3720ebb858acb6dfc44137a35e33523) Thanks [@chalkygames123](https://github.com/chalkygames123)! - 🎁 Add `place-content` and `place-self` properties
+- 🎁 Add `inset-*` properties [#242](https://github.com/stormwarning/stylelint-config-recess-order/pull/242)  
+  Thanks [@xeho91](https://github.com/xeho91)!
+- 🎁 Add `place-content` and `place-self` properties [#249](https://github.com/stormwarning/stylelint-config-recess-order/pull/249)  
+  Thanks [@chalkygames123](https://github.com/chalkygames123), [@ModyQyW](https://github.com/ModyQyW)!
 
 ## 2.4.0 — 2021-04-19
 
