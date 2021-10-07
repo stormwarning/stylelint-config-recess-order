@@ -184,6 +184,7 @@ module.exports = {
                     'list-style-position',
                     'list-style-type',
                     'list-style-image',
+                    'src',
                 ],
             },
             {
@@ -223,6 +224,7 @@ module.exports = {
                     'filter:progid:DXImageTransform.Microsoft.gradient',
                     'filter:progid:DXImageTransform.Microsoft.AlphaImageLoader',
                     'filter',
+                    'backdrop-filter',
                     'background-repeat',
                     'background-attachment',
                     'background-position',
