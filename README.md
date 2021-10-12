@@ -2,7 +2,6 @@
 
 [![npm version][npm-img]][npm-url]
 [![npm downloads][npm-dls]][npm-url]
-[![dependency status][david-img]][david-url]
 [![github issues][issues-img]][issues-url]
 
 A [Stylelint][] config that sorts CSS properties the way [Recess][] did and
@@ -33,8 +32,6 @@ Bootstrap [did][]/[does][].
 [npm-url]: https://www.npmjs.com/package/stylelint-config-recess-order
 [npm-img]: https://img.shields.io/npm/v/stylelint-config-recess-order.svg?style=flat-square
 [npm-dls]: https://img.shields.io/npm/dt/stylelint-config-recess-order.svg?style=flat-square
-[david-url]: https://david-dm.org/stormwarning/stylelint-config-recess-order
-[david-img]: https://img.shields.io/david/stormwarning/stylelint-config-recess-order.svg?style=flat-square
 [issues-url]: https://github.com/stormwarning/stylelint-config-recess-order/issues
 [issues-img]: https://img.shields.io/github/issues/stormwarning/stylelint-config-recess-order.svg?style=flat-square
 [stylelint]: https://github.com/stylelint/stylelint
