@@ -46,7 +46,7 @@
     "stylelint-order": "4.1.x"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.4.0",
+    "@changesets/changelog-github": "0.4.1",
     "@changesets/cli": "2.17.0",
     "@zazen/eslint-config": "2.3.x",
     "ava": "3.15.x",
