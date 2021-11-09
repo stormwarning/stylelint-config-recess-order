@@ -1,5 +1,21 @@
 # Change Log
 
+## 2.6.0
+
+### Minor Changes
+
+- [#271](https://github.com/stormwarning/stylelint-config-recess-order/pull/271) [`4fbc8e7`](https://github.com/stormwarning/stylelint-config-recess-order/commit/4fbc8e78ea572c9b78fccddb361bb5fac522747a) Thanks [@stormwarning](https://github.com/stormwarning)! - Add `@font-face`–specific properties
+
+  Adds `src` and [other properties](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+  pertaining to display and metrics following the list properties in
+  the typography group.
+
+  Also adds the `font-variation-settings` and `font-optical-sizing`
+  OpenType properties.
+
+* [#257](https://github.com/stormwarning/stylelint-config-recess-order/pull/257) [`73eb83f`](https://github.com/stormwarning/stylelint-config-recess-order/commit/73eb83f4af49d345abed76f2de2ff2c6df4ef9c0) Thanks [@4dr1en](https://github.com/4dr1en)! - Add `aspect-ratio` and logical properties
+  [CSS Logical Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) control layout based on the writing mode.
+
 ## 2.5.0 — 2021-08-15
 
 #### Added
