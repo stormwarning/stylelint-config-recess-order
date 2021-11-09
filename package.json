@@ -54,7 +54,7 @@
     "esm": "3.2.25",
     "husky": "4.2.x",
     "lint-staged": "11.1.x",
-    "prettier": "2.3.2",
+    "prettier": "2.4.1",
     "prettier-plugin-packagejson": "2.2.11",
     "stylelint": "13.13.1"
   },
