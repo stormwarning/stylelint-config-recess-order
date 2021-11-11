@@ -1,5 +1,13 @@
 # Change Log
 
+## 3.0.0 — 2021-11-11
+
+#### 💣 Breaking
+
+- Upgrade `stylelint-order` to v5 [#272](https://github.com/stormwarning/stylelint-config-recess-order/pull/272)  
+  [`stylelint-order`](https://github.com/hudochenkov/stylelint-order/blob/master/CHANGELOG.md#500)'s minimum supported version of Stylelint is now >=14; the
+  peerDependencies of this config have been updated to match.
+
 ## 2.6.0 — 2021-11-09
 
 #### 🎁 Added
