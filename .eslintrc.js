@@ -1,4 +1,6 @@
 module.exports = {
     extends: '@zazen/eslint-config',
-    rules: {},
+    rules: {
+        'unicorn/prefer-module': 'off',
+    },
 }
