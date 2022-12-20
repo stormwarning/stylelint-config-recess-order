@@ -3,7 +3,7 @@ import stylelint from 'stylelint'
 
 import config from '../index.js'
 
-import { correctOrder, incorrectOrder } from './_fixtures.js'
+import { correctOrder, incorrectOrder } from './_fixtures.mjs'
 
 const runStylelint = async (code) => {
 	let data = await stylelint.lint({
