@@ -25,7 +25,10 @@
     "test": "ava"
   },
   "lint-staged": {
-    "*.js": "eslint --fix",
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ],
     "package.json": "prettier --write"
   },
   "prettier": {

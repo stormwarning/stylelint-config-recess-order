@@ -18,10 +18,10 @@ Bootstrap [did][]/[does][].
 2.  Configure your stylelint configuration file to extend this package:
     ```js
     module.exports = {
-        extends: ['stylelint-config-recess-order'],
-        rules: {
-            // Add overrides and additional rules here
-        },
+    	extends: ['stylelint-config-recess-order'],
+    	rules: {
+    		// Add overrides and additional rules here
+    	},
     }
     ```
 
