@@ -8,16 +8,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # https://github.com/actions/checkout
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # https://github.com/pnpm/action-setup
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6
+
+      # https://github.com/actions/setup-node
       - name: Setup Node.js 14.x
-        uses: actions/setup-node@v3.5.1
+        uses: actions/setup-node@v3
         with:
           node-version: 14.x
+          cache: pnpm
 
-      - name: Install deps and build (with cache)
-        uses: bahmutov/npm-install@v1
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Lint
         run: npm run lint

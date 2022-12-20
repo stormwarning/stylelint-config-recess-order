@@ -9,7 +9,9 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+
     steps:
+      # https://github.com/actions/checkout
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
@@ -17,18 +19,25 @@ jobs:
           # generate changelogs with the correct commits.
           fetch-depth: 0
 
+      # https://github.com/pnpm/action-setup
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6
+
+      # https://github.com/actions/setup-node
       - name: Setup Node.js 14.x
-        uses: actions/setup-node@v3.5.1
+        uses: actions/setup-node@v3
         with:
           node-version: 14.x
+          cache: pnpm
 
-      - name: Install deps and build (with cache)
-        uses: bahmutov/npm-install@v1
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
-      - name: Create Release Pull Request or Publish to npm
+      # https://github.com/changesets/action
+      - name: Create release PR or publish to npm
         id: changesets
-        # https://github.com/changesets/action
-        uses: changesets/action@master
+        uses: changesets/action@v1
         with:
           title: '🔖 Publish release'
           # This expects you to have a script called release which does a build
