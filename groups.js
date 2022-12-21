@@ -6,7 +6,14 @@
 /** @type {Group[]} */
 const propertyGroups = [
 	{
-		// Must be first.
+		/**
+		 * Compose rules from other selectors in CSS Modules.
+		 * @see https://github.com/css-modules/css-modules#composition
+		 */
+		properties: ['composes'],
+	},
+	{
+		// Must be first (unless using the above).
 		properties: ['all'],
 	},
 	{
