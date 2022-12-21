@@ -25,6 +25,27 @@ Bootstrap [did][]/[does][].
     }
     ```
 
+## Advanced
+
+The default setup applies only the `'order/properties-order'` rule with the various property groups. If you need to configure other options for this rule,
+the groups can be imported separately and the rule configured to your needs.
+
+```js
+const propertyGroups = require('stylelint-config-recess-order/groups')
+
+module.exports = {
+	extends: [], // Do not extend the config here.
+	rules: {
+		// Configure the rule manually.
+		'order/properties-order': propertyGroups.map((group) => ({
+			...group,
+			emptyLineBefore: 'always',
+			noEmptyLineBetween: true,
+		})),
+	},
+}
+```
+
 ## References
 
 [@mdo on CSS Property Order][mdo-order]

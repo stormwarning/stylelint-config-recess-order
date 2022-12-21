@@ -17,6 +17,10 @@
   "license": "ISC",
   "author": "Jeff (https://tidaltheory.io)",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "groups.js"
+  ],
   "scripts": {
     "changeset": "changeset add",
     "lint": "eslint '**/*.js'",
