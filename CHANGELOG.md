@@ -1,5 +1,14 @@
 # Change Log
 
+## 3.1.0 — 2022-12-20
+
+### Minor Changes
+
+- Add `composes` property from CSS Modules [#325](https://github.com/stormwarning/stylelint-config-recess-order/pull/325)
+- Add separate propertyGroups export [#323](https://github.com/stormwarning/stylelint-config-recess-order/pull/323)
+
+  Should help make customising the rule config a little easier.
+
 ## 3.0.0 — 2021-11-11
 
 #### 💣 Breaking
