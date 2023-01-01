@@ -59,7 +59,7 @@
     "lint-staged": "13.1.0",
     "prettier": "2.8.1",
     "prettier-plugin-packagejson": "2.3.0",
-    "stylelint": "14.16.0"
+    "stylelint": "14.16.1"
   },
   "peerDependencies": {
     "stylelint": ">=14"
