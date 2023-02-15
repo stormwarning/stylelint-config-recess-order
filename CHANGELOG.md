@@ -1,5 +1,13 @@
 # Change Log
 
+## 4.0.0
+
+### Major Changes
+
+- [`c734150`](https://github.com/stormwarning/stylelint-config-recess-order/commit/c734150496f7bd6f40a59d2a90cb4e882c37ceb2) Thanks [@stormwarning](https://github.com/stormwarning)! - Upgrade `stylelint-order` to v6
+
+  [`stylelint-order`](https://github.com/hudochenkov/stylelint-order/blob/master/CHANGELOG.md#600) dropped support for Node v12 and v14. A peerDependency of Stylelint at v15 has also been updated to match.
+
 ## 3.1.0 — 2022-12-20
 
 ### Minor Changes
