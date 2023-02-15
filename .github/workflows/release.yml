@@ -25,10 +25,10 @@ jobs:
           version: 6
 
       # https://github.com/actions/setup-node
-      - name: Setup Node.js 14.x
+      - name: Setup Node.js 16.x
         uses: actions/setup-node@v3
         with:
-          node-version: 14.x
+          node-version: 16.x
           cache: pnpm
 
       - name: Install dependencies
