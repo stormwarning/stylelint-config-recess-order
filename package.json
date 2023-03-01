@@ -53,7 +53,7 @@
     "@changesets/cli": "2.26.0",
     "@zazen/eslint-config": "6.2.1",
     "ava": "5.2.0",
-    "eslint": "8.34.0",
+    "eslint": "8.35.0",
     "esm": "3.2.25",
     "husky": "8.0.3",
     "lint-staged": "13.1.1",
