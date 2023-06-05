@@ -1,5 +1,17 @@
 # Change Log
 
+## 4.1.0
+
+### Minor Changes
+
+- [#339](https://github.com/stormwarning/stylelint-config-recess-order/pull/339) [`347b272`](https://github.com/stormwarning/stylelint-config-recess-order/commit/347b272d6a31924dc54a2fa8c0dcafa6c8f282d0) Thanks [@taichi221228](https://github.com/taichi221228)! - Add independent transform properties
+
+  - [`translate`](https://developer.mozilla.org/en-US/docs/Web/CSS/translate)
+  - [`scale`](https://developer.mozilla.org/en-US/docs/Web/CSS/scale)
+  - [`rotate`](https://developer.mozilla.org/en-US/docs/Web/CSS/rotate)
+
+  Note: unlike the transform function versions, the order of these properties does not affect the result.
+
 ## 4.0.0 — 2023-02-14
 
 ### Major Changes
