@@ -223,10 +223,14 @@ const propertyGroups = [
 	{
 		// Accessibility & Interactions.
 		properties: [
+			'appearance',
+			'accent-color',
+			'color-scheme',
 			'pointer-events',
 			'-ms-touch-action',
 			'touch-action',
 			'cursor',
+			'caret-color',
 			'visibility',
 			'zoom',
 			'table-layout',
@@ -237,6 +241,7 @@ const propertyGroups = [
 			'content',
 			'quotes',
 			'counter-reset',
+			'counter-set',
 			'counter-increment',
 			'resize',
 			'user-select',
