@@ -1,5 +1,17 @@
 # Change Log
 
+## 4.2.0
+
+### Minor Changes
+
+- [#341](https://github.com/stormwarning/stylelint-config-recess-order/pull/341) [`d8918d3`](https://github.com/stormwarning/stylelint-config-recess-order/commit/d8918d3bd977b7c657f3b0fd323e22c93d32bd71) Thanks [@stormwarning](https://github.com/stormwarning)! - Add Basic User Interface properties
+
+  - `appearance`
+  - `accent-color`
+  - `caret-color`
+
+  Also adds new/missing properties `color-scheme` and `counter-set`.
+
 ## 4.1.0 — 2023-06-05
 
 ### Minor Changes
