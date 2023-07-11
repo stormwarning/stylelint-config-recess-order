@@ -1,5 +1,16 @@
 # Change Log
 
+## 4.3.0 — 2023-07-10
+
+### Minor Changes
+
+- Add `backdrop-filter` to Background group [#345](https://github.com/stormwarning/stylelint-config-recess-order/pull/345)
+- Add missing logical properties [#343](https://github.com/stormwarning/stylelint-config-recess-order/pull/343)
+
+  - Specific `-start` and `-end` for block and inline `inset` properties
+  - `inline-size` and `block-size`, as well as `min-` and `max-` for both
+  - Block and inline forms of `overflow`
+
 ## 4.2.0 — 2023-06-06
 
 ### Minor Changes
