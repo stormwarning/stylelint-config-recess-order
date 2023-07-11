@@ -284,6 +284,7 @@ const propertyGroups = [
 			'background-size',
 			'background-blend-mode',
 			'isolation',
+			'backdrop-filter',
 			'border',
 			'border-color',
 			'border-style',
