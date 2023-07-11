@@ -1,6 +1,6 @@
 # Change Log
 
-## 4.3.0
+## 4.3.0 — 2023-07-10
 
 ### Minor Changes
 
