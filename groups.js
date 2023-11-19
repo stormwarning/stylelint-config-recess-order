@@ -352,6 +352,27 @@ const propertyGroups = [
 		],
 	},
 	{
+		// Masking.
+		properties: [
+			'mask-border',
+			'mask-border-source',
+			'mask-border-slice',
+			'mask-border-width',
+			'mask-border-outset',
+			'mask-border-repeat',
+			'mask-border-mode',
+			'mask',
+			'mask-image',
+			'mask-mode',
+			'mask-repeat',
+			'mask-position',
+			'mask-clip',
+			'mask-origin',
+			'mask-size',
+			'mask-composite',
+		],
+	},
+	{
 		// SVG Presentation Attributes.
 		properties: [
 			'alignment-baseline',
@@ -384,7 +405,6 @@ const propertyGroups = [
 			'marker-start',
 			'marker-mid',
 			'marker-end',
-			'mask',
 			'shape-rendering',
 			'stop-color',
 			'stop-opacity',
