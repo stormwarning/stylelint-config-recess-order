@@ -4,7 +4,7 @@
 
 ### Minor Changes
 
-- [#349](https://github.com/stormwarning/stylelint-config-recess-order/pull/349) [`3a28977`](https://github.com/stormwarning/stylelint-config-recess-order/commit/3a28977fe29cb29bd99b80924b0070f339abeb4b) Thanks [@stormwarning](https://github.com/stormwarning)! - Add Masking properties
+- Add Masking properties [#349](https://github.com/stormwarning/stylelint-config-recess-order/pull/349)
 
   - [`mask-border`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border) and related longhand properties
   - [`mask`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask) and related longhand properties
@@ -15,7 +15,8 @@
 
 ### Patch Changes
 
-- [#346](https://github.com/stormwarning/stylelint-config-recess-order/pull/346) [`09d9761`](https://github.com/stormwarning/stylelint-config-recess-order/commit/09d97618e22cc7a7c5bcb97f699b95cd3108122d) Thanks [@azat-io](https://github.com/azat-io)! - Fix `block-size` property support
+- Fix `block-size` property support [#346](https://github.com/stormwarning/stylelint-config-recess-order/pull/346)  
+  Thanks [@azat-io](https://github.com/azat-io)!
 
 ## 4.3.0 — 2023-07-10
 
