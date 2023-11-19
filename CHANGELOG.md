@@ -1,5 +1,22 @@
 # Change Log
 
+## 4.4.0
+
+### Minor Changes
+
+- [#349](https://github.com/stormwarning/stylelint-config-recess-order/pull/349) [`3a28977`](https://github.com/stormwarning/stylelint-config-recess-order/commit/3a28977fe29cb29bd99b80924b0070f339abeb4b) Thanks [@stormwarning](https://github.com/stormwarning)! - Add Masking properties
+
+  - [`mask-border`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border) and related longhand properties
+  - [`mask`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask) and related longhand properties
+
+  `mask` was previously included within some SVG-specific properties — it’s been moved above those and below border & outline properties.
+
+  `mask-border` properties are sorted above `mask` to highlight the fact that `mask` will reset `mask-border` to its initial value ([as per W3C spec](https://drafts.fxtf.org/css-masking/#the-mask)). I’m not familiar with this properties; if this order is problematic in practice, please file an issue!
+
+### Patch Changes
+
+- [#346](https://github.com/stormwarning/stylelint-config-recess-order/pull/346) [`09d9761`](https://github.com/stormwarning/stylelint-config-recess-order/commit/09d97618e22cc7a7c5bcb97f699b95cd3108122d) Thanks [@azat-io](https://github.com/azat-io)! - Fix `block-size` property support
+
 ## 4.3.0 — 2023-07-10
 
 ### Minor Changes
