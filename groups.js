@@ -431,6 +431,7 @@ const propertyGroups = [
 			'animation-delay',
 			'animation-iteration-count',
 			'animation-direction',
+			'will-change',
 		],
 	},
 ]
