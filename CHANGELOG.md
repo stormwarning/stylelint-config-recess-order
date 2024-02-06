@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.5.0
+
+### Minor Changes
+
+- Add `will-change` property to the Transitions & Animation group. ([#353](https://github.com/stormwarning/stylelint-config-recess-order/pull/353))
+
 ## 4.4.0 — 2023-11-19
 
 ### Minor Changes
