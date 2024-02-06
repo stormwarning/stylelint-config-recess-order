@@ -24,7 +24,7 @@
   "scripts": {
     "changeset": "changeset add",
     "lint": "eslint '**/*.js'",
-    "prepare": "husky install",
+    "prepare": "husky",
     "release": "changeset publish",
     "test": "ava"
   },
@@ -49,16 +49,16 @@
     "stylelint-order": "6.x"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.4.8",
-    "@changesets/cli": "2.26.0",
-    "@zazen/eslint-config": "6.2.1",
+    "@changesets/cli": "2.27.1",
+    "@zazen/changesets-changelog": "2.0.3",
+    "@zazen/eslint-config": "6.7.0",
     "ava": "5.2.0",
-    "eslint": "8.34.0",
+    "eslint": "8.56.0",
     "esm": "3.2.25",
-    "husky": "8.0.3",
-    "lint-staged": "13.1.1",
-    "prettier": "2.8.4",
-    "prettier-plugin-packagejson": "2.4.3",
+    "husky": "9.0.10",
+    "lint-staged": "15.2.2",
+    "prettier": "3.2.5",
+    "prettier-plugin-packagejson": "2.4.10",
     "stylelint": "15.1.0",
     "typescript": "4.9.5"
   },

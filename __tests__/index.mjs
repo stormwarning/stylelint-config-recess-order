@@ -2,7 +2,6 @@ import test from 'ava'
 import stylelint from 'stylelint'
 
 import config from '../index.js'
-
 import { correctOrder, incorrectOrder } from './_fixtures.mjs'
 
 const runStylelint = async (code) => {
