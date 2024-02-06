@@ -1,5 +1,12 @@
 # Change Log
 
+## 4.5.0
+
+### Minor Changes
+
+- Add `will-change` property to the Transitions & Animation group. ([#353](https://github.com/stormwarning/stylelint-config-recess-order/pull/353))
+  Thanks [@connor-baer](https://github.com/connor-baer)!
+
 ## 4.4.0 — 2023-11-19
 
 ### Minor Changes
@@ -11,7 +18,7 @@
 
   `mask` was previously included within some SVG-specific properties — it’s been moved above those and below border & outline properties.
 
-  `mask-border` properties are sorted above `mask` to highlight the fact that `mask` will reset `mask-border` to its initial value ([as per W3C spec](https://drafts.fxtf.org/css-masking/#the-mask)). I’m not familiar with this properties; if this order is problematic in practice, please file an issue!
+  `mask-border` properties are sorted above `mask` to highlight the fact that `mask` will reset `mask-border` to its initial value ([as per W3C spec](https://drafts.fxtf.org/css-masking/#the-mask)). I’m not familiar with these properties; if this order is problematic in practice, please file an issue!
 
 ### Patch Changes
 
