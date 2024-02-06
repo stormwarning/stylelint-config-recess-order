@@ -423,6 +423,8 @@ const propertyGroups = [
 			'rotate',
 			'scale',
 			'translate',
+			'perspective',
+			'perspective-origin',
 			'animation',
 			'animation-name',
 			'animation-duration',
