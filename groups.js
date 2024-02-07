@@ -265,8 +265,15 @@ const propertyGroups = [
 		],
 	},
 	{
-		// Background & Borders.
+		// Images, backgrounds, & borders.
 		properties: [
+			'object-fit',
+			'object-position',
+			'-ms-interpolation-mode',
+			'image-orientation',
+			'image-rendering',
+			'image-resolution',
+
 			'background',
 			'background-color',
 			'background-image',
@@ -348,7 +355,6 @@ const propertyGroups = [
 			'filter:progid:DXImageTransform.Microsoft.Alpha(Opacity',
 			"-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
 			'opacity',
-			'-ms-interpolation-mode',
 		],
 	},
 	{
@@ -400,7 +406,6 @@ const propertyGroups = [
 			'color-rendering',
 			'flood-color',
 			'flood-opacity',
-			'image-rendering',
 			'lighting-color',
 			'marker-start',
 			'marker-mid',
