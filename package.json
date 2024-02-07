@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-recess-order",
-  "version": "4.5.0",
+  "version": "4.6.0",
   "description": "Recess-based property sort order for Stylelint.",
   "keywords": [
     "bootstrap",

@@ -1,5 +1,22 @@
 # Change Log
 
+## 4.6.0
+
+### Minor Changes
+
+- Add `perspective-*` properties ([#356](https://github.com/stormwarning/stylelint-config-recess-order/pull/356))
+
+  - [`perspective`](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
+  - [`perspective-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin)
+
+- Add `object-*` and `image-*` properties ([#357](https://github.com/stormwarning/stylelint-config-recess-order/pull/357))
+
+  - [`object-fit`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+  - [`object-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position)
+  - [`image-orientation`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-orientation)
+  - [`image-rendering`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering)
+  - [`image-resolution`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-resolution)
+
 ## 4.5.0
 
 ### Minor Changes
