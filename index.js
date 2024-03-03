@@ -1,8 +1,10 @@
-const propertyGroups = require('./groups.js')
+import propertyGroups from './groups.js'
 
-module.exports = {
+const config = {
 	plugins: ['stylelint-order'],
 	rules: {
 		'order/properties-order': propertyGroups,
 	},
 }
+
+export default config

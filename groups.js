@@ -443,4 +443,4 @@ const propertyGroups = [
 	},
 ]
 
-module.exports = propertyGroups
+export default propertyGroups
