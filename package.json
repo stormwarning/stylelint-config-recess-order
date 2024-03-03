@@ -55,7 +55,7 @@
     "@zazen/changesets-changelog": "2.0.3",
     "@zazen/eslint-config": "6.7.0",
     "ava": "5.2.0",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "esm": "3.2.25",
     "husky": "9.0.10",
     "lint-staged": "15.2.2",
