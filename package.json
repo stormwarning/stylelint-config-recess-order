@@ -53,7 +53,7 @@
   "devDependencies": {
     "@changesets/cli": "2.27.1",
     "@zazen/changesets-changelog": "2.0.3",
-    "@zazen/eslint-config": "6.7.0",
+    "@zazen/eslint-config": "6.8.0",
     "ava": "5.2.0",
     "eslint": "8.56.0",
     "esm": "3.2.25",
