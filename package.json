@@ -3,7 +3,10 @@
   "version": "5.0.0",
   "description": "Recess-based property sort order for Stylelint.",
   "type": "module",
-  "exports": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./groups": "./groups.js"
+  },
   "keywords": [
     "bootstrap",
     "properties-order",
