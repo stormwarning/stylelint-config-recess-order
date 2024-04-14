@@ -201,6 +201,7 @@ const propertyGroups = [
 			'text-indent',
 			'text-justify',
 			'text-outline',
+			'-o-text-overflow',
 			'-ms-text-overflow',
 			'text-overflow',
 			'text-overflow-ellipsis',
@@ -218,6 +219,10 @@ const propertyGroups = [
 			'tab-size',
 			'white-space',
 			'vertical-align',
+			'box-orient',
+			'-webkit-box-orient',
+			'line-clamp',
+			'-webkit-line-clamp',
 
 			'list-style',
 			'list-style-position',
