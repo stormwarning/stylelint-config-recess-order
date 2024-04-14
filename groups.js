@@ -263,6 +263,7 @@ const propertyGroups = [
 			'counter-increment',
 			'resize',
 			'user-select',
+			'-webkit-user-select',
 			'nav-index',
 			'nav-up',
 			'nav-right',
