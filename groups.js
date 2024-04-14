@@ -184,6 +184,7 @@ const propertyGroups = [
 			'hyphens',
 			'line-height',
 			'color',
+			'-webkit-text-fill-color',
 			'text-align',
 			'text-align-last',
 			'text-emphasis',
