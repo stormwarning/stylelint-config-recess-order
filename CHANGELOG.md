@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.0.1
+
+### Patch Changes
+
+- Add `groups` to package.json exports ([#369](https://github.com/stormwarning/stylelint-config-recess-order/pull/369))
+
 ## 5.0.0
 
 ### Major Changes
