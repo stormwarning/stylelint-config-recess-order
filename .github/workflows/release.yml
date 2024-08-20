@@ -13,22 +13,22 @@ jobs:
     steps:
       # https://github.com/actions/checkout
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           # This makes Actions fetch all Git history so that Changesets can
           # generate changelogs with the correct commits.
           fetch-depth: 0
 
       # https://github.com/pnpm/action-setup
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v3
         with:
           version: 6
 
       # https://github.com/actions/setup-node
-      - name: Setup Node.js 16.x
-        uses: actions/setup-node@v3
+      - name: Setup Node.js 18.x
+        uses: actions/setup-node@v4
         with:
-          node-version: 16.x
+          node-version: 18.x
           cache: pnpm
 
       - name: Install dependencies
@@ -39,7 +39,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          title: 'Chore: Publish release'
+          title: 'Publish release'
           # This expects you to have a script called release which does a build
           # for your packages and calls changeset publish
           publish: npm run release
