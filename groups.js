@@ -482,6 +482,19 @@ const propertyGroups = [
 			'will-change',
 		],
 	},
+	{
+		/**
+		 * Paged media
+		 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_paged_media
+		 */
+		properties: [
+			'break-before',
+			'break-inside',
+			'break-after',
+			'orphans',
+			'widows',
+		],
+	},
 ]
 
 export default propertyGroups
