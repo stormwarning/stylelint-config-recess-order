@@ -1,10 +1,52 @@
 # Change Log
 
+## 5.1.0
+
+### Minor Changes
+
+- Add properties related to multi-line truncation ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))
+  Thanks [@toFrankie](https://github.com/toFrankie)!
+
+  - [`-webkit-box-orient`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-orient)
+  - [`-webkit-line-clamp`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp)
+  - `line-clamp`
+
+- Add paged media properties ([#378](https://github.com/stormwarning/stylelint-config-recess-order/pull/378))
+
+  - [`break-before`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-before)
+  - [`break-inside`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside)
+  - [`break-after`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-after)
+  - [`orphans`](https://developer.mozilla.org/en-US/docs/Web/CSS/orphans)
+  - [`widows`](https://developer.mozilla.org/en-US/docs/Web/CSS/widows)
+
+- Add `-webkit-text-fill-` and `-stroke-*` properties ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))
+  Thanks [@toFrankie](https://github.com/toFrankie)!
+
+  - [`-webkit-text-fill-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color)
+  - [`-webkit-text-stroke-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke)
+
+- Add `scroll-*` and `scrollbar-*` properties ([#376](https://github.com/stormwarning/stylelint-config-recess-order/pull/376))
+
+  - [`scroll-behavior`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
+  - [`scroll-snap-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
+  - [`scroll-snap-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align)
+  - [`scroll-snap-stop`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-stop)
+  - [`scroll-padding-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding)
+  - [`scroll-margin-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin)
+  - [`scrollbar-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-color)
+  - [`scrollbar-gutter`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter)
+  - [`scrollbar-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width)
+
+- Remove legacy `-ms-text-overflow` property ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))
+  Thanks [@toFrankie](https://github.com/toFrankie)!
+
+  This was useful for IE8; can be autoprefixed if required.
+
 ## 5.0.1
 
 ### Patch Changes
 
-- Add `groups` to package.json exports ([#369](https://github.com/stormwarning/stylelint-config-recess-order/pull/369))
+- Add `groups` to package.json exports ([#369](https://github.com/stormwarning/stylelint-config-recess-order/pull/369))  
   Thanks [@inulty-dfe](https://github.com/inulty-dfe)!
 
 ## 5.0.0
@@ -34,7 +76,7 @@
 
 ### Minor Changes
 
-- Add `will-change` property to the Transitions & Animation group ([#353](https://github.com/stormwarning/stylelint-config-recess-order/pull/353))
+- Add `will-change` property to the Transitions & Animation group ([#353](https://github.com/stormwarning/stylelint-config-recess-order/pull/353))  
   Thanks [@connor-baer](https://github.com/connor-baer)!
 
 ## 4.4.0 — 2023-11-19
@@ -52,7 +94,7 @@
 
 ### Patch Changes
 
-- Fix `block-size` property support [#346](https://github.com/stormwarning/stylelint-config-recess-order/pull/346)
+- Fix `block-size` property support [#346](https://github.com/stormwarning/stylelint-config-recess-order/pull/346)  
   Thanks [@azat-io](https://github.com/azat-io)!
 
 ## 4.3.0 — 2023-07-10
@@ -82,7 +124,7 @@
 
 ### Minor Changes
 
-- Add independent transform properties [#339](https://github.com/stormwarning/stylelint-config-recess-order/pull/339)
+- Add independent transform properties [#339](https://github.com/stormwarning/stylelint-config-recess-order/pull/339)  
   Thanks [@taichi221228](https://github.com/taichi221228)!
 
   - [`translate`](https://developer.mozilla.org/en-US/docs/Web/CSS/translate)
@@ -134,9 +176,9 @@
 
 #### 🎁 Added
 
-- Add `inset-*` properties [#242](https://github.com/stormwarning/stylelint-config-recess-order/pull/242)
+- Add `inset-*` properties [#242](https://github.com/stormwarning/stylelint-config-recess-order/pull/242)  
   Thanks [@xeho91](https://github.com/xeho91)!
-- Add `place-content` and `place-self` properties [#249](https://github.com/stormwarning/stylelint-config-recess-order/pull/249)
+- Add `place-content` and `place-self` properties [#249](https://github.com/stormwarning/stylelint-config-recess-order/pull/249)  
   Thanks [@chalkygames123](https://github.com/chalkygames123), [@ModyQyW](https://github.com/ModyQyW)!
 
 ## 2.4.0 — 2021-04-19
@@ -144,7 +186,7 @@
 #### 🎁 Added
 
 - Add `text-decoration-*` and `text-underline-*` properties [#224](https://github.com/stormwarning/stylelint-config-recess-order/pull/224)
-  Order based on the [Text Decoration shorthand spec](https://drafts.csswg.org/css-text-decor-4/#text-decoration-property)
+  Order based on the [Text Decoration shorthand spec](https://drafts.csswg.org/css-text-decor-4/#text-decoration-property)  
   Thanks [@cammarin](https://github.com/cammarin)!
 - Add `overscroll-behavior` properties [#229](https://github.com/stormwarning/stylelint-config-recess-order/pull/229)
 - Add `font-variant-*` and related properties [#228](https://github.com/stormwarning/stylelint-config-recess-order/pull/228)
@@ -165,8 +207,9 @@
 #### 🎁 Added
 
 - Add `place-items` property [#193](https://github.com/stormwarning/stylelint-config-recess-order/issues/193)
-  Shorthand for the `align-items` and `justify-items` properties.
   Thanks [@sergiofontes](https://github.com/sergiofontes)!
+
+  Shorthand for the `align-items` and `justify-items` properties.
 
 <a name="2.1.0"></a>
 
@@ -245,12 +288,12 @@
 
 #### 🗑️ Removed
 
-- Individual eslint dependencies
+- Individual eslint dependencies  
   Using [@zazen/eslint-config](https://github.com/stormwarning/zazen-eslint-config) now.
 
 #### ♻️ Changed
 
-- Upgraded stylelint-order dependency
+- Upgraded stylelint-order dependency  
   Thanks [@ai](https://github.com/ai)!
 
 ### 1.2.3 — 2017-11-14
@@ -264,14 +307,14 @@
 
 #### 🎁 Added
 
-- Vendor-specific `font-smoothing` properties
+- Vendor-specific `font-smoothing` properties  
   Thanks [@yakhinvadim](https://github.com/yakhinvadim)!
 
 ### 1.2.1 — 2017-06-29
 
 #### ♻️ Changed
 
-- [stylelint-order](https://github.com/hudochenkov/stylelint-order) version bumped to latest
+- [stylelint-order](https://github.com/hudochenkov/stylelint-order) version bumped to latest  
   Thanks [@yakhinvadim](https://github.com/yakhinvadim)!
 
 ## 1.2.0 — 2017-05-19
