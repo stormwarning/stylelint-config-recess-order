@@ -1,5 +1,44 @@
 # Change Log
 
+## 5.1.0
+
+### Minor Changes
+
+- Add properties related to multi-line truncation ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))
+
+  - [`-webkit-box-orient`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-orient)
+  - [`-webkit-line-clamp`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp)
+  - `line-clamp`
+
+- Add paged media properties ([#378](https://github.com/stormwarning/stylelint-config-recess-order/pull/378))
+
+  - [`break-before`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-before)
+  - [`break-inside`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside)
+  - [`break-after`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-after)
+  - [`orphans`](https://developer.mozilla.org/en-US/docs/Web/CSS/orphans)
+  - [`widows`](https://developer.mozilla.org/en-US/docs/Web/CSS/widows)
+
+- Add `-webkit-text-fill-` and `-stroke-*` properties ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))
+
+  - [`-webkit-text-fill-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color)
+  - [`-webkit-text-stroke-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke)
+
+- Add `scroll-*` and `scrollbar-*` properties ([#376](https://github.com/stormwarning/stylelint-config-recess-order/pull/376))
+
+  - [`scroll-behavior`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
+  - [`scroll-snap-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
+  - [`scroll-snap-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align)
+  - [`scroll-snap-stop`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-stop)
+  - [`scroll-padding-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding)
+  - [`scroll-margin-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin)
+  - [`scrollbar-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-color)
+  - [`scrollbar-gutter`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter)
+  - [`scrollbar-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width)
+
+- Remove legacy `-ms-text-overflow` property ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))
+
+  This was useful for IE8; can be autoprefixed if required.
+
 ## 5.0.1
 
 ### Patch Changes
