@@ -4,7 +4,7 @@
 
 ### Minor Changes
 
-- Add properties related to multi-line truncation ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))
+- Add properties related to multi-line truncation ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))  
   Thanks [@toFrankie](https://github.com/toFrankie)!
 
   - [`-webkit-box-orient`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-orient)
@@ -19,7 +19,7 @@
   - [`orphans`](https://developer.mozilla.org/en-US/docs/Web/CSS/orphans)
   - [`widows`](https://developer.mozilla.org/en-US/docs/Web/CSS/widows)
 
-- Add `-webkit-text-fill-` and `-stroke-*` properties ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))
+- Add `-webkit-text-fill-` and `-stroke-*` properties ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))  
   Thanks [@toFrankie](https://github.com/toFrankie)!
 
   - [`-webkit-text-fill-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color)
@@ -37,7 +37,7 @@
   - [`scrollbar-gutter`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter)
   - [`scrollbar-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width)
 
-- Remove legacy `-ms-text-overflow` property ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))
+- Remove legacy `-ms-text-overflow` property ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))  
   Thanks [@toFrankie](https://github.com/toFrankie)!
 
   This was useful for IE8; can be autoprefixed if required.
