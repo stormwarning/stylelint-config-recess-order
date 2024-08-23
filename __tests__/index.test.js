@@ -1,4 +1,6 @@
-import test from 'ava'
+import assert from 'node:assert/strict'
+import { test } from 'node:test'
+
 import stylelint from 'stylelint'
 
 import config from '../index.js'
@@ -13,20 +15,24 @@ const runStylelint = async (code) => {
 	return data.results[0]
 }
 
-test('with incorrect property order', async (t) => {
+test('with incorrect property order', async () => {
 	let output = await runStylelint(incorrectOrder)
 
-	t.truthy(output.errored, 'indicates linting errors')
-	t.is(
+	assert.ok(output.errored, 'it indicates linting errors')
+	assert.strictEqual(
 		output.warnings[0].text.trim(),
 		'Expected "box-sizing" to come before "background-color" (order/properties-order)',
-		'indicates a properties-order error',
+		'it indicates a properties-order error',
 	)
 })
 
-test('with correct property order', async (t) => {
+test('with correct property order', async () => {
 	let output = await runStylelint(correctOrder)
 
-	t.falsy(output.errored, 'indicates no errors')
-	t.is(output.warnings.length, 0)
+	assert.ok(!output.errored, 'it indicates no linting errors')
+	assert.strictEqual(
+		output.warnings.length,
+		0,
+		'it indicates no specific errors',
+	)
 })

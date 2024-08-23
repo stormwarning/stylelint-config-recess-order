@@ -31,7 +31,7 @@
     "lint": "eslint '**/*.js'",
     "prepare": "husky",
     "release": "changeset publish",
-    "test": "ava"
+    "test": "node --test"
   },
   "lint-staged": {
     "*.js": [
@@ -41,11 +41,6 @@
     "package.json": "prettier --write"
   },
   "prettier": "@zazen/prettier-config",
-  "ava": {
-    "require": [
-      "esm"
-    ]
-  },
   "dependencies": {
     "stylelint-order": "^6.0.4"
   },
@@ -54,9 +49,7 @@
     "@zazen/changesets-changelog": "2.0.3",
     "@zazen/eslint-config": "6.8.0",
     "@zazen/prettier-config": "1.1.0",
-    "ava": "5.2.0",
     "eslint": "8.57.0",
-    "esm": "3.2.25",
     "husky": "9.1.5",
     "lint-staged": "15.2.9",
     "prettier": "3.3.3",
