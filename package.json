@@ -1,62 +1,62 @@
 {
-  "name": "stylelint-config-recess-order",
-  "version": "5.1.0",
-  "description": "Recess-based property sort order for Stylelint.",
-  "keywords": [
-    "bootstrap",
-    "properties-order",
-    "property order",
-    "recess",
-    "stylelint",
-    "stylelint-config",
-    "stylelint-order"
-  ],
-  "homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
-  "bugs": "https://github.com/stormwarning/stylelint-config-recess-order/issues",
-  "repository": "stormwarning/stylelint-config-recess-order",
-  "license": "ISC",
-  "author": "Jeff (https://tidaltheory.io)",
-  "type": "module",
-  "exports": {
-    ".": "./index.js",
-    "./groups": "./groups.js"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js",
-    "groups.js"
-  ],
-  "scripts": {
-    "changeset": "changeset add",
-    "lint": "eslint '**/*.js'",
-    "prepare": "husky",
-    "release": "changeset publish",
-    "test": "node --test"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "package.json": "prettier --write"
-  },
-  "prettier": "@zazen/prettier-config",
-  "dependencies": {
-    "stylelint-order": "^6.0.4"
-  },
-  "devDependencies": {
-    "@changesets/cli": "2.27.7",
-    "@zazen/changesets-changelog": "2.0.3",
-    "@zazen/eslint-config": "6.8.0",
-    "@zazen/prettier-config": "1.1.0",
-    "eslint": "8.57.0",
-    "husky": "9.1.5",
-    "lint-staged": "15.2.9",
-    "prettier": "3.3.3",
-    "prettier-plugin-packagejson": "2.5.1",
-    "stylelint": "16.8.2"
-  },
-  "peerDependencies": {
-    "stylelint": ">=16"
-  }
+	"name": "stylelint-config-recess-order",
+	"version": "5.1.0",
+	"description": "Recess-based property sort order for Stylelint.",
+	"keywords": [
+		"bootstrap",
+		"properties-order",
+		"property order",
+		"recess",
+		"stylelint",
+		"stylelint-config",
+		"stylelint-order"
+	],
+	"homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
+	"bugs": "https://github.com/stormwarning/stylelint-config-recess-order/issues",
+	"repository": "stormwarning/stylelint-config-recess-order",
+	"license": "ISC",
+	"author": "Jeff (https://tidaltheory.io)",
+	"type": "module",
+	"exports": {
+		".": "./index.js",
+		"./groups": "./groups.js"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"groups.js"
+	],
+	"scripts": {
+		"changeset": "changeset add",
+		"lint": "eslint '**/*.js'",
+		"prepare": "husky",
+		"release": "changeset publish",
+		"test": "node --test"
+	},
+	"lint-staged": {
+		"*.js": [
+			"eslint --fix",
+			"prettier --write"
+		],
+		"package.json": "prettier --write"
+	},
+	"prettier": "@zazen/prettier-config",
+	"dependencies": {
+		"stylelint-order": "^6.0.4"
+	},
+	"devDependencies": {
+		"@changesets/cli": "2.27.7",
+		"@zazen/changesets-changelog": "2.0.3",
+		"@zazen/eslint-config": "6.8.0",
+		"@zazen/prettier-config": "1.1.0",
+		"eslint": "8.57.0",
+		"husky": "9.1.5",
+		"lint-staged": "15.2.9",
+		"prettier": "3.3.3",
+		"prettier-plugin-packagejson": "2.5.1",
+		"stylelint": "16.8.2"
+	},
+	"peerDependencies": {
+		"stylelint": ">=16"
+	}
 }
