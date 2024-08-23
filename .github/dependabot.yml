@@ -7,8 +7,6 @@ updates:
     directory: /
     schedule:
       interval: monthly
-    commit-message:
-      prefix: 'Upgrade: '
     labels:
       - upgrade
     versioning-strategy: increase-if-necessary
@@ -17,5 +15,5 @@ updates:
     directory: /
     schedule:
       interval: weekly
-    commit-message:
-      prefix: 'Chore: '
+    labels:
+      - upgrade
