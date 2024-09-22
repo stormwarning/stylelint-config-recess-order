@@ -42,11 +42,11 @@ const propertyGroups = [
 		// Flexible boxes.
 		properties: [
 			'flex',
-			'flex-basis',
-			'flex-direction',
-			'flex-flow',
 			'flex-grow',
 			'flex-shrink',
+			'flex-basis',
+			'flex-flow',
+			'flex-direction',
 			'flex-wrap',
 			'-webkit-box-orient',
 		],
