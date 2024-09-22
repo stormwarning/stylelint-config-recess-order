@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.1.1
+
+### Patch Changes
+
+- Fix order of `flex-*` properties ([#386](https://github.com/stormwarning/stylelint-config-recess-order/pull/386))
+  The `flex` shorthand is followed by `-grow`, `-shrink`, and `-basis`, following the order of the shorthand property. The `flex-flow` shorthand now correctly preceeds the `-direction` and `-wrap` properties.
+
 ## 5.1.0
 
 ### Minor Changes
