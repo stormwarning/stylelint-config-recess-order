@@ -98,19 +98,14 @@ const propertyGroups = [
 	},
 
 	/**
-	 * Gap.
-	 * Relates to both Flexbox and Grid layout.
-	 */
-	{
-		properties: ['gap', 'row-gap', 'column-gap'],
-	},
-
-	/**
 	 * Box alignment.  Relates to both Flexbox and Grid layout.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_alignment#reference
 	 */
 	{
 		properties: [
+			'gap',
+			'row-gap',
+			'column-gap',
 			'place-content',
 			'place-items',
 			'place-self',
@@ -125,7 +120,7 @@ const propertyGroups = [
 
 	/**
 	 * Order.
-	 * Relates to both Flexbox and Grid layout.
+	 * Part of Display module, but relates to both Flexbox and Grid layout.
 	 */
 	{
 		properties: ['order'],
