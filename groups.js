@@ -196,10 +196,11 @@ const propertyGroups = [
 	{
 		properties: [
 			'overflow',
-			'overflow-block',
 			'overflow-inline',
+			'overflow-block',
 			'overflow-x',
 			'overflow-y',
+			'scrollbar-gutter',
 			'-webkit-overflow-scrolling',
 
 			// Should probably just remove these.
@@ -460,7 +461,7 @@ const propertyGroups = [
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scrollbars_styling#reference
 	 */
 	{
-		properties: ['scrollbar-color', 'scrollbar-gutter', 'scrollbar-width'],
+		properties: ['scrollbar-color', 'scrollbar-width'],
 	},
 
 	/**
@@ -554,6 +555,11 @@ const propertyGroups = [
 			'box-shadow',
 		],
 	},
+
+	/**
+	 * Fragmentation.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fragmentation#reference
+	 */
 
 	/**
 	 * Compositing and blending.
