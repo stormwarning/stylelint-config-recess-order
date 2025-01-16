@@ -127,8 +127,8 @@ const propertyGroups = [
 	},
 
 	/**
-	 * Box model.
-	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model#reference
+	 * Box sizing.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_sizing#reference
 	 */
 	{
 		properties: [
@@ -145,6 +145,15 @@ const propertyGroups = [
 			'min-height',
 			'max-height',
 			'aspect-ratio',
+		],
+	},
+
+	/**
+	 * Box model.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model#reference
+	 */
+	{
+		properties: [
 			'padding',
 			'padding-block',
 			'padding-block-start',
