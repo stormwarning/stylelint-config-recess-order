@@ -338,11 +338,6 @@ const propertyGroups = [
 	},
 
 	/**
-	 * Fragmentation.
-	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fragmentation#reference
-	 */
-
-	/**
 	 * Ruby layout.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_ruby_layout#reference
 	 */
@@ -753,16 +748,16 @@ const propertyGroups = [
 	},
 
 	/**
-	 * Paged media
-	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_paged_media#reference
+	 * Fragmentation.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fragmentation#reference
 	 */
 	{
 		properties: [
 			'break-before',
-			'break-inside',
 			'break-after',
-			'orphans',
+			'break-inside',
 			'widows',
+			'orphans',
 		],
 	},
 
