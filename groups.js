@@ -5,19 +5,27 @@
 
 /** @type {Group[]} */
 const propertyGroups = [
+	/**
+	 * Compose rules from other selectors in CSS Modules.
+	 * @see https://github.com/css-modules/css-modules#composition
+	 */
 	{
-		/**
-		 * Compose rules from other selectors in CSS Modules.
-		 * @see https://github.com/css-modules/css-modules#composition
-		 */
 		properties: ['composes'],
 	},
+
+	/**
+	 * Cascade and inheritance.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade#reference
+	 */
 	{
-		// Must be first (unless using the above).
 		properties: ['all'],
 	},
+
+	/**
+	 * Positioned layout.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout#reference
+	 */
 	{
-		// Position.
 		properties: [
 			'position',
 			'inset',
@@ -32,14 +40,24 @@ const propertyGroups = [
 			'bottom',
 			'left',
 			'z-index',
+			'float',
+			'clear',
 		],
 	},
+
+	/**
+	 * Display.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display#reference
+	 */
 	{
-		// Display mode.
-		properties: ['box-sizing', 'display'],
+		properties: ['box-sizing', 'display', 'visibility'],
 	},
+
+	/**
+	 * Flexible box layout.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout#reference
+	 */
 	{
-		// Flexible boxes.
 		properties: [
 			'flex',
 			'flex-grow',
@@ -51,8 +69,12 @@ const propertyGroups = [
 			'-webkit-box-orient',
 		],
 	},
+
+	/**
+	 * Grid layout.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout#reference
+	 */
 	{
-		// Grid layout.
 		properties: [
 			'grid',
 			'grid-area',
@@ -74,13 +96,16 @@ const propertyGroups = [
 			'grid-column-gap',
 		],
 	},
+
+	/**
+	 * Box alignment.  Relates to both Flexbox and Grid layout.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_alignment#reference
+	 */
 	{
-		// Gap.
-		properties: ['gap', 'row-gap', 'column-gap'],
-	},
-	{
-		// Layout alignment.
 		properties: [
+			'gap',
+			'row-gap',
+			'column-gap',
 			'place-content',
 			'place-items',
 			'place-self',
@@ -92,14 +117,21 @@ const propertyGroups = [
 			'justify-self',
 		],
 	},
+
+	/**
+	 * Order.
+	 * Part of Display module, but relates to both Flexbox and Grid layout.
+	 */
 	{
-		// Order.
 		properties: ['order'],
 	},
+
+	/**
+	 * Box sizing.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_sizing#reference
+	 */
 	{
-		// Box model.
 		properties: [
-			'float',
 			'inline-size',
 			'min-inline-size',
 			'max-inline-size',
@@ -113,6 +145,15 @@ const propertyGroups = [
 			'min-height',
 			'max-height',
 			'aspect-ratio',
+		],
+	},
+
+	/**
+	 * Box model.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model#reference
+	 */
+	{
+		properties: [
 			'padding',
 			'padding-block',
 			'padding-block-start',
@@ -135,36 +176,75 @@ const propertyGroups = [
 			'margin-right',
 			'margin-bottom',
 			'margin-left',
+		],
+	},
+
+	/**
+	 * Anchor positioning.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning#reference
+	 */
+
+	/**
+	 * Containment.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment#reference
+	 */
+
+	/**
+	 * Overflow.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_overflow#reference
+	 */
+	{
+		properties: [
 			'overflow',
-			'overflow-block',
 			'overflow-inline',
+			'overflow-block',
 			'overflow-x',
 			'overflow-y',
+			'scrollbar-gutter',
 			'-webkit-overflow-scrolling',
+
+			// Should probably just remove these.
 			'-ms-overflow-x',
 			'-ms-overflow-y',
 			'-ms-overflow-style',
+
+			'text-overflow',
+			'-webkit-line-clamp',
+			'line-clamp',
+			'scroll-behaviour',
+		],
+	},
+
+	/**
+	 * Overscroll behavior.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_overscroll_behavior#reference
+	 */
+	{
+		properties: [
 			'overscroll-behavior',
 			'overscroll-behavior-inline',
 			'overscroll-behavior-block',
 			'overscroll-behavior-x',
 			'overscroll-behavior-y',
-			'clip',
-			'clip-path',
-			'clear',
 		],
 	},
+
+	/**
+	 * Fonts.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts#reference
+	 */
 	{
-		// Typography.
 		properties: [
 			'font',
 			'font-family',
 			'font-size',
+			'font-size-adjust',
 			'font-variation-settings',
 			'font-style',
 			'font-weight',
-			'font-feature-settings',
 			'font-optical-sizing',
+			'font-stretch',
+			'font-feature-settings',
 			'font-kerning',
 			'font-variant',
 			'font-variant-ligatures',
@@ -173,24 +253,73 @@ const propertyGroups = [
 			'font-variant-numeric',
 			'font-variant-east-asian',
 			'font-variant-position',
-			'font-size-adjust',
-			'font-stretch',
-			'font-effect',
-			'font-emphasize',
-			'font-emphasize-position',
-			'font-emphasize-style',
 			'-webkit-font-smoothing',
 			'-moz-osx-font-smoothing',
 			'font-smooth',
-			'hyphens',
+		],
+	},
+
+	/**
+	 * Inline layout.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_inline_layout#reference
+	 */
+	{
+		properties: [
 			'line-height',
+			'vertical-align',
+			'alignment-baseline',
+			'baseline-shift',
+			'dominant-baseline',
+		],
+	},
+
+	/**
+	 * Colors.
+	 *
+	 * Although `opacity` is technically part of this module, it is grouped
+	 * with the Compositing and blending module for now.
+	 *
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors#reference
+	 */
+	{
+		properties: [
 			'color',
 			'-webkit-text-fill-color',
 			'-webkit-text-stroke',
 			'-webkit-text-stroke-width',
 			'-webkit-text-stroke-color',
+		],
+	},
+
+	/**
+	 * Text.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text#reference
+	 */
+	{
+		properties: [
 			'text-align',
 			'text-align-last',
+			'text-justify',
+			'text-indent',
+			'text-transform',
+			'word-spacing',
+			'letter-spacing',
+			'hyphens',
+			'word-break',
+			'text-wrap',
+			'word-wrap', // Legacy name for `overflow-wrap`
+			'overflow-wrap',
+			'tab-size',
+			'white-space',
+		],
+	},
+
+	/**
+	 * Text decoration.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text_decoration#reference
+	 */
+	{
+		properties: [
 			'text-emphasis',
 			'text-emphasis-color',
 			'text-emphasis-style',
@@ -202,33 +331,21 @@ const propertyGroups = [
 			'text-decoration-color',
 			'text-underline-position',
 			'text-underline-offset',
-			'text-indent',
-			'text-justify',
-			'text-outline',
-			'text-overflow',
-			'text-overflow-ellipsis',
-			'text-overflow-mode',
-			'-webkit-line-clamp',
-			'line-clamp',
 			'text-shadow',
-			'text-transform',
-			'text-wrap',
-			'-webkit-text-size-adjust',
-			'-ms-text-size-adjust',
-			'letter-spacing',
-			'word-break',
-			'word-spacing',
-			'word-wrap', // Legacy name for `overflow-wrap`
-			'overflow-wrap',
-			'tab-size',
-			'white-space',
-			'vertical-align',
+		],
+	},
 
-			'list-style',
-			'list-style-position',
-			'list-style-type',
-			'list-style-image',
+	/**
+	 * Ruby layout.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_ruby_layout#reference
+	 */
 
+	/**
+	 * Font loading.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_font_loading#reference
+	 */
+	{
+		properties: [
 			'src',
 			'font-display',
 			'unicode-range',
@@ -238,64 +355,22 @@ const propertyGroups = [
 			'line-gap-override',
 		],
 	},
+
+	/**
+	 * Basic user interface.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_basic_user_interface#reference
+	 */
 	{
-		// Accessibility & Interactions.
 		properties: [
 			'appearance',
 			'accent-color',
-			'color-scheme',
 			'pointer-events',
 			'-ms-touch-action',
 			'touch-action',
 			'cursor',
 			'caret-color',
-			'visibility',
-			'zoom',
-
-			'table-layout',
-			'empty-cells',
-			'caption-side',
-			'border-spacing',
-			'border-collapse',
-
-			'content',
-			'quotes',
-			'counter-reset',
-			'counter-set',
-			'counter-increment',
+			'zoom', // ?
 			'resize',
-
-			'scroll-behaviour',
-			'scroll-snap-type',
-			'scroll-snap-align',
-			'scroll-snap-stop',
-			'scroll-padding',
-			'scroll-padding-inline',
-			'scroll-padding-inline-start',
-			'scroll-padding-inline-end',
-			'scroll-padding-block',
-			'scroll-padding-block-start',
-			'scroll-padding-block-end',
-			'scroll-padding-top',
-			'scroll-padding-right',
-			'scroll-padding-bottom',
-			'scroll-padding-left',
-			'scroll-margin',
-			'scroll-margin-inline',
-			'scroll-margin-inline-start',
-			'scroll-margin-inline-end',
-			'scroll-margin-block',
-			'scroll-margin-block-start',
-			'scroll-margin-block-end',
-			'scroll-margin-top',
-			'scroll-margin-right',
-			'scroll-margin-bottom',
-			'scroll-margin-left',
-
-			'scrollbar-color',
-			'scrollbar-gutter',
-			'scrollbar-width',
-
 			'user-select',
 			'-webkit-user-select',
 			'nav-index',
@@ -303,10 +378,107 @@ const propertyGroups = [
 			'nav-right',
 			'nav-down',
 			'nav-left',
+			'outline',
+			'outline-width',
+			'outline-style',
+			'outline-color',
+			'outline-offset',
 		],
 	},
+
+	/**
+	 * Color adjustment.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_color_adjustment#reference
+	 */
 	{
-		// Images, backgrounds, & borders.
+		properties: ['color-scheme'],
+	},
+
+	/**
+	 * Table.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_table#reference
+	 */
+	{
+		properties: [
+			'table-layout',
+			'empty-cells',
+			'caption-side',
+			'border-spacing',
+			'border-collapse',
+		],
+	},
+
+	/**
+	 * Generated content.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_generated_content#reference
+	 */
+	{
+		properties: ['content', 'quotes'],
+	},
+
+	/**
+	 * Lists and counters.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_lists#reference
+	 */
+	{
+		properties: [
+			'list-style',
+			'list-style-position',
+			'list-style-type',
+			'list-style-image',
+			'counter-reset',
+			'counter-set',
+			'counter-increment',
+		],
+	},
+
+	/**
+	 * Scroll snap.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap#reference
+	 */
+	{
+		properties: [
+			'scroll-snap-type',
+			'scroll-snap-align',
+			'scroll-snap-stop',
+			'scroll-padding',
+			'scroll-padding-block',
+			'scroll-padding-block-start',
+			'scroll-padding-block-end',
+			'scroll-padding-inline',
+			'scroll-padding-inline-start',
+			'scroll-padding-inline-end',
+			'scroll-padding-top',
+			'scroll-padding-right',
+			'scroll-padding-bottom',
+			'scroll-padding-left',
+			'scroll-margin',
+			'scroll-margin-block',
+			'scroll-margin-block-start',
+			'scroll-margin-block-end',
+			'scroll-margin-inline',
+			'scroll-margin-inline-start',
+			'scroll-margin-inline-end',
+			'scroll-margin-top',
+			'scroll-margin-right',
+			'scroll-margin-bottom',
+			'scroll-margin-left',
+		],
+	},
+
+	/**
+	 * Scrollbars styling.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scrollbars_styling#reference
+	 */
+	{
+		properties: ['scrollbar-color', 'scrollbar-width'],
+	},
+
+	/**
+	 * Images.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_images#reference
+	 */
+	{
 		properties: [
 			'object-fit',
 			'object-position',
@@ -314,14 +486,21 @@ const propertyGroups = [
 			'image-orientation',
 			'image-rendering',
 			'image-resolution',
+		],
+	},
 
+	/**
+	 * Backgrounds and borders.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders#reference
+	 */
+	{
+		properties: [
 			'background',
 			'background-color',
 			'background-image',
 			"-ms-filter:\\'progid:DXImageTransform.Microsoft.gradient",
 			'filter:progid:DXImageTransform.Microsoft.gradient',
 			'filter:progid:DXImageTransform.Microsoft.AlphaImageLoader',
-			'filter',
 			'background-repeat',
 			'background-attachment',
 			'background-position',
@@ -330,9 +509,6 @@ const propertyGroups = [
 			'background-clip',
 			'background-origin',
 			'background-size',
-			'background-blend-mode',
-			'isolation',
-			'backdrop-filter',
 			'border',
 			'border-color',
 			'border-style',
@@ -386,21 +562,41 @@ const propertyGroups = [
 			'border-image-width',
 			'border-image-outset',
 			'border-image-repeat',
-			'outline',
-			'outline-width',
-			'outline-style',
-			'outline-color',
-			'outline-offset',
 			'box-shadow',
+		],
+	},
+
+	/**
+	 * Compositing and blending.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_compositing_and_blending#reference
+	 */
+	{
+		properties: [
+			'background-blend-mode',
+			'isolation',
 			'mix-blend-mode',
 			'filter:progid:DXImageTransform.Microsoft.Alpha(Opacity',
 			"-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
 			'opacity',
 		],
 	},
+
+	/**
+	 * Filter effects.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_filter_effects#properties
+	 */
 	{
-		// Masking.
+		properties: ['filter', 'backdrop-filter'],
+	},
+
+	/**
+	 * Masking.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_masking#reference
+	 */
+	{
 		properties: [
+			'clip',
+			'clip-path',
 			'mask-border',
 			'mask-border-source',
 			'mask-border-slice',
@@ -419,51 +615,64 @@ const propertyGroups = [
 			'mask-composite',
 		],
 	},
+
+	/**
+	 * Shapes.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes#reference
+	 */
+
+	/**
+	 * Writing modes.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_writing_modes#reference
+	 */
 	{
-		// SVG Presentation Attributes.
+		properties: ['writing-mode'],
+	},
+
+	/**
+	 * SVG presentation attributes.
+	 *
+	 * Some of these may fall under a specific module, but if they only apply
+	 * to SVG-specific elements, they will be grouped here.
+	 */
+	{
 		properties: [
-			'alignment-baseline',
-			'baseline-shift',
-			'dominant-baseline',
 			'text-anchor',
-			'word-spacing',
-			'writing-mode',
 
 			'fill',
-			'fill-opacity',
 			'fill-rule',
+			'fill-opacity',
 			'stroke',
-			'stroke-dasharray',
-			'stroke-dashoffset',
+			'stroke-opacity',
+			'stroke-width',
 			'stroke-linecap',
 			'stroke-linejoin',
 			'stroke-miterlimit',
-			'stroke-opacity',
-			'stroke-width',
+			'stroke-dasharray',
+			'stroke-dashoffset',
 
 			'color-interpolation',
 			'color-interpolation-filters',
-			'color-profile',
-			'color-rendering',
 			'flood-color',
 			'flood-opacity',
 			'lighting-color',
+
 			'marker-start',
 			'marker-mid',
 			'marker-end',
-			'shape-rendering',
 			'stop-color',
 			'stop-opacity',
+
+			'shape-rendering',
 		],
 	},
+
+	/**
+	 * Transforms.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transforms#reference
+	 */
 	{
-		// Transitions & Animation.
 		properties: [
-			'transition',
-			'transition-delay',
-			'transition-timing-function',
-			'transition-duration',
-			'transition-property',
 			'transform',
 			'transform-origin',
 			'rotate',
@@ -471,30 +680,81 @@ const propertyGroups = [
 			'translate',
 			'perspective',
 			'perspective-origin',
+		],
+	},
+
+	/**
+	 * Transitions.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions#reference
+	 */
+	{
+		properties: [
+			'transition',
+			'transition-delay',
+			'transition-timing-function',
+			'transition-duration',
+			'transition-property',
+		],
+	},
+
+	/**
+	 * View transitions.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_view_transitions#reference
+	 */
+
+	/**
+	 * Animations.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations#reference
+	 */
+	{
+		properties: [
 			'animation',
 			'animation-name',
 			'animation-duration',
-			'animation-play-state',
 			'animation-timing-function',
 			'animation-delay',
 			'animation-iteration-count',
 			'animation-direction',
-			'will-change',
+			'animation-play-state',
 		],
 	},
+
+	/**
+	 * Scroll-driven animations.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations#reference
+	 */
+
+	/**
+	 * Motion path.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_motion_path#reference
+	 */
+
+	/**
+	 * Will change.
+	 * @see https://drafts.csswg.org/css-will-change/#will-change
+	 */
 	{
-		/**
-		 * Paged media
-		 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_paged_media
-		 */
+		properties: ['will-change'],
+	},
+
+	/**
+	 * Fragmentation.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fragmentation#reference
+	 */
+	{
 		properties: [
 			'break-before',
-			'break-inside',
 			'break-after',
-			'orphans',
+			'break-inside',
 			'widows',
+			'orphans',
 		],
 	},
+
+	/**
+	 * Multi-column layout.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout#reference
+	 */
 ]
 
 export default propertyGroups
