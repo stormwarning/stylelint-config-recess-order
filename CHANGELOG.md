@@ -1,5 +1,23 @@
 # Change Log
 
+## 6.0.0
+
+### Major Changes
+
+- Update property grouping ([#382](https://github.com/stormwarning/stylelint-config-recess-order/pull/382))
+
+  Property order is generally the same, with a few groups being re-ordered or split up. [View the PR](https://github.com/stormwarning/stylelint-config-recess-order/pull/382) for details of all the changes, or [read the decision document](https://github.com/stormwarning/stylelint-config-recess-order/blob/main/docs/decisions/003-order-guidelines.md) for the rationale behind the change.
+
+### Patch Changes
+
+- Sort out-of-order logical properties (Fixes #384) ([#382](https://github.com/stormwarning/stylelint-config-recess-order/pull/382))
+
+  `overflow-inline` now comes before `overflow-block`.
+  Scroll padding & margin block properties now come before the inline properties.
+
+- Remove duplicate `word-spacing` property (Fixes #361) ([#382](https://github.com/stormwarning/stylelint-config-recess-order/pull/382))
+- Remove invalid properties (Fixes #388) ([#382](https://github.com/stormwarning/stylelint-config-recess-order/pull/382))
+
 ## 5.1.1
 
 ### Patch Changes
