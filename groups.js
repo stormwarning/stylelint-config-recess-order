@@ -209,8 +209,6 @@ const propertyGroups = [
 			'-ms-overflow-style',
 
 			'text-overflow',
-			'text-overflow-ellipsis',
-			'text-overflow-mode',
 			'-webkit-line-clamp',
 			'line-clamp',
 			'scroll-behaviour',
@@ -658,8 +656,6 @@ const propertyGroups = [
 			'stroke-dasharray',
 			'stroke-dashoffset',
 
-			'color-profile',
-			'color-rendering',
 			'color-interpolation',
 			'color-interpolation-filters',
 			'flood-color',
@@ -669,7 +665,6 @@ const propertyGroups = [
 			'marker-start',
 			'marker-mid',
 			'marker-end',
-
 			'stop-color',
 			'stop-opacity',
 
