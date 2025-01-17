@@ -567,11 +567,6 @@ const propertyGroups = [
 	},
 
 	/**
-	 * Fragmentation.
-	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fragmentation#reference
-	 */
-
-	/**
 	 * Compositing and blending.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_compositing_and_blending#reference
 	 */
