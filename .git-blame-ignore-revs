@@ -1,0 +1,7 @@
+## Ignore these commits when running `git blame`.
+
+# Use single-quotes and 4-space soft tabs.
+48fb2b587104c6be577d7963c4b5f6ccd3a086ab
+
+# Switch to hard tab indents.
+7ac673fe9a684d99af1a67efbd38e584f3b5df9b
