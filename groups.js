@@ -299,19 +299,16 @@ const propertyGroups = [
 	 */
 	{
 		properties: [
-			'hyphens',
 			'text-align',
 			'text-align-last',
-			'text-indent',
 			'text-justify',
-			'text-outline',
+			'text-indent',
 			'text-transform',
-			'text-wrap',
-			'-webkit-text-size-adjust',
-			'-ms-text-size-adjust',
-			'letter-spacing',
-			'word-break',
 			'word-spacing',
+			'letter-spacing',
+			'hyphens',
+			'word-break',
+			'text-wrap',
 			'word-wrap', // Legacy name for `overflow-wrap`
 			'overflow-wrap',
 			'tab-size',
