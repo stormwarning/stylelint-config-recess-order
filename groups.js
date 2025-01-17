@@ -262,8 +262,33 @@ const propertyGroups = [
 			'-webkit-font-smoothing',
 			'-moz-osx-font-smoothing',
 			'font-smooth',
-			'line-height',
+		],
+	},
 
+	/**
+	 * Inline layout.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_inline_layout#reference
+	 */
+	{
+		properties: [
+			'line-height',
+			'vertical-align',
+			'alignment-baseline',
+			'baseline-shift',
+			'dominant-baseline',
+		],
+	},
+
+	/**
+	 * Colors.
+	 *
+	 * Although `opacity` is technically part of this module, it is grouped
+	 * with the Compositing and blending module for now.
+	 *
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors#reference
+	 */
+	{
+		properties: [
 			'color',
 			'-webkit-text-fill-color',
 			'-webkit-text-stroke',
@@ -295,7 +320,6 @@ const propertyGroups = [
 			'overflow-wrap',
 			'tab-size',
 			'white-space',
-			'vertical-align', // Leave at end of Text group for now.
 		],
 	},
 
@@ -629,9 +653,6 @@ const propertyGroups = [
 	 */
 	{
 		properties: [
-			'alignment-baseline',
-			'baseline-shift',
-			'dominant-baseline',
 			'text-anchor',
 
 			'fill',
