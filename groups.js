@@ -643,36 +643,42 @@ const propertyGroups = [
 
 	/**
 	 * SVG presentation attributes.
+	 *
+	 * Some of these may fall under a specific module, but if they only apply
+	 * to SVG-specific elements, they will be grouped here.
 	 */
 	{
 		properties: [
 			'text-anchor',
 
 			'fill',
-			'fill-opacity',
 			'fill-rule',
+			'fill-opacity',
 			'stroke',
-			'stroke-dasharray',
-			'stroke-dashoffset',
+			'stroke-opacity',
+			'stroke-width',
 			'stroke-linecap',
 			'stroke-linejoin',
 			'stroke-miterlimit',
-			'stroke-opacity',
-			'stroke-width',
+			'stroke-dasharray',
+			'stroke-dashoffset',
 
-			'color-interpolation',
-			'color-interpolation-filters',
 			'color-profile',
 			'color-rendering',
+			'color-interpolation',
+			'color-interpolation-filters',
 			'flood-color',
 			'flood-opacity',
 			'lighting-color',
+
 			'marker-start',
 			'marker-mid',
 			'marker-end',
-			'shape-rendering',
+
 			'stop-color',
 			'stop-opacity',
+
+			'shape-rendering',
 		],
 	},
 
