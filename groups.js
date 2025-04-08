@@ -145,6 +145,11 @@ const propertyGroups = [
 			'min-height',
 			'max-height',
 			'aspect-ratio',
+			'contain-intrinsic-inline-size',
+			'contain-intrinsic-block-size',
+			'contain-intrinsic-size', // Shorthand for `-width` & `-height`.
+			'contain-intrinsic-width',
+			'contain-intrinsic-height',
 		],
 	},
 
@@ -188,6 +193,15 @@ const propertyGroups = [
 	 * Containment.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment#reference
 	 */
+	{
+		properties: [
+			'contain',
+			'container',
+			'container-name',
+			'container-type',
+			'content-visibility',
+		],
+	},
 
 	/**
 	 * Overflow.
