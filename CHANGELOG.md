@@ -1,5 +1,15 @@
 # Change Log
 
+## 6.1.0
+
+### Minor Changes
+
+- Add containment properties ([#393](https://github.com/stormwarning/stylelint-config-recess-order/pull/393))
+  - [`contain-intrinsic-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-size)
+  - [`contain`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain)
+  - [`container`](https://developer.mozilla.org/en-US/docs/Web/CSS/container)
+  - [`content-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility)
+
 ## 6.0.0
 
 ### Major Changes
