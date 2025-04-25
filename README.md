@@ -59,4 +59,4 @@ module.exports = {
 [recess]: https://github.com/twitter/recess/blob/29bccc870b7b4ccaa0a138e504caf608a6606b59/lib/lint/strict-property-order.js
 [did]: https://github.com/twbs/bootstrap/blob/f58997a0dae54dc98d11892afef9acb85bdc6a1e/.scss-lint.yml#L136
 [does]: https://github.com/twbs/stylelint-config-twbs-bootstrap/blob/ad67be6e4ceb48809fa1dce13b7892f9d2018995/css/index.js#L38
-[mdo-order]: http://markdotto.com/2011/11/29/css-property-order/
+[mdo-order]: https://markdotto.com/blog/css-property-order/
