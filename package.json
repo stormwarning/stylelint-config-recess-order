@@ -45,7 +45,7 @@
 		"stylelint-order": "^6.0.4"
 	},
 	"devDependencies": {
-		"@changesets/cli": "2.28.1",
+		"@changesets/cli": "2.29.2",
 		"@zazen/changesets-changelog": "2.0.3",
 		"@zazen/eslint-config": "6.10.0",
 		"@zazen/prettier-config": "1.1.1",
