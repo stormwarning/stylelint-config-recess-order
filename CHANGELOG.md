@@ -1,5 +1,17 @@
 # Change Log
 
+## 7.0.0
+
+### Major Changes
+
+- Support `stylelint-order` v7 (Fixes #355, #395) ([#403](https://github.com/stormwarning/stylelint-config-recess-order/pull/403))
+
+  Minimum supported version of `stylelint` is now **16.18.0**, which is in line
+  with `stylelint-order`.
+
+  **`stylelint-order` is now a peerDependency and no longer included with this
+  package.** It should be installed separately.
+
 ## 6.1.0
 
 ### Minor Changes
