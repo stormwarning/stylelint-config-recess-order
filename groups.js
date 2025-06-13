@@ -343,6 +343,7 @@ const propertyGroups = [
 			'text-decoration-thickness',
 			'text-decoration-style',
 			'text-decoration-color',
+			'text-decoration-skip-ink',
 			'text-underline-position',
 			'text-underline-offset',
 			'text-shadow',
