@@ -612,6 +612,7 @@ const propertyGroups = [
 		properties: [
 			'clip',
 			'clip-path',
+			'clip-rule',
 			'mask-border',
 			'mask-border-source',
 			'mask-border-slice',
@@ -628,6 +629,7 @@ const propertyGroups = [
 			'mask-origin',
 			'mask-size',
 			'mask-composite',
+			'mask-type',
 		],
 	},
 
