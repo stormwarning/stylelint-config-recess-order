@@ -41,9 +41,6 @@
 		"package.json": "prettier --write"
 	},
 	"prettier": "@zazen/prettier-config",
-	"dependencies": {
-		"stylelint-order": "^6.0.4"
-	},
 	"devDependencies": {
 		"@changesets/cli": "2.28.1",
 		"@zazen/changesets-changelog": "2.0.3",
@@ -53,10 +50,11 @@
 		"husky": "9.1.7",
 		"lint-staged": "15.5.0",
 		"prettier": "3.5.3",
-		"stylelint": "16.17.0"
+		"stylelint": "16.20.0"
 	},
 	"peerDependencies": {
-		"stylelint": ">=16"
+		"stylelint": ">=16.18",
+		"stylelint-order": ">=7"
 	},
 	"pnpm": {
 		"overrides": {}
