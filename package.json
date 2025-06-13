@@ -50,7 +50,8 @@
 		"husky": "9.1.7",
 		"lint-staged": "15.5.0",
 		"prettier": "3.5.3",
-		"stylelint": "16.20.0"
+		"stylelint": "16.20.0",
+		"stylelint-order": "7.0.0"
 	},
 	"peerDependencies": {
 		"stylelint": ">=16.18",
