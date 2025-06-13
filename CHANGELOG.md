@@ -1,5 +1,34 @@
 # Change Log
 
+## 7.1.0
+
+### Minor Changes
+
+- Add missing Masking properties ([#408](https://github.com/stormwarning/stylelint-config-recess-order/pull/408))
+
+  - [`clip-rule`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-rule)
+  - [`mask-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-type)
+
+- Add `text-decoration-skip-ink` property ([#406](https://github.com/stormwarning/stylelint-config-recess-order/pull/406))
+- Add Writing Modes properties ([#410](https://github.com/stormwarning/stylelint-config-recess-order/pull/410))
+
+  - [`direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/direction)
+  - [`unicode-bidi`](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi)
+  - [`text-orientation`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation)
+  - [`text-combine-upright`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-combine-upright)
+
+- Add `shape-*` properties ([#409](https://github.com/stormwarning/stylelint-config-recess-order/pull/409))
+
+  - [`shape-outside`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside)
+  - [`shape-image-threshold`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-image-threshold)
+  - [`shape-margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-margin)
+
+- Add missing Transform properties ([#411](https://github.com/stormwarning/stylelint-config-recess-order/pull/411))
+
+  - [`transform-box`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-box)
+  - [`transform-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style)
+  - [`backface-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
+
 ## 7.0.0
 
 ### Major Changes
