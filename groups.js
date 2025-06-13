@@ -701,11 +701,14 @@ const propertyGroups = [
 		properties: [
 			'transform',
 			'transform-origin',
+			'transform-box',
+			'transform-style',
 			'rotate',
 			'scale',
 			'translate',
 			'perspective',
 			'perspective-origin',
+			'backface-visibility',
 		],
 	},
 
