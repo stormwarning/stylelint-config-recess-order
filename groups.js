@@ -637,6 +637,9 @@ const propertyGroups = [
 	 * Shapes.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes#reference
 	 */
+	{
+		properties: ['shape-outside', 'shape-image-threshold', 'shape-margin'],
+	},
 
 	/**
 	 * Writing modes.
