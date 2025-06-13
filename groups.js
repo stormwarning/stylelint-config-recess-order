@@ -646,7 +646,13 @@ const propertyGroups = [
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_writing_modes#reference
 	 */
 	{
-		properties: ['writing-mode'],
+		properties: [
+			'direction',
+			'unicode-bidi',
+			'writing-mode',
+			'text-orientation',
+			'text-combine-upright',
+		],
 	},
 
 	/**
