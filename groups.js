@@ -744,7 +744,9 @@ const propertyGroups = [
 			'animation-delay',
 			'animation-iteration-count',
 			'animation-direction',
+			'animation-fill-mode',
 			'animation-play-state',
+			'animation-composition',
 		],
 	},
 
