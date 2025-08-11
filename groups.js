@@ -270,6 +270,10 @@ const propertyGroups = [
 			'-webkit-font-smoothing',
 			'-moz-osx-font-smoothing',
 			'font-smooth',
+			'font-synthesis',
+			'font-synthesis-weight',
+			'font-synthesis-style',
+			'font-synthesis-small-caps',
 		],
 	},
 
