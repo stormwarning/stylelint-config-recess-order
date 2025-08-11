@@ -1,5 +1,21 @@
 # Change Log
 
+## 7.2.0
+
+### Minor Changes
+
+- Add font synthesis properties ([#418](https://github.com/stormwarning/stylelint-config-recess-order/pull/418))
+
+  - [`font-synthesis`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis)
+  - [`font-synthesis-weight`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-weight)
+  - [`font-synthesis-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-style)
+  - [`font-synthesis-small-caps`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-small-caps)
+
+- Add missing Animation properties ([#417](https://github.com/stormwarning/stylelint-config-recess-order/pull/417))
+
+  - [`animation-fill-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
+  - [`animation-composition`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-composition)
+
 ## 7.1.0
 
 ### Minor Changes
