@@ -1,40 +1,52 @@
-# Recess\* Property Order [<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/467124/images/2872758/stylelint-icon-black.svg" alt="StyleLint" width="90" height="90" align="right">][stylelint]
+# Perplex CSS Order & Property Sorter [<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/467124/images/2872758/stylelint-icon-black.svg" alt="StyleLint" width="90" height="90" align="right">][stylelint]
 
 [![npm version][npm-img]][npm-url]
 [![npm downloads][npm-dls]][npm-url]
 [![github issues][issues-img]][issues-url]
 
-A [Stylelint] config that sorts CSS properties the way [Recess] did and
-Bootstrap [did]/[does].
-
-\*With some modifications & additions for modern properties.
+🗂️ A heavily opinionated [Stylelint][] config that:
+- Supports linting `.vue` files
+- Orders CSS the way [Perplex][] does
+   - Supports Tailwind 4 directives like `@apply` and `@variant`
+- Sorts CSS properties the way [Concentric-CSS][] did but with:
+   - 'Box sizing' and 'Overflow' modules above the 'Box model - Margin' module
+   - `outline` grouped with the 'Borders' module
+   - 'Backgrounds and box-shadow' module below the 'Box model - Padding' module
+   - 'Positioning' and 'Anchor positioning' modules above the 'Transforms' module
 
 ## Usage
 
-1.  Add [stylelint], [stylelint-order], and this package to your project:
+1.  Add [stylelint][] and this package to your project:
     ```sh
-    npm install --save-dev stylelint stylelint-order stylelint-config-recess-order
+    pnpm add stylelint @perplex-digital/stylelint-config
     ```
-2.  Configure your Stylelint configuration file to extend this package:
+2.  Configure your stylelint configuration file to extend this package:
     ```js
-    module.exports = {
-    	extends: ['stylelint-config-recess-order'],
+    export default {
+    	extends: ['@perplex-digital/stylelint-config'],
     	rules: {
     		// Add overrides and additional rules here
     	},
-    }
+    };
     ```
 
 ## Advanced
 
-The default setup applies only the `'order/properties-order'` rule with the 
-various property groups. If you need to configure other options for this rule,
+The default setup applies these rules:
+- `stylelint-config-standard`
+- `stylelint-config-recommended-vue`
+- `@stylistic/stylelint-plugin`,
+- `stylelint-use-logical-spec`
+- `stylelint-high-performance-animation`
+- [Some overrides][] of these rules
+- `order/order` with the [Perplex][] order.
+- `order/properties-order` with the various [property groups][]. If you need to configure other options for this rule,
 the groups can be imported separately and the rule configured to your needs.
 
 ```js
-const propertyGroups = require('stylelint-config-recess-order/groups')
+import propertyGroups from '@perplex-digital/stylelint-config/property-groups';
 
-module.exports = {
+export default {
 	extends: [], // Do not extend the config here.
 	rules: {
 		// Configure the rule manually.
@@ -44,21 +56,22 @@ module.exports = {
 			noEmptyLineBetween: true,
 		})),
 	},
-}
+};
 ```
 
 ## References
 
 [@mdo on CSS Property Order][mdo-order]
 
-[npm-url]: https://www.npmjs.com/package/stylelint-config-recess-order
-[npm-img]: https://img.shields.io/npm/v/stylelint-config-recess-order.svg?style=flat-square
-[npm-dls]: https://img.shields.io/npm/dt/stylelint-config-recess-order.svg?style=flat-square
-[issues-url]: https://github.com/stormwarning/stylelint-config-recess-order/issues
-[issues-img]: https://img.shields.io/github/issues/stormwarning/stylelint-config-recess-order.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@perplex-digital/stylelint-config
+[npm-img]: https://img.shields.io/npm/v/@perplex-digital/stylelint-config.svg?style=flat-square
+[npm-dls]: https://img.shields.io/npm/dt/@perplex-digital/stylelint-config.svg?style=flat-square
+[issues-url]: https://github.com/PerplexDigital/stylelint-config/issues
+[issues-img]: https://img.shields.io/github/issues/PerplexDigital/stylelint-config.svg?style=flat-square
 [stylelint]: https://github.com/stylelint/stylelint
 [stylelint-order]: https://github.com/hudochenkov/stylelint-order
-[recess]: https://github.com/twitter/recess/blob/29bccc870b7b4ccaa0a138e504caf608a6606b59/lib/lint/strict-property-order.js
-[did]: https://github.com/twbs/bootstrap/blob/f58997a0dae54dc98d11892afef9acb85bdc6a1e/.scss-lint.yml#L136
-[does]: https://github.com/twbs/stylelint-config-twbs-bootstrap/blob/ad67be6e4ceb48809fa1dce13b7892f9d2018995/css/index.js#L38
+[concentric-css]: https://github.com/brandon-rhodes/Concentric-CSS/
+[some overrides]: https://github.com/PerplexDigital/stylelint-config/blob/main/src/index.js
+[perplex]: https://github.com/PerplexDigital/stylelint-config/blob/main/src/order.js
+[property groups]: https://github.com/PerplexDigital/stylelint-config/blob/main/src/property-groups.js
 [mdo-order]: https://markdotto.com/blog/css-property-order/

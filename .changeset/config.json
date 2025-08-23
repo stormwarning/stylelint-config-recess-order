@@ -1,13 +1,10 @@
 {
-	"$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
-	"access": "public",
-	"baseBranch": "main",
-	"changelog": [
-		"@zazen/changesets-changelog",
-		{ "repo": "stormwarning/stylelint-config-recess-order" }
-	],
-	"commit": false,
-	"ignore": [],
-	"linked": [],
-	"updateInternalDependencies": "patch"
+    "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
+    "access": "public",
+    "baseBranch": "main",
+    "changelog": ["@zazen/changesets-changelog", { "repo": "@perplex-digital/stylelint-config" }],
+    "commit": false,
+    "ignore": [],
+    "linked": [],
+    "updateInternalDependencies": "patch"
 }

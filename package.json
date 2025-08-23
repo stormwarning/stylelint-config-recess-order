@@ -1,63 +1,73 @@
 {
-	"name": "stylelint-config-recess-order",
-	"version": "7.2.0",
-	"description": "Recess-based property sort order for Stylelint.",
-	"keywords": [
-		"bootstrap",
-		"properties-order",
-		"property order",
-		"recess",
-		"stylelint",
-		"stylelint-config",
-		"stylelint-order"
-	],
-	"homepage": "https://github.com/stormwarning/stylelint-config-recess-order",
-	"bugs": "https://github.com/stormwarning/stylelint-config-recess-order/issues",
-	"repository": "stormwarning/stylelint-config-recess-order",
-	"license": "ISC",
-	"author": "Jeff (https://tidaltheory.io)",
-	"type": "module",
-	"exports": {
-		".": "./index.js",
-		"./groups": "./groups.js"
-	},
-	"main": "index.js",
-	"files": [
-		"index.js",
-		"groups.js"
-	],
-	"scripts": {
-		"changeset": "changeset add",
-		"lint": "eslint '**/*.js'",
-		"prepare": "husky",
-		"release": "changeset publish",
-		"test": "node --test"
-	},
-	"lint-staged": {
-		"*.js": [
-			"eslint --fix",
-			"prettier --write"
-		],
-		"package.json": "prettier --write"
-	},
-	"prettier": "@zazen/prettier-config",
-	"devDependencies": {
-		"@changesets/cli": "2.29.5",
-		"@zazen/changesets-changelog": "2.0.3",
-		"@zazen/eslint-config": "6.10.0",
-		"@zazen/prettier-config": "1.1.3",
-		"eslint": "8.57.1",
-		"husky": "9.1.7",
-		"lint-staged": "16.1.2",
-		"prettier": "3.6.2",
-		"stylelint": "16.23.0",
-		"stylelint-order": "7.0.0"
-	},
-	"peerDependencies": {
-		"stylelint": ">=16.18",
-		"stylelint-order": ">=7"
-	},
-	"pnpm": {
-		"overrides": {}
-	}
+    "name": "@perplex-digital/stylelint-config",
+    "version": "8.0.0",
+    "description": "Order and Concentric-based property sorting for Stylelint.",
+    "keywords": [
+        "tailwind",
+        "logical properties",
+        "properties-order",
+        "property order",
+        "concentric",
+        "stylelint",
+        "stylelint-config",
+        "stylelint-order"
+    ],
+    "homepage": "https://github.com/PerplexDigital/stylelint-config",
+    "bugs": "https://github.com/PerplexDigital/stylelint-config/issues",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PerplexDigital/stylelint-config.git"
+    },
+    "license": "ISC",
+    "author": "Tobias Boekwijt (https://perplex.nl/en/about-perplex/the-perplexers#tobias-boekwijt)",
+    "type": "module",
+    "exports": {
+        ".": "./src/index.js",
+        "./order": "./src/order.js",
+        "./property-groups": "./src/property-groups.js"
+    },
+    "main": "src/index.js",
+    "files": [
+        "src/index.js",
+        "src/order.js",
+        "src/property-groups.js"
+    ],
+    "scripts": {
+        "lint": "eslint '**/*.js'",
+        "fix": "eslint '**/*.js' --fix",
+        "prepare": "husky",
+        "release": "changeset publish",
+        "test": "node --test"
+    },
+    "lint-staged": {
+        "*.js": [
+            "eslint --fix",
+            "prettier --write"
+        ],
+        "package.json": "prettier --write"
+    },
+    "dependencies": {
+        "@stylistic/stylelint-plugin": "^4.0.0",
+        "stylelint-config-recommended-vue": "^1.6.1",
+        "stylelint-config-standard": "^38.0.0",
+        "stylelint-high-performance-animation": "^1.11.0",
+        "stylelint-order": "^7.0.0",
+        "stylelint-use-logical-spec": "^5.0.1"
+    },
+    "devDependencies": {
+        "@changesets/cli": "2.29.5",
+        "@commitlint/cli": "^19.8.1",
+        "@commitlint/config-conventional": "^19.8.1",
+        "@zazen/changesets-changelog": "2.0.3",
+        "@nuxt/eslint-config": "^1.9.0",
+        "eslint": "^9.34.0",
+        "husky": "^9.1.7",
+        "lint-staged": "^16.1.5",
+        "prettier": "^3.6.2",
+        "stylelint": "^16.23.1",
+        "typescript": "^5.9.2"
+    },
+    "peerDependencies": {
+        "stylelint": ">=16.23"
+    }
 }

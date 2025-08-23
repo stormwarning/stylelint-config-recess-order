@@ -15,13 +15,13 @@ jobs:
       # https://github.com/pnpm/action-setup
       - uses: pnpm/action-setup@v4
         with:
-          version: 6
+          version: latest
 
       # https://github.com/actions/setup-node
-      - name: Setup Node.js 18.x
+      - name: Setup Node.js 22.x
         uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 22.x
           cache: pnpm
 
       - name: Install dependencies
