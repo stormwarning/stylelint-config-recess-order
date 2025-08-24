@@ -51,6 +51,7 @@ const config = {
             '^[a-z0-9]+(?:-[a-z0-9]+)*(?:(?:__|--)[a-z0-9]+(?:-[a-z0-9]+)*)*(?:\\!)?$',
             {
                 message: (selector) => `Expected class selector "${selector}" to be kebab-case or BEM`,
+                severity: 'warning',
             },
         ],
         'selector-pseudo-class-no-unknown': [
