@@ -737,6 +737,9 @@ const propertyGroups = [
 	 * View transitions.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_view_transitions#reference
 	 */
+	{
+		properties: ['view-transition-name', 'view-transition-class'],
+	},
 
 	/**
 	 * Animations.
