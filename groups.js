@@ -690,13 +690,16 @@ const propertyGroups = [
 			'flood-opacity',
 			'lighting-color',
 
+			'marker',
 			'marker-start',
 			'marker-mid',
 			'marker-end',
 			'stop-color',
 			'stop-opacity',
 
+			'paint-order',
 			'shape-rendering',
+			'text-rendering',
 		],
 	},
 
