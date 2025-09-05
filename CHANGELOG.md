@@ -1,18 +1,40 @@
 # Change Log
 
+## 7.3.0
+
+### Minor Changes
+
+- Add Ruby properties ([#421](https://github.com/stormwarning/stylelint-config-recess-order/pull/421))
+  - [`ruby-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/ruby-position)
+  - [`ruby-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/ruby-align)
+
+- Add View Transitions properties ([#424](https://github.com/stormwarning/stylelint-config-recess-order/pull/424))
+  - [`view-transition-name`](https://developer.mozilla.org/en-US/docs/Web/CSS/view-transition-name)
+  - [`view-transition-class`](https://developer.mozilla.org/en-US/docs/Web/CSS/view-transition-class)
+
+- Add color adjustment properties ([#422](https://github.com/stormwarning/stylelint-config-recess-order/pull/422))
+  - [`forced-color-adjust`](https://developer.mozilla.org/en-US/docs/Web/CSS/forced-color-adjust)
+  - [`print-color-adjust`](https://developer.mozilla.org/en-US/docs/Web/CSS/print-color-adjust)
+
+- Add Motion Path properties ([#425](https://github.com/stormwarning/stylelint-config-recess-order/pull/425))
+  - [`offset`](https://developer.mozilla.org/en-US/docs/Web/CSS/offset)
+  - [`offset-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-position)
+  - [`offset-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-path)
+  - [`offset-distance`](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-distance)
+  - [`offset-rotate`](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-rotate)
+  - [`offset-anchor`](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-anchor)
+
 ## 7.2.0
 
 ### Minor Changes
 
 - Add font synthesis properties ([#418](https://github.com/stormwarning/stylelint-config-recess-order/pull/418))
-
   - [`font-synthesis`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis)
   - [`font-synthesis-weight`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-weight)
   - [`font-synthesis-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-style)
   - [`font-synthesis-small-caps`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-small-caps)
 
 - Add missing Animation properties ([#417](https://github.com/stormwarning/stylelint-config-recess-order/pull/417))
-
   - [`animation-fill-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
   - [`animation-composition`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-composition)
 
@@ -21,26 +43,22 @@
 ### Minor Changes
 
 - Add missing Masking properties ([#408](https://github.com/stormwarning/stylelint-config-recess-order/pull/408))
-
   - [`clip-rule`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-rule)
   - [`mask-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-type)
 
 - Add `text-decoration-skip-ink` property ([#406](https://github.com/stormwarning/stylelint-config-recess-order/pull/406))
 - Add Writing Modes properties ([#410](https://github.com/stormwarning/stylelint-config-recess-order/pull/410))
-
   - [`direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/direction)
   - [`unicode-bidi`](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi)
   - [`text-orientation`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation)
   - [`text-combine-upright`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-combine-upright)
 
 - Add `shape-*` properties ([#409](https://github.com/stormwarning/stylelint-config-recess-order/pull/409))
-
   - [`shape-outside`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside)
   - [`shape-image-threshold`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-image-threshold)
   - [`shape-margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-margin)
 
 - Add missing Transform properties ([#411](https://github.com/stormwarning/stylelint-config-recess-order/pull/411))
-
   - [`transform-box`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-box)
   - [`transform-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style)
   - [`backface-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
@@ -98,13 +116,11 @@
 
 - Add properties related to multi-line truncation ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))  
   Thanks [@toFrankie](https://github.com/toFrankie)!
-
   - [`-webkit-box-orient`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-orient)
   - [`-webkit-line-clamp`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp)
   - `line-clamp`
 
 - Add paged media properties ([#378](https://github.com/stormwarning/stylelint-config-recess-order/pull/378))
-
   - [`break-before`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-before)
   - [`break-inside`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside)
   - [`break-after`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-after)
@@ -113,12 +129,10 @@
 
 - Add `-webkit-text-fill-` and `-stroke-*` properties ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))  
   Thanks [@toFrankie](https://github.com/toFrankie)!
-
   - [`-webkit-text-fill-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color)
   - [`-webkit-text-stroke-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke)
 
 - Add `scroll-*` and `scrollbar-*` properties ([#376](https://github.com/stormwarning/stylelint-config-recess-order/pull/376))
-
   - [`scroll-behavior`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
   - [`scroll-snap-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
   - [`scroll-snap-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align)
@@ -152,12 +166,10 @@
 ### Minor Changes
 
 - Add `perspective-*` properties ([#356](https://github.com/stormwarning/stylelint-config-recess-order/pull/356))
-
   - [`perspective`](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
   - [`perspective-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin)
 
 - Add `object-*` and `image-*` properties ([#357](https://github.com/stormwarning/stylelint-config-recess-order/pull/357))
-
   - [`object-fit`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
   - [`object-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position)
   - [`image-orientation`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-orientation)
@@ -176,7 +188,6 @@
 ### Minor Changes
 
 - Add Masking properties [#349](https://github.com/stormwarning/stylelint-config-recess-order/pull/349)
-
   - [`mask-border`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border) and related longhand properties
   - [`mask`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask) and related longhand properties
 
@@ -195,7 +206,6 @@
 
 - Add `backdrop-filter` to Background group [#345](https://github.com/stormwarning/stylelint-config-recess-order/pull/345)
 - Add missing logical properties [#343](https://github.com/stormwarning/stylelint-config-recess-order/pull/343)
-
   - Specific `-start` and `-end` for block and inline `inset` properties
   - `inline-size` and `block-size`, as well as `min-` and `max-` for both
   - Block and inline forms of `overflow`
@@ -205,7 +215,6 @@
 ### Minor Changes
 
 - Add Basic User Interface properties [#341](https://github.com/stormwarning/stylelint-config-recess-order/pull/341)
-
   - [`appearance`](https://developer.mozilla.org/en-US/docs/Web/CSS/appearance)
   - [`accent-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color)
   - [`caret-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color)
@@ -218,7 +227,6 @@
 
 - Add independent transform properties [#339](https://github.com/stormwarning/stylelint-config-recess-order/pull/339)  
   Thanks [@taichi221228](https://github.com/taichi221228)!
-
   - [`translate`](https://developer.mozilla.org/en-US/docs/Web/CSS/translate)
   - [`scale`](https://developer.mozilla.org/en-US/docs/Web/CSS/scale)
   - [`rotate`](https://developer.mozilla.org/en-US/docs/Web/CSS/rotate)
