@@ -410,7 +410,7 @@ const propertyGroups = [
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_color_adjustment#reference
 	 */
 	{
-		properties: ['color-scheme'],
+		properties: ['color-scheme', 'forced-color-adjust', 'print-color-adjust'],
 	},
 
 	/**
