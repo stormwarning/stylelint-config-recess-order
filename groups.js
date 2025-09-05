@@ -301,6 +301,9 @@ const propertyGroups = [
 	 */
 	{
 		properties: [
+			'base-palette',
+			'override-colors',
+			'font-palette',
 			'color',
 			'-webkit-text-fill-color',
 			'-webkit-text-stroke',
