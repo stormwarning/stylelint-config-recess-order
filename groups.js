@@ -766,6 +766,16 @@ const propertyGroups = [
 	 * Motion path.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_motion_path#reference
 	 */
+	{
+		properties: [
+			'offset',
+			'offset-position',
+			'offset-path',
+			'offset-distance',
+			'offset-rotate',
+			'offset-anchor',
+		],
+	},
 
 	/**
 	 * Will change.
