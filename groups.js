@@ -323,12 +323,17 @@ const propertyGroups = [
 			'word-spacing',
 			'letter-spacing',
 			'hyphens',
+			'hyphenate-character',
+			'line-break',
 			'word-break',
 			'text-wrap',
+			'text-wrap-mode',
+			'text-wrap-style',
 			'word-wrap', // Legacy name for `overflow-wrap`
 			'overflow-wrap',
 			'tab-size',
 			'white-space',
+			'white-space-collapse',
 		],
 	},
 
