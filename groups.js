@@ -358,6 +358,9 @@ const propertyGroups = [
 	 * Ruby layout.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_ruby_layout#reference
 	 */
+	{
+		properties: ['ruby-position', 'ruby-align'],
+	},
 
 	/**
 	 * Font loading.
