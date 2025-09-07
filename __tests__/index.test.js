@@ -3,6 +3,7 @@ import { test } from 'node:test'
 
 import stylelint from 'stylelint'
 
+import groups from '../groups.js'
 import config from '../index.js'
 import { correctOrder, incorrectOrder } from './_fixtures.js'
 
@@ -35,4 +36,11 @@ test('with correct property order', async () => {
 		0,
 		'it indicates no specific errors',
 	)
+})
+
+test('no duplicate properties', async () => {
+	let propertiesArray = groups.flatMap((group) => group.properties)
+	let propertiesSet = new Set(propertiesArray)
+
+	assert.strictEqual(propertiesArray.length, propertiesSet.size)
 })
