@@ -1,5 +1,26 @@
 # Change Log
 
+## 7.4.0
+
+### Minor Changes
+
+- Add new Text properties ([#427](https://github.com/stormwarning/stylelint-config-recess-order/pull/427))
+  - [`hyphenate-character`](https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-character)
+  - [`line-break`](https://developer.mozilla.org/en-US/docs/Web/CSS/line-break)
+  - [`text-wrap-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap-mode)
+  - [`text-wrap-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap-style)
+  - [`white-space-collapse`](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space-collapse)
+
+- Add font palette properties ([#429](https://github.com/stormwarning/stylelint-config-recess-order/pull/429))
+  - [`base-palette`](https://developer.mozilla.org/en-US/docs/Web/CSS/base-palette)
+  - [`override-colors`](https://developer.mozilla.org/en-US/docs/Web/CSS/override-colors)
+  - [`font-palette`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-palette)
+
+- Add missing SVG properties ([#426](https://github.com/stormwarning/stylelint-config-recess-order/pull/426))
+  - [`marker`](https://developer.mozilla.org/en-US/docs/Web/CSS/marker)
+  - [`paint-order`](https://developer.mozilla.org/en-US/docs/Web/CSS/paint-order)
+  - [`text-rendering`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering)
+
 ## 7.3.0
 
 ### Minor Changes
