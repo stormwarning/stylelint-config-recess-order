@@ -1,6 +1,6 @@
 {
     "name": "@perplex-digital/stylelint-config",
-    "version": "8.0.5",
+    "version": "8.0.6",
     "description": "Order and Concentric-based property sorting for Stylelint.",
     "keywords": [
         "tailwind",
@@ -55,16 +55,16 @@
         "stylelint-use-logical-spec": "^5.0.1"
     },
     "devDependencies": {
-        "@changesets/cli": "^2.29.6",
+        "@changesets/cli": "^2.29.7",
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
-        "@zazen/changesets-changelog": "^2.0.3",
         "@nuxt/eslint-config": "^1.9.0",
-        "eslint": "^9.34.0",
+        "@zazen/changesets-changelog": "^2.0.3",
+        "eslint": "^9.35.0",
         "husky": "^9.1.7",
-        "lint-staged": "^16.1.5",
+        "lint-staged": "^16.1.6",
         "prettier": "^3.6.2",
-        "stylelint": "^16.23.1",
+        "stylelint": "^16.24.0",
         "typescript": "^5.9.2"
     },
     "peerDependencies": {
