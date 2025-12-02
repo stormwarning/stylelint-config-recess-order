@@ -16,10 +16,10 @@ importers:
         version: 2.0.3
       '@zazen/eslint-config':
         specifier: 6.10.0
-        version: 6.10.0(eslint@8.57.1)(prettier@3.6.2)(typescript@4.9.5)
+        version: 6.10.0(eslint@8.57.1)(prettier@3.7.3)(typescript@4.9.5)
       '@zazen/prettier-config':
         specifier: 1.1.3
-        version: 1.1.3(prettier@3.6.2)
+        version: 1.1.3(prettier@3.7.3)
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -30,8 +30,8 @@ importers:
         specifier: 16.1.2
         version: 16.1.2
       prettier:
-        specifier: 3.6.2
-        version: 3.6.2
+        specifier: 3.7.3
+        version: 3.7.3
       stylelint:
         specifier: 16.23.0
         version: 16.23.0(typescript@4.9.5)
@@ -1795,8 +1795,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.6.2:
-    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+  prettier@3.7.3:
+    resolution: {integrity: sha512-QgODejq9K3OzoBbuyobZlUhznP5SKwPqp+6Q6xw6o8gnhr4O85L2U915iM2IDcfF2NPXVaM9zlo9tdwipnYwzg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2770,7 +2770,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@zazen/eslint-config@6.10.0(eslint@8.57.1)(prettier@3.6.2)(typescript@4.9.5)':
+  '@zazen/eslint-config@6.10.0(eslint@8.57.1)(prettier@3.7.3)(typescript@4.9.5)':
     dependencies:
       '@rushstack/eslint-patch': 1.10.5
       '@typescript-eslint/eslint-plugin': 8.22.0(@typescript-eslint/parser@8.22.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1)(typescript@4.9.5)
@@ -2786,17 +2786,17 @@ snapshots:
       eslint-plugin-prefer-let: 4.0.0
       eslint-plugin-promise: 7.2.1(eslint@8.57.1)
       eslint-plugin-unicorn: 56.0.1(eslint@8.57.1)
-      prettier: 3.6.2
+      prettier: 3.7.3
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
       - typescript
 
-  '@zazen/prettier-config@1.1.3(prettier@3.6.2)':
+  '@zazen/prettier-config@1.1.3(prettier@3.7.3)':
     dependencies:
-      prettier: 3.6.2
-      prettier-plugin-packagejson: 2.4.10(prettier@3.6.2)
+      prettier: 3.7.3
+      prettier-plugin-packagejson: 2.4.10(prettier@3.7.3)
 
   acorn-jsx@5.3.2(acorn@8.11.3):
     dependencies:
@@ -4363,16 +4363,16 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-packagejson@2.4.10(prettier@3.6.2):
+  prettier-plugin-packagejson@2.4.10(prettier@3.7.3):
     dependencies:
       sort-package-json: 2.7.0
       synckit: 0.9.0
     optionalDependencies:
-      prettier: 3.6.2
+      prettier: 3.7.3
 
   prettier@2.8.8: {}
 
-  prettier@3.6.2: {}
+  prettier@3.7.3: {}
 
   punycode@2.1.1: {}
 
