@@ -1,43 +1,80 @@
 # Change Log
 
+## 17.0.0
+
+### Major Changes
+
+- Upgrade to Stylelint 17, add new/missing properties ([#13](https://github.com/PerplexDigital/stylelint-config/pull/13))
+    - [`forced-color-adjust`](https://developer.mozilla.org/en-US/docs/Web/CSS/forced-color-adjust)
+    - [`print-color-adjust`](https://developer.mozilla.org/en-US/docs/Web/CSS/print-color-adjust)
+    - [`marker`](https://developer.mozilla.org/en-US/docs/Web/CSS/marker)
+    - [`paint-order`](https://developer.mozilla.org/en-US/docs/Web/CSS/paint-order)
+    - [`text-rendering`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering)
+    - [`hyphenate-character`](https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-character)
+    - [`line-break`](https://developer.mozilla.org/en-US/docs/Web/CSS/line-break)
+    - [`text-wrap-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap-mode)
+    - [`text-wrap-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap-style)
+    - [`white-space-collapse`](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space-collapse)
+
+### Minor Changes
+
+- Add Corner Shape properties ([#13](https://github.com/PerplexDigital/stylelint-config/pull/13))
+    - [`corner-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-shape)
+    - [`corner-block-start-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-block-start-shape)
+    - [`corner-block-end-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-block-end-shape)
+    - [`corner-inline-start-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-inline-start-shape)
+    - [`corner-inline-end-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-inline-end-shape)
+    - [`corner-start-start-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-start-start-shape)
+    - [`corner-start-end-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-start-end-shape)
+    - [`corner-end-start-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-end-start-shape)
+    - [`corner-end-end-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-end-end-shape)
+    - [`corner-top-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-top-shape)
+    - [`corner-right-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-right-shape)
+    - [`corner-bottom-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-shape)
+    - [`corner-left-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-left-shape)
+    - [`corner-top-left-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-top-left-shape)
+    - [`corner-top-right-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-top-right-shape)
+    - [`corner-bottom-right-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-right-shape)
+    - [`corner-bottom-left-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-left-shape)
+
 ## 7.2.0
 
 ### Minor Changes
 
 - Add font synthesis properties ([#418](https://github.com/stormwarning/stylelint-config-recess-order/pull/418))
-  - [`font-synthesis`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis)
-  - [`font-synthesis-weight`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-weight)
-  - [`font-synthesis-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-style)
-  - [`font-synthesis-small-caps`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-small-caps)
+    - [`font-synthesis`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis)
+    - [`font-synthesis-weight`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-weight)
+    - [`font-synthesis-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-style)
+    - [`font-synthesis-small-caps`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-small-caps)
 
 - Add missing Animation properties ([#417](https://github.com/stormwarning/stylelint-config-recess-order/pull/417))
-  - [`animation-fill-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
-  - [`animation-composition`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-composition)
+    - [`animation-fill-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
+    - [`animation-composition`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-composition)
 
 ## 7.1.0
 
 ### Minor Changes
 
 - Add missing Masking properties ([#408](https://github.com/stormwarning/stylelint-config-recess-order/pull/408))
-  - [`clip-rule`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-rule)
-  - [`mask-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-type)
+    - [`clip-rule`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-rule)
+    - [`mask-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-type)
 
 - Add `text-decoration-skip-ink` property ([#406](https://github.com/stormwarning/stylelint-config-recess-order/pull/406))
 - Add Writing Modes properties ([#410](https://github.com/stormwarning/stylelint-config-recess-order/pull/410))
-  - [`direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/direction)
-  - [`unicode-bidi`](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi)
-  - [`text-orientation`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation)
-  - [`text-combine-upright`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-combine-upright)
+    - [`direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/direction)
+    - [`unicode-bidi`](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi)
+    - [`text-orientation`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation)
+    - [`text-combine-upright`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-combine-upright)
 
 - Add `shape-*` properties ([#409](https://github.com/stormwarning/stylelint-config-recess-order/pull/409))
-  - [`shape-outside`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside)
-  - [`shape-image-threshold`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-image-threshold)
-  - [`shape-margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-margin)
+    - [`shape-outside`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside)
+    - [`shape-image-threshold`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-image-threshold)
+    - [`shape-margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-margin)
 
 - Add missing Transform properties ([#411](https://github.com/stormwarning/stylelint-config-recess-order/pull/411))
-  - [`transform-box`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-box)
-  - [`transform-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style)
-  - [`backface-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
+    - [`transform-box`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-box)
+    - [`transform-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style)
+    - [`backface-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
 
 ## 7.0.0
 
@@ -45,21 +82,21 @@
 
 - Support `stylelint-order` v7 (Fixes #355, #395) ([#403](https://github.com/stormwarning/stylelint-config-recess-order/pull/403))
 
-  Minimum supported version of `stylelint` is now **16.18.0**, which is in line
-  with `stylelint-order`.
+    Minimum supported version of `stylelint` is now **16.18.0**, which is in line
+    with `stylelint-order`.
 
-  **`stylelint-order` is now a peerDependency and no longer included with this
-  package.** It should be installed separately.
+    **`stylelint-order` is now a peerDependency and no longer included with this
+    package.** It should be installed separately.
 
 ## 6.1.0
 
 ### Minor Changes
 
 - Add containment properties ([#393](https://github.com/stormwarning/stylelint-config-recess-order/pull/393))
-  - [`contain-intrinsic-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-size)
-  - [`contain`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain)
-  - [`container`](https://developer.mozilla.org/en-US/docs/Web/CSS/container)
-  - [`content-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility)
+    - [`contain-intrinsic-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-size)
+    - [`contain`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain)
+    - [`container`](https://developer.mozilla.org/en-US/docs/Web/CSS/container)
+    - [`content-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility)
 
 ## 6.0.0
 
@@ -67,14 +104,14 @@
 
 - Update property grouping ([#382](https://github.com/stormwarning/stylelint-config-recess-order/pull/382))
 
-  Property order is generally the same, with a few groups being re-ordered or split up. [View the PR](https://github.com/stormwarning/stylelint-config-recess-order/pull/382) for details of all the changes, or [read the decision document](https://github.com/stormwarning/stylelint-config-recess-order/blob/main/docs/decisions/003-order-guidelines.md) for the rationale behind the change.
+    Property order is generally the same, with a few groups being re-ordered or split up. [View the PR](https://github.com/stormwarning/stylelint-config-recess-order/pull/382) for details of all the changes, or [read the decision document](https://github.com/stormwarning/stylelint-config-recess-order/blob/main/docs/decisions/003-order-guidelines.md) for the rationale behind the change.
 
 ### Patch Changes
 
 - Sort out-of-order logical properties (Fixes #384) ([#382](https://github.com/stormwarning/stylelint-config-recess-order/pull/382))
 
-  `overflow-inline` now comes before `overflow-block`.
-  Scroll padding & margin block properties now come before the inline properties.
+    `overflow-inline` now comes before `overflow-block`.
+    Scroll padding & margin block properties now come before the inline properties.
 
 - Remove duplicate `word-spacing` property (Fixes #361) ([#382](https://github.com/stormwarning/stylelint-config-recess-order/pull/382))
 - Remove invalid properties (Fixes #388) ([#382](https://github.com/stormwarning/stylelint-config-recess-order/pull/382))
@@ -92,37 +129,37 @@
 
 - Add properties related to multi-line truncation ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))  
   Thanks [@toFrankie](https://github.com/toFrankie)!
-  - [`-webkit-box-orient`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-orient)
-  - [`-webkit-line-clamp`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp)
-  - `line-clamp`
+    - [`-webkit-box-orient`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-orient)
+    - [`-webkit-line-clamp`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp)
+    - `line-clamp`
 
 - Add paged media properties ([#378](https://github.com/stormwarning/stylelint-config-recess-order/pull/378))
-  - [`break-before`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-before)
-  - [`break-inside`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside)
-  - [`break-after`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-after)
-  - [`orphans`](https://developer.mozilla.org/en-US/docs/Web/CSS/orphans)
-  - [`widows`](https://developer.mozilla.org/en-US/docs/Web/CSS/widows)
+    - [`break-before`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-before)
+    - [`break-inside`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside)
+    - [`break-after`](https://developer.mozilla.org/en-US/docs/Web/CSS/break-after)
+    - [`orphans`](https://developer.mozilla.org/en-US/docs/Web/CSS/orphans)
+    - [`widows`](https://developer.mozilla.org/en-US/docs/Web/CSS/widows)
 
 - Add `-webkit-text-fill-` and `-stroke-*` properties ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))  
   Thanks [@toFrankie](https://github.com/toFrankie)!
-  - [`-webkit-text-fill-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color)
-  - [`-webkit-text-stroke-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke)
+    - [`-webkit-text-fill-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color)
+    - [`-webkit-text-stroke-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke)
 
 - Add `scroll-*` and `scrollbar-*` properties ([#376](https://github.com/stormwarning/stylelint-config-recess-order/pull/376))
-  - [`scroll-behavior`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
-  - [`scroll-snap-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
-  - [`scroll-snap-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align)
-  - [`scroll-snap-stop`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-stop)
-  - [`scroll-padding-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding)
-  - [`scroll-margin-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin)
-  - [`scrollbar-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-color)
-  - [`scrollbar-gutter`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter)
-  - [`scrollbar-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width)
+    - [`scroll-behavior`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
+    - [`scroll-snap-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
+    - [`scroll-snap-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align)
+    - [`scroll-snap-stop`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-stop)
+    - [`scroll-padding-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding)
+    - [`scroll-margin-*`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin)
+    - [`scrollbar-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-color)
+    - [`scrollbar-gutter`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter)
+    - [`scrollbar-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width)
 
 - Remove legacy `-ms-text-overflow` property ([#373](https://github.com/stormwarning/stylelint-config-recess-order/pull/373))  
   Thanks [@toFrankie](https://github.com/toFrankie)!
 
-  This was useful for IE8; can be autoprefixed if required.
+    This was useful for IE8; can be autoprefixed if required.
 
 ## 5.0.1
 
@@ -142,15 +179,15 @@
 ### Minor Changes
 
 - Add `perspective-*` properties ([#356](https://github.com/stormwarning/stylelint-config-recess-order/pull/356))
-  - [`perspective`](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
-  - [`perspective-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin)
+    - [`perspective`](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
+    - [`perspective-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin)
 
 - Add `object-*` and `image-*` properties ([#357](https://github.com/stormwarning/stylelint-config-recess-order/pull/357))
-  - [`object-fit`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
-  - [`object-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position)
-  - [`image-orientation`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-orientation)
-  - [`image-rendering`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering)
-  - [`image-resolution`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-resolution)
+    - [`object-fit`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+    - [`object-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position)
+    - [`image-orientation`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-orientation)
+    - [`image-rendering`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering)
+    - [`image-resolution`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-resolution)
 
 ## 4.5.0
 
@@ -164,12 +201,12 @@
 ### Minor Changes
 
 - Add Masking properties [#349](https://github.com/stormwarning/stylelint-config-recess-order/pull/349)
-  - [`mask-border`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border) and related longhand properties
-  - [`mask`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask) and related longhand properties
+    - [`mask-border`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border) and related longhand properties
+    - [`mask`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask) and related longhand properties
 
-  `mask` was previously included within some SVG-specific properties — it’s been moved above those and below border & outline properties.
+    `mask` was previously included within some SVG-specific properties — it’s been moved above those and below border & outline properties.
 
-  `mask-border` properties are sorted above `mask` to highlight the fact that `mask` will reset `mask-border` to its initial value ([as per W3C spec](https://drafts.fxtf.org/css-masking/#the-mask)). I’m not familiar with these properties; if this order is problematic in practice, please file an issue!
+    `mask-border` properties are sorted above `mask` to highlight the fact that `mask` will reset `mask-border` to its initial value ([as per W3C spec](https://drafts.fxtf.org/css-masking/#the-mask)). I’m not familiar with these properties; if this order is problematic in practice, please file an issue!
 
 ### Patch Changes
 
@@ -182,20 +219,20 @@
 
 - Add `backdrop-filter` to Background group [#345](https://github.com/stormwarning/stylelint-config-recess-order/pull/345)
 - Add missing logical properties [#343](https://github.com/stormwarning/stylelint-config-recess-order/pull/343)
-  - Specific `-start` and `-end` for block and inline `inset` properties
-  - `inline-size` and `block-size`, as well as `min-` and `max-` for both
-  - Block and inline forms of `overflow`
+    - Specific `-start` and `-end` for block and inline `inset` properties
+    - `inline-size` and `block-size`, as well as `min-` and `max-` for both
+    - Block and inline forms of `overflow`
 
 ## 4.2.0 — 2023-06-06
 
 ### Minor Changes
 
 - Add Basic User Interface properties [#341](https://github.com/stormwarning/stylelint-config-recess-order/pull/341)
-  - [`appearance`](https://developer.mozilla.org/en-US/docs/Web/CSS/appearance)
-  - [`accent-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color)
-  - [`caret-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color)
+    - [`appearance`](https://developer.mozilla.org/en-US/docs/Web/CSS/appearance)
+    - [`accent-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color)
+    - [`caret-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color)
 
-  Also adds new/missing properties [`color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme) and [`counter-set`](https://developer.mozilla.org/en-US/docs/Web/CSS/counter-set).
+    Also adds new/missing properties [`color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme) and [`counter-set`](https://developer.mozilla.org/en-US/docs/Web/CSS/counter-set).
 
 ## 4.1.0 — 2023-06-05
 
@@ -203,11 +240,11 @@
 
 - Add independent transform properties [#339](https://github.com/stormwarning/stylelint-config-recess-order/pull/339)  
   Thanks [@taichi221228](https://github.com/taichi221228)!
-  - [`translate`](https://developer.mozilla.org/en-US/docs/Web/CSS/translate)
-  - [`scale`](https://developer.mozilla.org/en-US/docs/Web/CSS/scale)
-  - [`rotate`](https://developer.mozilla.org/en-US/docs/Web/CSS/rotate)
+    - [`translate`](https://developer.mozilla.org/en-US/docs/Web/CSS/translate)
+    - [`scale`](https://developer.mozilla.org/en-US/docs/Web/CSS/scale)
+    - [`rotate`](https://developer.mozilla.org/en-US/docs/Web/CSS/rotate)
 
-  Note: unlike the transform function versions, the order of these properties does not affect the result.
+    Note: unlike the transform function versions, the order of these properties does not affect the result.
 
 ## 4.0.0 — 2023-02-14
 
@@ -215,7 +252,7 @@
 
 - Upgrade `stylelint-order` to v6 [`c734150`](https://github.com/stormwarning/stylelint-config-recess-order/commit/c734150496f7bd6f40a59d2a90cb4e882c37ceb2)
 
-  [`stylelint-order`](https://github.com/hudochenkov/stylelint-order/blob/master/CHANGELOG.md#600) dropped support for Node v12 and v14. A peerDependency of Stylelint at v15 has also been updated to match.
+    [`stylelint-order`](https://github.com/hudochenkov/stylelint-order/blob/master/CHANGELOG.md#600) dropped support for Node v12 and v14. A peerDependency of Stylelint at v15 has also been updated to match.
 
 ## 3.1.0 — 2022-12-20
 
@@ -224,7 +261,7 @@
 - Add `composes` property from CSS Modules [#325](https://github.com/stormwarning/stylelint-config-recess-order/pull/325)
 - Add separate propertyGroups export [#323](https://github.com/stormwarning/stylelint-config-recess-order/pull/323)
 
-  Should help make customising the rule config a little easier.
+    Should help make customising the rule config a little easier.
 
 ## 3.0.0 — 2021-11-11
 
@@ -285,7 +322,7 @@
 - Add `place-items` property [#193](https://github.com/stormwarning/stylelint-config-recess-order/issues/193)
   Thanks [@sergiofontes](https://github.com/sergiofontes)!
 
-  Shorthand for the `align-items` and `justify-items` properties.
+    Shorthand for the `align-items` and `justify-items` properties.
 
 <a name="2.1.0"></a>
 
@@ -298,8 +335,8 @@
   now used in `flex` contexts as well, but directly after `grid-gap`
   for better backwards-compatibility.
 
-  See [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
-  for reference.
+    See [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
+    for reference.
 
 #### ♻️ Changed
 
@@ -342,13 +379,13 @@
 #### ♻️ Changed
 
 - Upgrade dependency versions [#30](https://github.com/stormwarning/stylelint-config-recess-order/issues/30)
-  - `stylelint-order` now at `2.x.x`
-  - Dev dependencies updated
-  - Fixed sub-dependency vulnerabilities fixed per `npm audit`
+    - `stylelint-order` now at `2.x.x`
+    - Dev dependencies updated
+    - Fixed sub-dependency vulnerabilities fixed per `npm audit`
 - Add tests [#29](https://github.com/stormwarning/stylelint-config-recess-order/issues/29)
-  - Includes AVA test runner
-  - Adds stylelint as a dev/peer dependency
-  - Adds example code fixtures & basic tests
+    - Includes AVA test runner
+    - Adds stylelint as a dev/peer dependency
+    - Adds example code fixtures & basic tests
 
 ## 2.0.0 — 2018-03-22
 
