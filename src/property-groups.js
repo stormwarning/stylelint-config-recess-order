@@ -226,6 +226,23 @@ const propertyGroups = [
             'border-top-right-radius',
             'border-bottom-right-radius',
             'border-bottom-left-radius',
+            'corner-shape',
+            'corner-block-start-shape',
+            'corner-block-end-shape',
+            'corner-inline-start-shape',
+            'corner-inline-end-shape',
+            'corner-start-start-shape',
+            'corner-start-end-shape',
+            'corner-end-start-shape',
+            'corner-end-end-shape',
+            'corner-top-shape',
+            'corner-right-shape',
+            'corner-bottom-shape',
+            'corner-left-shape',
+            'corner-top-left-shape',
+            'corner-top-right-shape',
+            'corner-bottom-right-shape',
+            'corner-bottom-left-shape',
             'border-image',
             'border-image-source',
             'border-image-slice',
@@ -350,6 +367,9 @@ const propertyGroups = [
      */
     {
         properties: [
+            'base-palette',
+            'override-colors',
+            'font-palette',
             'color',
             '-webkit-text-fill-color',
             '-webkit-text-stroke',
@@ -372,12 +392,17 @@ const propertyGroups = [
             'word-spacing',
             'letter-spacing',
             'hyphens',
+            'hyphenate-character',
+            'line-break',
             'word-break',
             'text-wrap',
+            'text-wrap-mode',
+            'text-wrap-style',
             'word-wrap', // Legacy name for `overflow-wrap`
             'overflow-wrap',
             'tab-size',
             'white-space',
+            'white-space-collapse',
         ],
     },
 
@@ -452,7 +477,7 @@ const propertyGroups = [
      * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_color_adjustment#reference
      */
     {
-        properties: ['color-scheme'],
+        properties: ['color-scheme', 'forced-color-adjust', 'print-color-adjust'],
     },
 
     /**
@@ -626,13 +651,16 @@ const propertyGroups = [
             'flood-opacity',
             'lighting-color',
 
+            'marker',
             'marker-start',
             'marker-mid',
             'marker-end',
             'stop-color',
             'stop-opacity',
 
+            'paint-order',
             'shape-rendering',
+            'text-rendering',
         ],
     },
 
@@ -714,7 +742,7 @@ const propertyGroups = [
      * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_view_transitions#reference
      */
     {
-        properties: ['view-transition-class', 'view-transition-name'],
+        properties: ['view-transition-name', 'view-transition-class'],
     },
 
     /**
@@ -762,7 +790,7 @@ const propertyGroups = [
      * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_motion_path#reference
      */
     {
-        properties: ['offset', 'offset-anchor', 'offset-distance', 'offset-path', 'offset-position', 'offset-rotate'],
+        properties: ['offset', 'offset-position', 'offset-path', 'offset-distance', 'offset-rotate', 'offset-anchor'],
     },
 
     /**
