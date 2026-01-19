@@ -4,7 +4,8 @@
 
 ### Minor Changes
 
-- Add Corner Shape properties ([#442](https://github.com/stormwarning/stylelint-config-recess-order/pull/442))
+- Add Corner Shape properties ([#442](https://github.com/stormwarning/stylelint-config-recess-order/pull/442))  
+  Thanks [@aicest](https://github.com/aicest)!
   - [`corner`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner)
   - longhand `corner-*` properties
   - [`corner-shape`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/corner-shape)
@@ -146,7 +147,7 @@
 
 ### Patch Changes
 
-- Fix order of `flex-*` properties ([#386](https://github.com/stormwarning/stylelint-config-recess-order/pull/386))
+- Fix order of `flex-*` properties ([#386](https://github.com/stormwarning/stylelint-config-recess-order/pull/386))  
   The `flex` shorthand is followed by `-grow`, `-shrink`, and `-basis`, following the order of the shorthand property. The `flex-flow` shorthand now correctly preceeds the `-direction` and `-wrap` properties.
 
 ## 5.1.0
