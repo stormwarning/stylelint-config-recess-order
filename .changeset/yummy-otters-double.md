@@ -2,8 +2,8 @@
 'stylelint-config-recess-order': patch
 ---
 
-Update Stylelint peer dependency version range
+Add support for Stylelint v17
 
-Should now match `stylelint-order` and avoid errors when using with Stylelint v17.
+Updated peerDependencies version ranges for `stylelint` and `stylelint-order`.
 
 Fixes #446
