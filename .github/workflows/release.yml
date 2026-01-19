@@ -39,10 +39,10 @@ jobs:
           version: latest
 
       # https://github.com/actions/setup-node
-      - name: Setup Node.js 20.x
+      - name: Setup Node.js 24.x
         uses: actions/setup-node@v6
         with:
-          node-version: 20.x
+          node-version: 24.x
           cache: pnpm
 
       - name: Install dependencies
@@ -60,5 +60,4 @@ jobs:
           publish: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
