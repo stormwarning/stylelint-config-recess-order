@@ -188,6 +188,19 @@ const propertyGroups = [
 	 * Anchor positioning.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning#reference
 	 */
+	{
+		properties: [
+			'anchor-name',
+			'anchor-scope',
+			'anchor-center',
+			'position-area',
+			'position-anchor',
+			'position-try',
+			'position-try-order',
+			'position-try-fallbacks',
+			'position-visibility',
+		],
+	},
 
 	/**
 	 * Containment.
