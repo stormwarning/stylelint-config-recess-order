@@ -45,7 +45,7 @@
 		"@changesets/cli": "2.29.8",
 		"@zazen/changesets-changelog": "2.0.3",
 		"@zazen/eslint-config": "6.10.0",
-		"@zazen/prettier-config": "1.1.3",
+		"@zazen/prettier-config": "1.1.4",
 		"eslint": "8.57.1",
 		"husky": "9.1.7",
 		"lint-staged": "16.2.7",
