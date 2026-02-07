@@ -1,5 +1,12 @@
 # Change Log
 
+## 7.6.1
+
+### Patch Changes
+
+- Remove invalid `anchor-center` property ([#458](https://github.com/stormwarning/stylelint-config-recess-order/pull/458))
+- Fix typo in `scroll-behavior` property ([#457](https://github.com/stormwarning/stylelint-config-recess-order/pull/457))
+
 ## 7.6.0
 
 ### Minor Changes
