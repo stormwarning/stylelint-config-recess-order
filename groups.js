@@ -238,7 +238,7 @@ const propertyGroups = [
 			'text-overflow',
 			'-webkit-line-clamp',
 			'line-clamp',
-			'scroll-behaviour',
+			'scroll-behavior',
 		],
 	},
 
