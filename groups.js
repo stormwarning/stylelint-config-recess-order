@@ -192,7 +192,6 @@ const propertyGroups = [
 		properties: [
 			'anchor-name',
 			'anchor-scope',
-			'anchor-center',
 			'position-area',
 			'position-anchor',
 			'position-try',
