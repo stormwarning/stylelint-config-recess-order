@@ -5,6 +5,7 @@
 ### Minor Changes
 
 - Allow [stylelint-order v8](https://github.com/hudochenkov/stylelint-order/releases/tag/8.0.0) as peer dependency ([#463](https://github.com/stormwarning/stylelint-config-recess-order/pull/463))
+  Thanks [@FloEdelmann](https://github.com/FloEdelmann)!
 
 ## 7.6.1
 
