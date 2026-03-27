@@ -48,7 +48,7 @@
 		"@zazen/prettier-config": "1.1.4",
 		"eslint": "8.57.1",
 		"husky": "9.1.7",
-		"lint-staged": "16.2.7",
+		"lint-staged": "16.4.0",
 		"prettier": "3.8.1",
 		"stylelint": "17.2.0",
 		"stylelint-order": "8.0.0"
