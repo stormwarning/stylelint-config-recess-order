@@ -47,6 +47,10 @@ module.exports = {
 }
 ```
 
+> [!TIP]
+> If you need the Recess property order for any Rust-based tooling, there’s now 
+> [a crate for that]!
+
 ## References
 
 [@mdo on CSS Property Order][mdo-order]
@@ -62,3 +66,4 @@ module.exports = {
 [did]: https://github.com/twbs/bootstrap/blob/f58997a0dae54dc98d11892afef9acb85bdc6a1e/.scss-lint.yml#L136
 [does]: https://github.com/twbs/stylelint-config-twbs-bootstrap/blob/ad67be6e4ceb48809fa1dce13b7892f9d2018995/css/index.js#L38
 [mdo-order]: https://markdotto.com/blog/css-property-order/
+[a crate for that]: https://crates.io/crates/css_recess_order
