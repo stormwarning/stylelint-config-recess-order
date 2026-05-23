@@ -792,6 +792,7 @@ const propertyGroups = [
 			'transition-timing-function',
 			'transition-duration',
 			'transition-property',
+			'transition-behavior'
 		],
 	},
 
