@@ -587,6 +587,9 @@ const propertyGroups = [
 			'border-style',
 			'border-width',
 			'border-block',
+			'border-block-color',
+			'border-block-style',
+			'border-block-width',
 			'border-block-start',
 			'border-block-start-color',
 			'border-block-start-style',
@@ -596,6 +599,9 @@ const propertyGroups = [
 			'border-block-end-style',
 			'border-block-end-width',
 			'border-inline',
+			'border-inline-color',
+			'border-inline-style',
+			'border-inline-width',
 			'border-inline-start',
 			'border-inline-start-color',
 			'border-inline-start-style',
@@ -823,7 +829,7 @@ const propertyGroups = [
 			'transition-timing-function',
 			'transition-duration',
 			'transition-property',
-			'transition-behavior'
+			'transition-behavior',
 		],
 	},
 
