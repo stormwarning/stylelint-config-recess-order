@@ -28,6 +28,7 @@
 	],
 	"scripts": {
 		"changeset": "changeset add",
+		"find-missing": "node tools/find-missing-properties.js",
 		"lint": "eslint '**/*.js'",
 		"prepare": "husky",
 		"release": "changeset publish",
@@ -51,7 +52,8 @@
 		"lint-staged": "16.2.7",
 		"prettier": "3.8.1",
 		"stylelint": "17.2.0",
-		"stylelint-order": "8.0.0"
+		"stylelint-order": "8.0.0",
+		"web-features": "3.34.3"
 	},
 	"peerDependencies": {
 		"stylelint": "^16.18.0 || ^17.0.0",
