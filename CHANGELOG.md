@@ -19,15 +19,14 @@
   - [`column-rule-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/column-rule-style)
   - [`column-rule-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/column-rule-color)
 
-### Patch Changes
-
 - Add `transition-behavior` property ([#472](https://github.com/stormwarning/stylelint-config-recess-order/pull/472))
+  Thanks [@vladshcherbin](https://github.com/vladshcherbin)!
 
 ## 7.7.0
 
 ### Minor Changes
 
-- Allow [stylelint-order v8](https://github.com/hudochenkov/stylelint-order/releases/tag/8.0.0) as peer dependency ([#463](https://github.com/stormwarning/stylelint-config-recess-order/pull/463))
+- Allow [stylelint-order v8](https://github.com/hudochenkov/stylelint-order/releases/tag/8.0.0) as peer dependency ([#463](https://github.com/stormwarning/stylelint-config-recess-order/pull/463))  
   Thanks [@FloEdelmann](https://github.com/FloEdelmann)!
 
 ## 7.6.1
