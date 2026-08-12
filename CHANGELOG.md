@@ -1,5 +1,17 @@
 # Change Log
 
+## 7.8.1
+
+### Patch Changes
+
+- Add missing logical border properties ([#475](https://github.com/stormwarning/stylelint-config-recess-order/pull/475))
+  - `border-block-color`
+  - `border-block-style`
+  - `border-block-width`
+  - `border-inline-color`
+  - `border-inline-style`
+  - `border-inline-width`
+
 ## 7.8.0
 
 ### Minor Changes
