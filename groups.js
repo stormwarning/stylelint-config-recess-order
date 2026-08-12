@@ -54,6 +54,22 @@ const propertyGroups = [
 	},
 
 	/**
+	 * Multi-column layout.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Multicol_layout#reference
+	 */
+	{
+		properties: [
+			'columns',
+			'column-width',
+			'column-count',
+			'column-height',
+			'column-wrap',
+			'column-span',
+			'column-fill',
+		],
+	},
+
+	/**
 	 * Flexible box layout.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout#reference
 	 */
@@ -91,9 +107,27 @@ const propertyGroups = [
 			'grid-auto-rows',
 			'grid-auto-columns',
 			'grid-auto-flow',
+
+			// Could maybe move these into the Gaps group at some point.
 			'grid-gap',
 			'grid-row-gap',
 			'grid-column-gap',
+		],
+	},
+
+	/**
+	 * Gaps.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Gaps#reference
+	 */
+	{
+		properties: [
+			'gap',
+			'row-gap',
+			'column-gap',
+			'column-rule',
+			'column-rule-width',
+			'column-rule-style',
+			'column-rule-color',
 		],
 	},
 
@@ -103,9 +137,6 @@ const propertyGroups = [
 	 */
 	{
 		properties: [
-			'gap',
-			'row-gap',
-			'column-gap',
 			'place-content',
 			'place-items',
 			'place-self',
@@ -864,11 +895,6 @@ const propertyGroups = [
 			'orphans',
 		],
 	},
-
-	/**
-	 * Multi-column layout.
-	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout#reference
-	 */
 ]
 
 export default propertyGroups
