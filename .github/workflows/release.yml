@@ -51,7 +51,7 @@ jobs:
       # https://github.com/changesets/action
       - name: Create release PR or publish to npm
         id: changesets
-        uses: changesets/action@v1
+        uses: changesets/action@v2
         with:
           title: 'Publish release'
           commit: 'Publish release'
