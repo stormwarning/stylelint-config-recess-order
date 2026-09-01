@@ -52,7 +52,7 @@
 		"lint-staged": "17.3.0",
 		"prettier": "3.8.1",
 		"stylelint": "17.14.1",
-		"stylelint-order": "8.0.0",
+		"stylelint-order": "8.1.1",
 		"web-features": "3.34.3"
 	},
 	"peerDependencies": {
