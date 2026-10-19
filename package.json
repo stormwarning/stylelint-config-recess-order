@@ -53,7 +53,7 @@
 	"prettier": "@zazen/prettier-config",
 	"devDependencies": {
 		"@changesets/cli": "3.0.3",
-		"@zazen/changesets-changelog": "2.0.4",
+		"@zazen/changesets-changelog": "3.0.0",
 		"@zazen/eslint-config": "6.10.0",
 		"@zazen/prettier-config": "1.1.4",
 		"eslint": "8.57.1",

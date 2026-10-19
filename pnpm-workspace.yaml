@@ -1,0 +1,2 @@
+minimumReleaseAgeExclude:
+  - '@zazen/changesets-changelog@3.0.0'
