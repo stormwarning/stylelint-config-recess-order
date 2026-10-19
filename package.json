@@ -67,8 +67,5 @@
 	"peerDependencies": {
 		"stylelint": "^16.18.0 || ^17.0.0",
 		"stylelint-order": "^7.0.0 || ^8.0.0"
-	},
-	"pnpm": {
-		"overrides": {}
 	}
 }
