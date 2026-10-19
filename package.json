@@ -18,13 +18,22 @@
 	"author": "Jeff (https://tidaltheory.io)",
 	"type": "module",
 	"exports": {
-		".": "./index.js",
-		"./groups": "./groups.js"
+		".": {
+			"default": "./index.js",
+			"types": "./index.d.ts"
+		},
+		"./groups": {
+			"default": "./groups.js",
+			"types": "./groups.d.ts"
+		}
 	},
 	"main": "index.js",
+	"types": "index.d.ts",
 	"files": [
 		"index.js",
-		"groups.js"
+		"index.d.ts",
+		"groups.js",
+		"groups.d.ts"
 	],
 	"scripts": {
 		"changeset": "changeset add",
