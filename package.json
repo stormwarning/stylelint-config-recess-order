@@ -62,7 +62,7 @@
 		"prettier": "3.8.1",
 		"stylelint": "17.14.1",
 		"stylelint-order": "8.0.0",
-		"web-features": "3.34.3"
+		"web-features": "3.36.0"
 	},
 	"peerDependencies": {
 		"stylelint": "^16.18.0 || ^17.0.0",
