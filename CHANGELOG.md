@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.8.2
+
+### Patch Changes
+
+- Fix exports to be in line with Node specs ([#490](https://github.com/stormwarning/stylelint-config-recess-order/pull/490))
+
 ## 7.8.1
 
 ### Patch Changes
