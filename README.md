@@ -17,7 +17,8 @@ Bootstrap [did]/[does].
     ```
 2.  Configure your Stylelint configuration file to extend this package:
     ```js
-    module.exports = {
+    /** @type {import('stylelint').Config} */
+    export default {
     	extends: ['stylelint-config-recess-order'],
     	rules: {
     		// Add overrides and additional rules here
@@ -32,9 +33,10 @@ various property groups. If you need to configure other options for this rule,
 the groups can be imported separately and the rule configured to your needs.
 
 ```js
-const propertyGroups = require('stylelint-config-recess-order/groups')
+import propertyGroups from 'stylelint-config-recess-order/groups'
 
-module.exports = {
+/** @type {import('stylelint').Config} */
+export default {
 	extends: [], // Do not extend the config here.
 	rules: {
 		// Configure the rule manually.
