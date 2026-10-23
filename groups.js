@@ -331,6 +331,9 @@ const propertyGroups = [
 			'alignment-baseline',
 			'baseline-shift',
 			'dominant-baseline',
+			'text-box',
+			'text-box-trim',
+			'text-box-edge',
 		],
 	},
 
@@ -366,6 +369,7 @@ const propertyGroups = [
 			'text-justify',
 			'text-indent',
 			'text-transform',
+			'text-autospace',
 			'word-spacing',
 			'letter-spacing',
 			'hyphens',
