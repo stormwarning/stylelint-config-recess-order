@@ -1,5 +1,5 @@
 ---
-'stylelint-config-recess-order': patch
+'stylelint-config-recess-order': minor
 ---
 
 Add `field-sizing` property
