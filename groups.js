@@ -889,6 +889,14 @@ const propertyGroups = [
 	},
 
 	/**
+	 * Paged media.
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Paged_media#reference
+	 */
+	{
+		properties: ['page'],
+	},
+
+	/**
 	 * Fragmentation.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fragmentation#reference
 	 */
