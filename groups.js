@@ -771,6 +771,15 @@ const propertyGroups = [
 	 */
 	{
 		properties: [
+			'x',
+			'y',
+			'rx',
+			'ry',
+			'cx',
+			'cy',
+			'r',
+			'd',
+
 			'text-anchor',
 
 			'fill',
@@ -784,6 +793,7 @@ const propertyGroups = [
 			'stroke-miterlimit',
 			'stroke-dasharray',
 			'stroke-dashoffset',
+			'vector-effect',
 
 			'color-interpolation',
 			'color-interpolation-filters',
