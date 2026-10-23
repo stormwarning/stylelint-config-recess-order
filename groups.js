@@ -443,6 +443,7 @@ const propertyGroups = [
 			'cursor',
 			'caret-color',
 			'zoom', // ?
+			'field-sizing',
 			'resize',
 			'user-select',
 			'-webkit-user-select',
