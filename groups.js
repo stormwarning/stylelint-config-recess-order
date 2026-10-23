@@ -815,6 +815,14 @@ const propertyGroups = [
 	},
 
 	/**
+	 * MathML properties.
+	 * @see https://w3c.github.io/mathml-core/
+	 */
+	{
+		properties: ['math-style', 'math-shift', 'math-depth'],
+	},
+
+	/**
 	 * Transforms.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transforms#reference
 	 */
