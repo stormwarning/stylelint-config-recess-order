@@ -1,5 +1,39 @@
 # Change Log
 
+## 7.9.0
+
+### Minor Changes
+
+- Add `field-sizing` property ([#492](https://github.com/stormwarning/stylelint-config-recess-order/pull/492))
+- Add remaining SVG properties ([#495](https://github.com/stormwarning/stylelint-config-recess-order/pull/495))
+
+  - [`x`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/x)
+  - [`y`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/y)
+  - [`rx`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/rx)
+  - [`ry`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/ry)
+  - [`cx`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/cx)
+  - [`cy`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/cy)
+  - [`r`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/r)
+  - [`d`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/d)
+  - [`vector-effect`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/vector-effect)
+
+- Add [`page`] property and a "Paged media" group ([#494](https://github.com/stormwarning/stylelint-config-recess-order/pull/494))
+
+  [`page`]: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/page
+
+- Add `text-box-*` and `text-autospace` properties ([#493](https://github.com/stormwarning/stylelint-config-recess-order/pull/493))
+
+  - [`text-box`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-box)
+  - [`text-box-trim`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-box-trim)
+  - [`text-box-edge`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-box-edge)
+  - [`text-autospace`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-autospace)
+
+- Add MathML group and properties ([#496](https://github.com/stormwarning/stylelint-config-recess-order/pull/496))
+
+  - [`math-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/math-style)
+  - [`math-shift`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/math-shift)
+  - [`math-depth`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/math-depth)
+
 ## 7.8.2
 
 ### Patch Changes
