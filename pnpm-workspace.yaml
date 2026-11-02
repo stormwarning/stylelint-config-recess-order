@@ -1,2 +1,3 @@
 minimumReleaseAgeExclude:
   - '@zazen/changesets-changelog@3.0.0'
+  - 'web-features@3.45.0'
