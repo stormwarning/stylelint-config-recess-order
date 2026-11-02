@@ -888,6 +888,21 @@ const propertyGroups = [
 	 * Scroll-driven animations.
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations#reference
 	 */
+	{
+		properties: [
+			'animation-range',
+			'animation-range-start',
+			'animation-range-end',
+			'scroll-timeline',
+			'scroll-timeline-axis',
+			'scroll-timeline-name',
+			'view-timeline',
+			'view-timeline-axis',
+			'view-timeline-inset',
+			'view-timeline-name',
+			'timeline-scope',
+		],
+	},
 
 	/**
 	 * Motion path.
