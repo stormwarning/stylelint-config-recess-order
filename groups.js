@@ -257,6 +257,7 @@ const propertyGroups = [
 			'overflow-block',
 			'overflow-x',
 			'overflow-y',
+			'overflow-anchor',
 			'scrollbar-gutter',
 			'-webkit-overflow-scrolling',
 
