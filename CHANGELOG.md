@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.10.1
+
+### Patch Changes
+
+- Add support for Stylelint v18 ([#504](https://github.com/stormwarning/stylelint-config-recess-order/pull/504))
+
+  Updated the `stylelint` peerDependencies version range.
+
 ## 7.10.0
 
 ### Minor Changes
