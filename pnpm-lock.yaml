@@ -39,8 +39,8 @@ importers:
         specifier: 8.1.3
         version: 8.1.3(stylelint@18.0.0)
       web-features:
-        specifier: 3.45.0
-        version: 3.45.0
+        specifier: 3.48.0
+        version: 3.48.0
 
 packages:
 
@@ -1982,8 +1982,8 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
-  web-features@3.45.0:
-    resolution: {integrity: sha512-Atp/v77aPEuVIPsw7tYz9IrID8CztDcIleh8n/Z8r7HEkvNt7eYWHF8s4hlWQ0QskFzTPDjq81vjubXXCnBMSg==}
+  web-features@3.48.0:
+    resolution: {integrity: sha512-DGylVu/cuMJuumL5O4q7dwzid9aV8Hhtth/JXuc7WU5jZAwPpBRnhcypfIqNzwDgsoCNaTkrLdmT89eveubOUQ==}
 
   which-boxed-primitive@1.0.2:
     resolution: {integrity: sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg==}
@@ -4325,7 +4325,7 @@ snapshots:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
 
-  web-features@3.45.0: {}
+  web-features@3.48.0: {}
 
   which-boxed-primitive@1.0.2:
     dependencies:
