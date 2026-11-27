@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.10.2
+
+### Patch Changes
+
+- Add support for stylelint-order v9 [`878e09c`](https://github.com/stormwarning/stylelint-config-recess-order/commit/878e09cbc98d8da90bbfde18e0937c025a3a74d1)
+
 ## 7.10.1
 
 ### Patch Changes
